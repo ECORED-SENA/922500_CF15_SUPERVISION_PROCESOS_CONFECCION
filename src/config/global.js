@@ -1,8 +1,9 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
+    componenteFormativo: 'Procesos de producción textil (laboratorios)',
+    descripcionCurso:
+      'Este componente formativo aborda aspectos generales y claves de los procesos textiles, técnicas y prácticas en las prendas de vestir, tinturado, lavandería, desgastes, estampación y bordado, y sus diferentes métodos. Con su estudio responsable, el aprendiz se afianzará en técnicas y habilidades para la aplicabilidad de las mismas en el proceso productivo de la confección de prendas.',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {

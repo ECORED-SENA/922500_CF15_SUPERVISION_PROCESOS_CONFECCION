@@ -10,10 +10,58 @@
     top: 51%
     right: 30%
 
-
 @keyframes float1
   0%
     transform: translateY(20px)
 
   100%
     transform: translateY(0px)
+.titulo-principal.color-acento-contenido .titulo-principal__numero
+  span
+    color: $white
+span
+  &.color-primario
+    color: $color-primario
+  &.color-secundario
+    color: $color-secundario
+  &.color-acento-contenido
+    color: $color-acento-contenido
+  &.color-acento-botones
+    color: $color-acento-botones
+.bloque-texto-a.color-acento-contenido
+  background-color: #EA526F
+  &::before
+    background-color: #E8E8E8
+.bg-middle
+  position: relative
+  background-color: #F7FCFD
+  &::before
+    content: ''
+    position: absolute
+    top: 0
+    left: 0
+    width: 100%
+    height: 30%
+    background-color: $color-acento-contenido
+  .contenido
+    position: relative
+    z-index: 1
+
+.slyder-e__actions
+  margin-top: 3rem
+
+.slyder__btn
+  margin-left: 5px
+  background-color: rgba($color-acento-botones, .6 )
+  i
+    color: $white
+  &:hover
+    background-color: rgba($color-acento-botones, 1 )
+.slyder-f__btn
+  i
+    color: $color-acento-botones
+.bg-card
+  background-image: url(../assets/curso/temas/bg-tarjeta.svg)
+  background-repeat: no-repeat
+  background-position: center
+  background-size: cover
