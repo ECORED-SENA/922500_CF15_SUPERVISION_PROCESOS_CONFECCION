@@ -25,7 +25,7 @@ span
   &.color-secundario
     color: $color-secundario
   &.color-acento-contenido
-    color: $color-acento-contenido
+    color: #9F0925
   &.color-acento-botones
     color: $color-acento-botones
 .bloque-texto-a.color-acento-contenido
@@ -67,3 +67,39 @@ span
   background-size: cover
 .mn
   margin: 0 -3rem
+.color-extra
+  border-color: #9F0925
+  i
+    color: #9F0925
+  &:before
+    background-color: #FBEBEF
+.titulo-segundo.color-extra:after
+  border-left-color: #9F0925 !important
+.tarjeta.color-secundario
+  p,h1,h2,h3,h4,h5,h6
+    color: $color-sistema-texto
+.tarjeta-clip
+  display: flex
+  justify-content: space-between
+  position: relative
+  img
+    position: absolute
+    top: 0
+    left: 20px
+  p
+    margin-left: 100px
+.titulo-icono
+  background-color: #9F0925
+  position: relative
+  display: inline-flex
+  border-radius: 50px
+  padding: 10px 20px
+
+  &::before
+    content: url('../assets/curso/temas/icono-titulo.svg')
+    position: absolute
+    top: 0
+    left: 0
+    width: 42px
+  &__texto
+    margin-left: 30px
