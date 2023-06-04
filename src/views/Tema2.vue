@@ -229,7 +229,7 @@
           li.d-flex.mb-1
             i.fas.fa-tshirt(style='color: #FF6E33')
             p.mb-0 Concluir con el lavado del textil.
-    .titulo-icono
+    .titulo-icono.mb-4
       .titulo-icono__texto: h4.text-white.mb-0 Teñido por sistema discontinuo y semicontinuo
     .row.justify-content-center.mb-5
       .col-lg-4.col-8.mb-lg-0.mb-3: img(src='@/assets/curso/temas/tema2/13.png', alt='')
@@ -238,6 +238,264 @@
           br
           br
           | Para ello, se ha determinado la siguiente fórmula:
+        .row.justify-content-center.mb-5
+          .col-5: img(src='@/assets/curso/temas/tema2/15.svg', alt='')
+    p.mb-5(data-aos='fade-right') Como es entendible, la química juega un papel fundamental en el proceso de teñido; para conocer el proceso en que una fibra es impregnada por el colorante, se han establecido cuatro etapas que explican este sistema:
+    .tarjeta.bg-card.p-5.mb-4
+      LineaTiempoC.color-acento-botones(text-small)
+        .row(titulo="Primera fase")
+          .col-md-9.mb-4.mb-md-0
+            h5
+              span.color-acento-contenido Disolución y dispersión del colorante 
+            p En esta etapa, se define si los colorantes son solubles o dispersables en agua y se pueden presentar de forma micelar o en estructura de micropolvo.
+          .col-md-2.col-6: img(src='@/assets/curso/temas/tema2/16.svg', alt='')
+        .row(titulo="Segunda fase")
+          .col-md-9.mb-4.mb-md-0
+            h5
+              span.color-acento-contenido Adsorción 
+
+            p En esta etapa, el colorante se integra en la fibra por el proceso de adsorción, además, factores como la temperatura, el pH y la afinidad determinan el equilibrio de las reacciones.
+          .col-md-2.col-6: img(src='@/assets/curso/temas/tema2/17.svg', alt='')
+        .row(titulo="Tercera fase")
+          .col-md-9.mb-4.mb-md-0
+            h5
+              span.color-acento-contenido Tercera fase Difusión 
+            p Esta es la etapa más lenta del proceso, donde el colorante es adsorbido por la superficie del material textil, al impregnarse a través de sus fibras para distribuirse de forma homogénea y, posteriormente, fijarse. De esta manera, se determina la calidad del teñido; para ello, se debe tener en cuenta la cristalinidad de la fibra, el tamaño molecular del colorante, la fuerza de la afinidad entre el colorante y la fibra, además de la temperatura de teñido.
+          .col-md-2.col-6: img(src='@/assets/curso/temas/tema2/18.svg', alt='')
+        .row(titulo="Cuarta fase")
+          .col-md-9.mb-4.mb-md-0
+            h5
+              span.color-acento-contenido Cuarta fase Migración 
+            p En esta última fase, se invierte el proceso, al fundirse el colorante en las capas externas de la fibra y luego migrar hacia las áreas donde hay una menor concentración, lo que permite igualar el color en el material.
+          .col-md-2.col-6: img(src='@/assets/curso/temas/tema2/19.svg', alt='')
+    p.mb-5(data-aos='fade-right') Al observar las diferencias entre los dos sistemas de teñido, se evidencia que comparten similitudes en varias operaciones.  Asimismo, existen diversos elementos que se deben tener en cuenta, ya sea en el sistema discontinuo o semicontinuo.
+      br
+      br
+      |Tales elementos son:
+    h3
+      span.color-acento-contenido Cantidad de productos por añadir
+    p.mb-5(data-aos='fade-right') Para entender cuál es la cantidad exacta de producto que se debe agregar al textil para un proceso óptimo de teñido. Por ello, las recetas de tintorería están determinadas por:
+    .row.justify-content-center.mb-5
+      .col-lg-4.mb-lg-0.mb-3
+        .tarjeta.p-4(style="background-color: #F5E6E9").h-100
+          p #[b a. Volumen de baño:] concentración en gramos del producto por cada kilo. Su fórmula es: 
+            br
+            br
+
+            | #[span.color-acento-contenido.fst-italic 𝑃𝑒𝑠𝑜 𝑝𝑟𝑜𝑑𝑢𝑐𝑡𝑜 (𝑔)] #[span.color-acento-contenido.fw-bold = Concentración del producto (g/l) . Volumen del baño (l)]
+            br
+            br
+            |#[b Donde:] 
+            br
+            |#[b (g/l):] gramos del producto por cada litro de baño 
+            br
+            |#[b (l):] Litro de baño
+          
+      .col-lg-4.mb-lg-0.mb-3
+        .tarjeta.p-4(style="background-color: #F5E6E9").h-100
+          p #[b b. Peso del material:] determina cuántas unidades de peso del producto se necesitan por 100 unidades de peso del sustrato. La fórmula es: 
+          img(src='@/assets/curso/temas/tema2/20.svg', alt='')
+          p #[b Donde:]
+            br
+            |% spm: valor porcentual sobre el peso del material
+
+          
+      .col-lg-4.col-8.mb-lg-0.mb-3: img(src='@/assets/curso/temas/tema2/21.png', alt='')
+    h3
+      span.color-acento-contenido Relación de baño (R/B)
+    p.mb-5(data-aos='fade-right') Se refiere a la cantidad de baño utilizado para teñir una cantidad definida del material textil. De esta manera, se entiende que, si en una receta hay mayor relación de baño, se requiere más agua blanda, energía y con ello se incrementa el peso de los productos y la cantidad de efluentes. 
+    .row.justify-content-center.mb-5
+      .col-lg-4.col-8.mb-lg-0.mb-3: img(src='@/assets/curso/temas/tema2/22.png', alt='')
+      .col-lg-6
+        .tarjeta.p-3(style="background-color: #F5E6E9").h-100
+          p.mb-0 Ejemplo: 
+            br
+            br
+            |Si se carga la máquina con tela seca y se tienen los siguientes datos: 300 kg es el peso de tela y el R/B: 1:10. 
+            br
+            br
+            |El volumen final será: 
+            br
+            br
+            | #[span.color-acento-contenido.fw-bold.fst-italic 300 kg x 10 l/kg = 3000 l]
+    h3
+      span.color-acento-contenido Tiempo de rotación
+    p Se refiere al tiempo que una cuerda demora en dar la vuelta dentro de una máquina. De esta forma, al determinar la velocidad en que se mueve la cuerda, es posible conocer cuánto tiempo tarda la tela en rotar. 
+      br
+      br
+      |La velocidad del torniquete y la velocidad de la cuerda deben ser muy similares, para asegurar que no se generen tensiones sobre el sustrato.
+    .row.justify-content-center.mb-5
+      .col-6: img(src='@/assets/curso/temas/tema2/23.svg', alt='')
+    p Como dato adicional, es bueno indicar que la longitud de la cuerda puede calcularse fácilmente si conocemos el rendimiento del tejido y el peso de la tela. 
+        br
+        br
+        |#[span.color-acento-contenido.fw-bold.fst-italic Longitud de la cuerda m = Rendimiento (m kg) . Peso (kg)]
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-10
+        .tarjeta.p-5(style="background-color: #F5E6E9").h-100
+          .row.justify-content-center
+            .col-lg-8.mb-lg-0.mb-3
+              p.mb-4 #[b Ejemplo]
+                br
+                br
+                |Hay una tela con un rendimiento de 3,92 y un peso de 88 kilogramos; con estos datos, se debe determinar la longitud de la cuerda. 
+                br
+                br
+                |#[span.color-acento-contenido.fst-italic.fw-bold.text-center Longitud de la cuerda m = 3,92 m kg . 88 kg = 344,96 m ≅ 345 metros. ]
+                br
+                br
+                |Siguiendo con el ejemplo, se sabe que la longitud de la cuerda es de 345 metros y esta se tarda en dar una vuelta 1,267 minutos; con estos datos, se debe determinar la velocidad de la cuerda.
+              img(src='@/assets/curso/temas/tema2/25.svg', alt='' style="width: 382px").m-auto
+            .col-lg-4.col-6: img(src='@/assets/curso/temas/tema2/24.png', alt='')
+    h3
+      span.color-acento-contenido Curva temperatura tiempo
+    p.mb-5(data-aos='fade-right') Se define como las instrucciones precisas con la temperatura establecida y las unidades de tiempo exactas para lograr el proceso con éxito. Esta práctica sugiere rigurosidad en cuanto a las instrucciones de tintorería en cuanto a las unidades de tiempo y temperatura determinadas, donde se define el punto inicial y la velocidad de subida de temperatura.
+    p.text-center.fw-bold A continuación, se presentan las instrucciones para teñir un textil:
+    .bg-middle.p-5.pb-0.mb-5
+      .contenido
+        .row.justify-content-center
+          .col-lg-3.mb-lg-0.mb-4.col-6
+            img(src='@/assets/curso/temas/tema2/26.png', alt='' )
+          .col-lg-9
+            .row.justify-content-center.mb-5
+              .col-lg-4.mb-lg-0.mb-3
+                .bg-white.p-4.h-100
+                  h4
+                    span.color-acento-contenido Teñido
+                  ul.lista-ul--color
+                    li.d-flex.mb-1
+                      i.fas.fa-tshirt(style='color: #FF6E33')
+                      p.mb-0 El sustrato con agua a 40 ºC
+                        br
+                        |Añadir productos auxiliares, circular el baño durante 10 minutos
+                    li.d-flex.mb-1
+                      i.fas.fa-tshirt(style='color: #FF6E33')
+                      p.mb-0 Añadir los colorantes, circular por 10 minutos
+                    li.d-flex.mb-1
+                      i.fas.fa-tshirt(style='color: #FF6E33')
+                      p.mb-0 Subir a 80 ºC a 1,3 ºC/min
+                    li.d-flex.mb-1
+                      i.fas.fa-tshirt(style='color: #FF6E33')
+                      p.mb-0 Mantener por 10 minutos
+                    li.d-flex.mb-1
+                      i.fas.fa-tshirt(style='color: #FF6E33')
+                      p.mb-0 Añadir 1/3 de la sal
+                    li.d-flex.mb-1
+                      i.fas.fa-tshirt(style='color: #FF6E33')
+                      p.mb-0 Mantener por 10 minutos
+                    li.d-flex.mb-1
+                      i.fas.fa-tshirt(style='color: #FF6E33')
+                      p.mb-0  Añadir 1/3 de la sal
+                    li.d-flex.mb-1
+                      i.fas.fa-tshirt(style='color: #FF6E33')
+                      p.mb-0 Mantener por 10 minutos
+                    li.d-flex.mb-1
+                      i.fas.fa-tshirt(style='color: #FF6E33')
+                      p.mb-0 Añadir 1/3 de la sal
+                    li.d-flex.mb-1
+                      i.fas.fa-tshirt(style='color: #FF6E33')
+                      p.mb-0 Mantener por 30 minutos
+                    li.d-flex.mb-1
+                      i.fas.fa-tshirt(style='color: #FF6E33')
+                      p.mb-0 Añadir el álcali
+                    li.d-flex.mb-1
+                      i.fas.fa-tshirt(style='color: #FF6E33')
+                      p.mb-0  Mantener por 60 minutos
+                    li.d-flex.mb-1
+                      i.fas.fa-tshirt(style='color: #FF6E33')
+                      p.mb-0 Bajar a 60 ºC a 2 ºC/min
+                    li.d-flex.mb-1
+                      i.fas.fa-tshirt(style='color: #FF6E33')
+                      p.mb-0  Botar baño
+              .col-lg-4.mb-lg-0.mb-3
+                .bg-white.p-4.h-100
+                  h4
+                    span.color-acento-contenido Enjuague y neutralizado
+                  ul.lista-ul--color
+                    li.d-flex.mb-1
+                      i.fas.fa-tshirt(style='color: #FF6E33')
+                      p.mb-0  Enjuagar en frío por 10 minutos a rebose
+                    li.d-flex.mb-1
+                      i.fas.fa-tshirt(style='color: #FF6E33')
+                      p.mb-0 Botar baño
+                    li.d-flex.mb-1
+                      i.fas.fa-tshirt(style='color: #FF6E33')
+                      p.mb-0 Cargar agua
+                    li.d-flex.mb-1
+                      i.fas.fa-tshirt(style='color: #FF6E33')
+                      p.mb-0 Añadir ácido débil
+                    li.d-flex.mb-1
+                      i.fas.fa-tshirt(style='color: #FF6E33')
+                      p.mb-0 Circular por 20 minutos
+                    li.d-flex.mb-1
+                      i.fas.fa-tshirt(style='color: #FF6E33')
+                      p.mb-0  Botar baño
+                    li.d-flex.mb-1
+                      i.fas.fa-tshirt(style='color: #FF6E33')
+                      p.mb-0 Enjuagar
+                    li.d-flex.mb-1
+                      i.fas.fa-tshirt(style='color: #FF6E33')
+                      p.mb-0 Botar baño
+              .col-lg-4.mb-lg-0.mb-3
+                .bg-white.p-4.h-100
+                  h4
+                    span.color-acento-contenido Jabonado
+                  ul.lista-ul--color
+                    li.d-flex.mb-1
+                      i.fas.fa-tshirt(style='color: #FF6E33')
+                      p.mb-0 Cargar agua
+                    li.d-flex.mb-1
+                      i.fas.fa-tshirt(style='color: #FF6E33')
+                      p.mb-0 Añadir jabón
+                    li.d-flex.mb-1
+                      i.fas.fa-tshirt(style='color: #FF6E33')
+                      p.mb-0 Llevar a ebullición a 8 ºC/min
+                    li.d-flex.mb-1
+                      i.fas.fa-tshirt(style='color: #FF6E33')
+                      p.mb-0 Mantener por 10 minutos
+                    li.d-flex.mb-1
+                      i.fas.fa-tshirt(style='color: #FF6E33')
+                      p.mb-0 Botar baño
+                    li.d-flex.mb-1
+                      i.fas.fa-tshirt(style='color: #FF6E33')
+                      p.mb-0 Enjuagar en frío por 10 minutos
+    .titulo-icono.mb-4
+      .titulo-icono__texto: h4.text-white.mb-0 Teñido por sistema continuo
+    .row.justify-content-center.mb-5
+      .col-lg-8.mb-lg-0.mb-3
+        p Por otro lado, en el teñido por sistema continuo, además del volumen de baño establecido anteriormente en el sistema discontinuo, se tiene en cuenta el porcentaje de retención (Pick up) de un tejido. Esto hace referencia al peso que es capaz de retener el textil al ser impregnado por el tinte y pasado por el Foulard.
+          br
+          br
+          | Además, el pick up está inversamente relacionado con la presión de exprimido en los rollos del Foulard, es decir, el pick up disminuye a mayor presión de exprimido y aumenta a menor presión de exprimido. 
+          br               
+          br
+          | La siguiente tabla detalla algunas fórmulas aplicables al teñido por sistema continuo:
+      .col-lg-4.col-8: img(src='@/assets/curso/temas/tema2/27.png', alt='')  
+    .row.justify-content-center.mb-5
+      .col-lg-10
+        .titulo-sexto.color-acento-contenido(data-aos='fade-right')
+          h5 Tabla 3 
+          br
+          span.fst-italic Fórmulas aplicables al teñido por sistema continuo
+        .tabla-a.color-acento-botones.mb-5
+          table
+            thead(style="border-top: 0px")
+              tr(style='background-color: #FF6E33')
+                th Método
+                th Definición
+                th Ilustración
+            tbody
+              tr
+                td.text-center.fw-bold Para determinar el volumen de baño en litros requerido en el teñido de un tejido.
+                td: img(src='@/assets/curso/temas/tema2/28.svg', alt='')      
+                td             
+              tr
+                td.text-center.fw-bold 
+                td             
+                td             
+
+
+
           
 
     
