@@ -22,7 +22,7 @@
           .textos.p-4.m-auto
             h5 ¡Importante!
             p Los esquemas básicos de color utilizados en el manejo de círculo cromático, en temas como tinturado, son la base de las combinaciones que permiten obtener diversos tonos.
-    .bg-middle.p-5.pb-0.mb-5
+    .bg-middle.p-5.pb-0.mb-5.mn
       .contenido
         .row.justify-content-center
           .col-lg-3.mb-lg-0.mb-4.col-6

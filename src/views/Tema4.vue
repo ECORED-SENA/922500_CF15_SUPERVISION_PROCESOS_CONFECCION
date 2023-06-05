@@ -5,7 +5,386 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 4
-      h1 
+      h1 Estampación y bordados
+    .fondo-textil.p-4.mb-5
+      .row.justify-content-center
+        .col-lg-10
+          .tarjeta.bg-white.p-4.m-5
+            p.mb-0 Dentro de los procesos textiles más implementados actualmente, están los de estampación y bordados. Dados los acabados logrados en las telas, esto genera que infinidad de marcas puedan valerse de múltiples estilos que permiten denotar la diferenciación de sus productos y generar múltiples conceptos asociados a temas de inspiración, valores de marca y comunicación de moda. 
+    Separador
+    #t_4_1.titulo-segundo.color-acento-contenido(data-aos='fade-right')
+      h2 4.1 Estampación textil
+    .row.justify-content-center.mb-4
+      .col-lg-4.mb-lg-0.mb-3
+        p La estampación textil se remonta, aproximadamente, a hace más de 4.000 años, vista en tumbas egipcias que permitían apreciar dibujos realizados en las túnicas de las momias o en las figuras de piedra, que reflejaban formas y dibujos de su cultura. Esta decoración en sus trajes era vista en esferas de clase alta, quienes permitían el uso de diferentes colores a los de esferas bajas, marcando aún más sus diferencias y estratificación.
+      .col-lg-8
+        .d-flex(style="background-color:#D9FBFC")
+          img(src='@/assets/curso/temas/tema4/2.svg', alt='' style="width:316px")
+          .textos.p-3.m-auto
+            p Muy probablemente, estas ilustraciones en sus vestidos fueron realizadas a mano. En la India, se encuentran imágenes de hace más de 2.000 años, con el uso de sellos de madera, grabados con diferentes figuras propias de su cultura; para ellos, se estimaba que la decoración en sus telas era sumamente importante y también era apreciada por diferentes culturas, quienes compraban material textil con estas características; de ahí que la comercialización textil más grande conocida sea de esta parte del mundo.
+    .row.justify-content-center.mb-5
+      .col-lg-5.col-8.mb-lg-0.mb-3: img(src='@/assets/curso/temas/tema4/3.png', alt='' style="width:100%")
+      .col-lg-7
+        p #[span.color-acento-contenido Para esa misma época, se encontró que en China solían implementar una técnica similar a la de los sellos en textiles u otros materiales; este aspecto aún es muy conocido y se sigue implementando estampado con esta técnica.]
+          br
+          br
+          |Hacia el siglo XVIII, la producción en países y regiones de Europa se igualó a la de Asia, dada una técnica de estampado con planchas de cobre. Asimismo, en 1783, James Bell, un escocés, inventó un rodillo grabado para estampar, lo cual permitía la estampación a mayor escala, pero siguieron adoptándose estilos de diseños asiáticos. Se presume que este aspecto fue fundamento del diseño europeo, lo cual aún es visible en la actualidad.
+          br
+          br
+          | Aunque no se puede decir con exactitud cómo fue que se empezó a implementar el estampado como diseño para los textiles, si se puede determinar que las figuras y los diseños empleados dentro de los estampados textiles provienen de simbología cultural, generando que, con el paso de los años, se pudiese estudiar a través de diferentes hallazgos su importancia y la necesidad de crear técnicas que permitieran su producción y uso dentro de la sociedad.
+    p Estos diseños, a su vez, han sido recreados, reinterpretados y han servido como punto de inspiración para lo que hoy actualmente se determina dentro de los múltiples estilos en diseño textil.
+      br
+      br
+      |Sobre la estampación textil se puede decir que:
+    .row.justify-content-center.mb-5
+      .col-lg-7.mb-lg-0.mb-3 
+        ul.lista-ul--color
+          li.d-flex.mb-1.ms-4
+            i.fas.fa-tshirt(style='color: #FF6E33')
+            p.mb-2 Es un proceso de impresión gráfica, en la que el substrato, en lugar de ser un papel, es una tela.
+          li.d-flex.mb-1.ms-4
+            i.fas.fa-tshirt(style='color: #FF6E33')
+            p.mb-2 Es un proceso cuya superficie puede ser multidiversa.
+          li.d-flex.mb-1.ms-4
+            i.fas.fa-tshirt(style='color: #FF6E33')
+            p.mb-2 Es un proceso en donde, según su composición, se eligen los productos, como tintes o pigmentos, para un acabado deseado.
+
+          li.d-flex.mb-1.ms-4
+            i.fas.fa-tshirt(style='color: #FF6E33')
+            p.mb-2 En estos procesos de impresión, están implícitos: superficie portadora de la imagen, superficie base portadora de la imagen (planas o cilíndricas), substrato que recibe la transferencia de la imagen (papel o tela, en este caso), material que da producto a la nueva imagen (tintes, pinturas, pastas, pigmentos, etc.).
+          li.d-flex.mb-1.ms-4
+            i.fas.fa-tshirt(style='color: #FF6E33')
+            p.mb-2 La transferencia de las imágenes puede darse ya sea por contacto o impresión, asimismo, a distancia, como con la luz sobre una superficie que sea fotoquímicamente sensible, por ejemplo, la impresión fotográfica o grabados con láser, entre otros.
+      .col-lg-5.col-8: img(src='@/assets/curso/temas/tema4/4.png', alt='' style="width:100%")
+    p.mb-5(data-aos='fade-right') La siguientes, son las diferentes técnicas de impresión por contacto:
+
+
+
+    //todo! PENDIENTES LAS TARJETAS 
+
+
+    p.mb-5(data-aos='fade-right') A partir de lo anterior, se puede determinar que la estampación implica una serie de procesos y métodos que han sido determinados para lograr el acabado deseado en las prendas, constituyéndose así uno de los principales procesos textiles en la industria de la moda. 
+    .row.justify-content-center.mb-5
+      .col-lg-4.mb-lg-0.mb-3.col-8: img(src='@/assets/curso/temas/tema4/5.png', alt='' style="width:100%")
+      .col-lg-8
+        p La estampación textil es un proceso contenido dentro de los acabados de un tejido o hilado, a través del cual se tintura de forma localizada, en un sector o varios sectores de un textil, es decir, es aplicada una sustancia natural o artificial colorante, soluble bajo ciertas condiciones, en áreas específicas de un textil o una prenda.
+        .tarjeta.color-secundario.p-3.mb-4
+          .row.justify-content-around.align-items-center
+            .col-auto
+              img(src="@/assets/curso/temas/adjunto.svg")
+            .col
+              .row.justify-content-between.align-items-center
+                .col.mb-3.mb-sm-0
+                  h4.mb-1 Metodos de estampado.
+                  p.mb-0.text-small Conozca lo diferentes métodos de estampado, explorando el Anexo_9_MetodosDeEstampado.
+                .col-sm-auto
+                  a.boton.color-acento-botones(:href="obtenerLink('downloads/Anexo_9_MetodosDeEstampado.pdf')" target="_blank" type="application/pdf")
+                    span Descargar
+                    i.fas.fa-file-download
+    .titulo-icono.mb-4
+      .titulo-icono__texto: h4.text-white.mb-0 Selección de métodos según composición texti
+    p La selección de los métodos en la estampación textil implica una revisión de las características bajo las cuales está construido un tejido, esto para que se puedan seleccionar la técnica y los materiales.
+      br
+      br
+      |Por ello, para una correcta selección del método, se analizan:
+    .bg-middle.p-5.pb-0.mb-5.mn
+      .contenido
+        .row.justify-content-center
+          .col-lg-3.mb-lg-0.mb-4.col-6
+            img(src='@/assets/curso/temas/tema4/6.png', alt='' )
+          .col-lg-9
+            .bg-white.mx-2.p-4.mb-5
+              SlyderE(indicadores="derecha")
+                .row.align-items-center
+                  .col-md-8.mb-4.mb-md-0
+                    h4
+                      span.color-acento-contenido Las fibras
+                    p  Las fibras son las que determinan la composición de un textil, y a su vez, el proceso que se llevó a cabo para su extracción y el hilado, esto permite contemplar si es permeable a las tintura o pigmentos empleados en la estampación. También pueden usarse pigmentos que, a diferencia de los tintes, son distintos y son los llamados colorantes, que requieren de ligador para fijarlo a la superficie de las fibras. Para saber exactamente las cantidades de colorantes o pigmentos a implementar en la estampación, se debe tener en cuenta la proporción de los textiles; por ejemplo, un textil cuya mezcla es 60/40 algodón/poliéster, puede ser estampado con pigmentos sencillos.
+                  .col-md-4
+                    figure
+                      img(src='@/assets/curso/temas/tema4/7.png', alt='Texto que describa la imagen')
+                .row.align-items-center
+                  .col-md-8.mb-4.mb-md-0
+                    h4
+                      span.color-acento-contenido  Los hilos  
+                    p El tipo de construcción de un hilo posee gran influencia en el estampado de una tela, porque el color estampado se aplica a un lado de la tela, favoreciendo aprovechar el textil, uniformidad, brillantez y profundidad de los colores aplicados, vellosidad, torsión y lustre de los hilos. Asimismo, es necesario contemplar el grosor de un hilo, pues los que son más finos o medianos son mucho más fáciles de estampar que los hilos gruesos.
+                  .col-md-4
+                    figure
+                      img(src='@/assets/curso/temas/tema4/8.png', alt='Texto que describa la imagen')
+                .row.align-items-center
+                  .col-md-8.mb-4.mb-md-0
+                    h4
+                      span.color-acento-contenido El tejido
+                    p  El tejido, que es la tela ya construida, impacta en la estampación textil, tanto en el acabado como en el proceso. Las telas de tejido plano suelen ser mucho más fáciles de estampar que las de tejido de punto. El método aquí difiere y suelen establecerse casi que métodos exclusivos según el tejido de un textil.
+                  .col-md-4
+                    figure
+                      img(src='@/assets/curso/temas/tema4/9.png', alt='Texto que describa la imagen')
+                .row.align-items-center
+                  .col-md-8.mb-4.mb-md-0
+                    h4
+                      span.color-acento-contenido Cuando el tejido es plano
+                    p  Los textiles cuyo tejido es plano son mucho más estables, dada la construcción, por lo que estampar en ellos hace que su proceso sea mucho más sencillo, pues sus hilos son entretejidos. Los de punto son entrelazados y hay muchas variedades y composiciones que, en su mayoría, están apoyados por fibras sintéticas y artificiales; estos, a diferencia de los planos, su acabado en una prenda hace que varíe su forma. Siendo así, la técnica empleada para estampar debe mirar muy bien este tipo de características. En prendas deportivas y telas que tienden a contener elastómero y que en su mayoría la composición es sintética o artificial, uno de los métodos empleados es la sublimación, que es con calor, y los colores suelen quedar fijados muy bien; a diferencia de un tejido plano de fibras naturales, en el cual, al utilizar la sublimación, no quedan los colores y suele bajar la calidad del producto esperado.
+                  .col-md-4
+                    figure
+                      img(src='@/assets/curso/temas/tema4/10.png', alt='Texto que describa la imagen')
+                .row.align-items-center
+                  .col-md-8.mb-4.mb-md-0
+                    h4
+                      span.color-acento-contenido El peso de los textiles 
+                    p Telas cuyas construcciones son delgadas o transparentes suelen presentar problemas de estampado en comparación con telas de construcción gruesa. Para este tipo de característica también es empleado el material que permita tener el acabado esperado. En las empresas textileras, se realizan las respectivas pruebas de laboratorio textil, que permiten tener todas las características de un textil al momento de la estampación; esto genera determinar cantidades, proporciones y método.
+                  .col-md-4
+                    figure
+                      img(src='@/assets/curso/temas/tema4/11.png', alt='Texto que describa la imagen')
+    .titulo-icono.mb-4
+      .titulo-icono__texto: h4.text-white.mb-0 Técnicas especiales
+    p Dentro de las técnicas especiales, se contemplan aquellas que tienen un proceso manual o muy específico, que requieren de precisión para que los acabados puedan ser los esperados.
+      br
+      br
+      |Entre estas técnicas se encuentran:
+    .row.justify-content-center.mb-5
+      .col-lg-5.col-7.mb-lg-0.mb-3: img(src='@/assets/curso/temas/tema4/12.png', alt='Texto que describa la imagen')
+      .col-lg-7
+        AcordionA.mb-5(tipo="b" clase-tarjeta="tarjeta tarjeta--red")
+          div(titulo="Estampado por resistencia o reserva")
+            p Este método ofrece acabados únicos en los textiles, generando casi que exclusividad en el producto. Para este proceso, en primera medida, se estampa el tejido con el diseño escogido a través de un químico que resiste al tiñe, es decir, tiñe el tejido; dicha resistencia genera que el textil tome el color blanco o crudo. También puede ser de otro color en las áreas en las que se vaya a imprimir. 
+              br
+              br
+              |Las ventajas contenidas en este método es que pueden ser implementados tintes con muy alta pérdida del color. En los textiles de algodón, puede realizarse un estampado de resistencia con colorantes reactivos, como el naftol, proceso que es parecido al batik.
+          div(titulo="Batik")
+            p Técnica de teñido para reserva. Se contempla dentro de los métodos de estampado, dado que se construyen diseños específicos con formas, volumen y textura. Este es aplicado con capas de cera sobre las regiones que no se desean teñir, logrando fijar el color en aquellas zonas no reservadas. La cera, al quebrarse una vez se pasa por post lavado, produce un efecto posterior, lo que permite obtener textura dentro del mismo diseño. Esto hace que se vea diferente diseño tras diseño, es decir, independientemente de que en dos textiles se pinte el mismo diseño, al pasar por el post lavado y secado, las texturas variarán por el resquebrajamiento de la cera.
+          div(titulo="Estampado por descarga")
+            p Este método implica teñir la tela con el color base que se requiera o según sea el diseño. Posteriormente, la tela es estampada con químicos que van destruyendo el tinte acorde con sectores en los que se tiñó, generando que la descarga tenga fondos blancos en su color base. Para este método, se deben seleccionar cuidadosamente los tintes, dado que pueden llegar a destruir el textil o dañarlo, dada la combinación que se dé dentro del proceso. Usualmente se emplean bases textiles de algodón en este método.
+    .row.justify-content-center.mb-5
+      .col-lg-7.mb-lg-0.mb-3l
+        AcordionA.mb-5(tipo="b" clase-tarjeta="tarjeta tarjeta--red")
+          div(titulo="<em>Flock</em>")
+            p Técnica que es implementada en procesos serigráficos, dada la personalización que necesita cada textil o prenda para desarrollar el diseño propuesto. Por lo general, se emplea: 
+            ul.lista-ul--color
+              li.d-flex.mb-1.ms-4
+                i.fas.fa-tshirt(style='color: #FF6E33')
+                p.mb-2 Con el diseño listo y debidamente pasado en shablones revelados, sobre la tela se pasa una base adhesiva. - Con una lámina cuyo terminado ya ha sido analizado (gamuzado, terciopelado o puff, entre otros), se pasa sobre el mismo diseño en el que se ubicó la base adhesiva. 
+              li.d-flex.mb-1.ms-4
+                i.fas.fa-tshirt(style='color: #FF6E33')
+                p.mb-2  Se seca al calor (en muchos procesos suelen emplear un secador industrial). 
+                  br
+                  |Dependiendo del acabado, se pasa por termo fijadora.
+          div(titulo="<em>TIE-DYE</em> (Teñido atado)")
+            p Es una técnica muy manual, en la que se requiere de tintes que puedan ser absorbidos fácilmente en textiles preferiblemente de base natural, como el algodón. Consiste en atar o amarrar la tela de varias maneras, como centrada o varios atados, luego, se va sumergiendo en el tinte. Posteriormente, se deja secar y se abre la tela o la prenda. El estilo es muy particular y la clave está en la combinación de colores.
+        .tarjeta.color-secundario.p-3.mb-4
+          .row.justify-content-around.align-items-center
+            .col-auto
+              img(src="@/assets/curso/temas/adjunto.svg")
+            .col
+              .row.justify-content-between.align-items-center
+                .col.mb-3.mb-sm-0
+                  h4.mb-1 Materiales para estampacion.
+                  p.mb-0.text-small Puede observar los diferentes materiales empleados para el proceso de estampación consultando el Anexo_10_MaterialesParaEstampacion.
+                .col-sm-auto
+                  a.boton.color-acento-botones(:href="obtenerLink('downloads/Anexo_10_MaterialesParaEstampacion.pdf')" target="_blank" type="application/pdf")
+                    span Descargar
+                    i.fas.fa-file-download
+      .col-lg-5.col-7: img(src='@/assets/curso/temas/tema4/13.png', alt='Texto que describa la imagen')
+    Separador
+    #t_4_2.titulo-segundo.color-acento-contenido(data-aos='fade-right')
+      h2 4.2 Desarrollo y programación de estampación
+    p Dentro de la programación para estampación, primero se debe partir de los roles que intervienen para que el diseño sea posible, estos son:
+    .bg-middle.p-5.pb-0.mb-5.mn
+      .contenido
+        .row.justify-content-center
+          .col-lg-3.mb-lg-0.mb-4.col-6
+            img(src='@/assets/curso/temas/tema4/14.svg', alt='' )
+          .col-lg-9
+            .row.justify-content-center.mb-3
+              .col-lg-4.mb-lg-0.mb-3
+                .bg-white.p-4.h-100
+                  h4
+                    span.color-acento-contenido Diseñador de moda
+                  p Concibe la idea de la colección o de las prendas que se desarrollarán bajo los conceptos e inspiración a los que haya lugar, esto depende de cada empresa. También crea el grupo de ilustraciones que deberán ser programadas por un diseñador textil.
+              .col-lg-4.mb-lg-0.mb-3
+                .bg-white.p-4.h-100
+                  h4
+                    span.color-acento-contenido Diseñador textil  
+                  p Es quien desarrolla las ideas que se concibieron en un inicio por el diseñador de moda, conceptualiza y crea las ilustraciones que serán el estampado de una tela; también puede desarrollar estampados para prendas en áreas localizadas.  También está en la capacidad de desarrollar colecciones de estampados según una tendencia, lo que se materializa en catálogos para empresas textileras.
+              .col-lg-4.mb-lg-0.mb-3
+                .bg-white.p-4.h-100
+                  h4
+                    span.color-acento-contenido  Ingeniero textil
+                  p Es quien se basa en estudiar a profundidad el tejido y sus fibras; al conocer al detalle los tejidos, puede llegar a determinar qué materiales son los propicios para estampar, según la composición de una tela. Actualmente, la programación para estampación, en su gran mayoría, es digital, dada la rapidez y lo que implica en tiempos de producción. Para ello, se tiene en cuenta software que viabilice el desarrollo; entre los más relevantes, están, por ejemplo, Adobe Illustrator y Corel, que permiten la vectorización de imágenes en la programación de estampados.
+    Separador
+    #t_4_3.titulo-segundo.color-acento-contenido(data-aos='fade-right')
+      h2 4.3  Bordado textil
+    .row.justify-content-center.mb-4
+      .col-lg-4.mb-lg-0.mb-3
+        p El bordado textil, considerado para muchos como un arte, consiste en adornar la superficie de un textil o material que permita dicha labor; está implícito el hilo como fibra y la aguja que posibilita el hecho de registrar una imagen o diseño en particular sobre una tela o superficie.
+      .col-lg-8
+        .d-flex(style="background-color:#DEE9F0")
+          img(src='@/assets/curso/temas/tema4/15.svg', alt='' style="width:316px")
+          .textos.p-3.m-auto
+            p Inicia como una actividad manual, en la que se buscaba generar texturas y formas que, en muchas culturas, su simbología se veía resaltada por determinados colores o formas que permitieran diferenciarlos de otras comunidades y también diferenciar los roles que un individuo tenía en determinada sociedad.
+    .fondo_1.mn.p-5.mb-4   
+      .row.justify-content-center.mb-5
+        .col-lg-4.col-8.mb-lg-0.mb-3: img(src='@/assets/curso/temas/tema4/16.png', alt='' )
+        .col-lg-8 
+          p #[span.color-acento-contenido Se estima que los inicios de esta labor están aproximadamente en el 30.000 a.C., en el periodo de los cromañones, dado que se han hecho hallazgos de sedimentos arqueológicos que demostraban vestimentas con bordados realizados a mano.]
+            br    
+            br
+            | La historia del bordado tiene especial relevancia, sobre todo para quien ejercía la labor. Para comprenderla, se hará un breve recorrido según las edades históricas:   
+      LineaTiempoE.color-acento-botones
+        .row(titulo="Edad antigua" subtitulo="")
+          .col-lg-2
+            figure
+              img(src='@/assets/curso/temas/tema4/17.png', alt='Texto que describa la imagen')
+          .col-lg-10.mb-4.mb-lg-0
+            ul.lista-ul--color
+              li.d-flex.mb-1.ms-4
+                i.fas.fa-tshirt(style='color: #FF6E33')
+                p.mb-1 Bordados sobre telas de carácter autóctono y popular en la Era Romana, vistos en regiones de Roma, Grecia, Egipto y parte de Asia. 
+              li.d-flex.mb-1.ms-4
+                i.fas.fa-tshirt(style='color: #FF6E33')
+                p.mb-1 En Babilonia, Mesopotamia y Egipto, se podían contemplar bordados con finos tejidos, también la elaboración de tapices hechos con lanzaderas, lo que propiciaría el inicio de bordados en telar.
+        div(titulo="Edad media / Inicios" subtitulo="")
+          ul.lista-ul--color
+            li.d-flex.mb-1.ms-4
+              i.fas.fa-tshirt(style='color: #FF6E33')
+              p.mb-1 Se dan a conocer con mayor popularidad los bordados, dados los tejidos elaborados en seda y lana, ya que se podían diseñar sobre las mismas telas. Realizados inicialmente por los persas, posteriormente se unieron a la labor cristianos desde el siglo XII.
+            li.d-flex.mb-1.ms-4
+              i.fas.fa-tshirt(style='color: #FF6E33')
+              p.mb-1 En el siglo XIII, se desarrollaron técnicas de bordado para ser aplicados entre las diferentes armaduras por los cristianos, a consecuencia de las cruzadas. Esto generaba simbolismo y distinción, por lo que el bordado era un medio para reflejarlo. Se empezaron a usar hilos de oro y plata en los bordados con relieves, para realzar un diseño y distinción.
+        div(titulo="Edad media / finales" subtitulo="" style="background-color: #FAD1D9 ").p-4
+          ul.lista-ul--color
+            li.d-flex.mb-1.ms-4
+              i.fas.fa-tshirt(style='color: #FF6E33')
+              p.mb-1 En el siglo XIV, se populariza el uso del color en telas de seda, en las que se observaron distintos puntos de bordado, como el pasado, cruzado y cadeneta.
+
+            li.d-flex.mb-1.ms-4
+              i.fas.fa-tshirt(style='color: #FF6E33')
+              p.mb-1 En el siglo XV, en Italia, se visibilizó la técnica de bordado con oro matizado, haciendo que se diversificara en Flandes y España.
+
+            li.d-flex.mb-1.ms-4
+              i.fas.fa-tshirt(style='color: #FF6E33')
+              p.mb-1 En el siglo XVI, el bordado era relevante y apreciado con hilos especiales, como el oro, y aparece la técnica de bordado de relieve con canutillos, conservándose hasta la actualidad; estos también solían ser en oro o plata para clases altas.
+        div(titulo="" subtitulo="")
+          ul.lista-ul--color
+            li.d-flex.mb-1.ms-4
+              i.fas.fa-tshirt(style='color: #FF6E33')
+              p.mb-1 Se mantienen las técnicas de relieve y el uso de canutillos. Se implementan otros materiales como las cuentas de vidrio alargadas.
+            li.d-flex.mb-1.ms-4
+              i.fas.fa-tshirt(style='color: #FF6E33')
+              p.mb-1 En el siglo XVII, el adornar con bordados exclusivos a la iglesia deja de ser exclusivo, pasándose a ver en trajes de personas de diferentes clases sociales.
+
+            li.d-flex.mb-1.ms-4
+              i.fas.fa-tshirt(style='color: #FF6E33')
+              p.mb-1 El estilo Barroco toma gran fuerza y aquí se exagera el adornar las prendas con bordados, empleando diferentes materiales que antes no eran implementados, como piedras. 
+            li.d-flex.mb-1.ms-4
+              i.fas.fa-tshirt(style='color: #FF6E33')
+              p.mb-1 En el siglo XVIII, tanto hombres como mujeres utilizaban bordados en sus trajes, vistos en mayor volumen para las clases altas. Eran bordados exclusivos, hechos a mano. Aquí, marcar la diferencia entre familias y rangos se hizo más visible. Al final de siglo, aparece el bordado a máquina.
+        .row(titulo="" subtitulo="")
+          .col-lg-2
+            figure
+              img(src='@/assets/curso/temas/tema4/18.png', alt='Texto que describa la imagen')
+          .col-lg-10.mb-4.mb-lg-0
+            ul.lista-ul--color
+              li.d-flex.mb-1.ms-4
+                i.fas.fa-tshirt(style='color: #FF6E33')
+                p.mb-1 En el siglo XIX, se sigue empleando el bordado manual y a máquina, y se emplean diferentes materiales, que permitían el uso por más personas, sin que estuviera exclusivamente dirigido a clases altas.
+              li.d-flex.mb-1.ms-4
+                i.fas.fa-tshirt(style='color: #FF6E33')
+                p.mb-1 La primera máquina de bordar aparece en el año 1880, manual. Para 1889, aparece la primera máquina para bordar con motor.
+    .titulo-icono.mb-4
+      .titulo-icono__texto: h4.text-white.mb-0 Técnicas manuales
+    .row.justify-content-center.mb-5
+      .col-lg-7.mb-lg-0.mb-3
+        p Las técnicas manuales en bordado, como se relata en la historia y su evolución, siguen siendo implementadas, pero antes de pasar a la tela, se debe tener en cuenta que para empezar con la labor se debe realizar el dibujo detallado, puede ser manual o digital, con las dimensiones específicas del área, este se traspasa a la tela calcándolo, puede ser un papel calco o uno de tinta con un lápiz, para que este quede en la tela. 
+          br
+          br
+          |Hay papeles especiales en los que solo se plancha por encima junto con el textil y el dibujo queda transferido. Este proceso es para bordados localizados, en los que usualmente se emplean técnicas manuales, entre las que se parte de puntos como los que se mencionan a continuación.
+      .col-lg-5.col-8: img(src='@/assets/curso/temas/tema4/19.png', alt='Texto que describa la imagen')
+    .mn(style="background-color: #E8E8E8").p-5
+      .titulo-icono.mb-4
+        .titulo-icono__texto: h4.text-white.mb-0 Puntos básicos
+      .row.justify-content-center.mb-5
+        .col-lg-4.col-8: img(src='@/assets/curso/temas/tema4/20.png', alt='Texto que describa la imagen')
+        .col-lg-8 
+          p Son los puntos integrados a la superficie del tejido y son los que usualmente le dan la estructura a un diseño, como el pespunte, el punto lanzado y punto de cruz. También pueden encontrarse los puntos con realce, como los anudados, asimismo, el punto cadeneta. Desarrollar puntos a partir de estos puede llegar a ser innumerable, dado que se pueden diseñar a la par que se va bordando.
+            br
+            br
+            | Se tienen en cuenta los hilos e insumos que darán cuenta de texturas y volúmenes, entre los más relevantes de puntos básicos están:
+      .row.justify-content-center.mb-4
+        .col-lg-3.mb-lg-0.mb-3
+          .tarjeta-avatar
+            img(src='@/assets/curso/temas/tema4/21.svg' alt='AvatarTop' style="width:85px").m-auto
+            .tarjeta.hover-card.w-100
+              .text-center.p-4
+                h5.text-center
+                  span.color-acento-contenido  Punto raso 
+                p Son puntadas en diagonal u horizontal, una junto a la otra, sobre la superficie del tejido. Se trabaja de manera paralela y juntas produciendo apariencias sedosas y satinadas, tanto por el derecho como por el revés queda la misma apariencia y suele verse en bordados chinos.
+        .col-lg-3.mb-lg-0.mb-3
+          .tarjeta-avatar
+            img(src='@/assets/curso/temas/tema4/22.svg' alt='AvatarTop' style="width:85px").m-auto
+            .tarjeta.hover-card.w-100
+              .text-center.p-4
+                h5.text-center
+                  span.color-acento-contenido Hilo superpuesto 
+
+                p Los hilos se superponen en el tejido fijados con puntadas pequeñas; es empleada cuando el hilo es grueso.
+        .col-lg-3.mb-lg-0.mb-3
+          .tarjeta-avatar
+            img(src='@/assets/curso/temas/tema4/23.svg' alt='AvatarTop' style="width:85px").m-auto
+            .tarjeta.hover-card.w-100
+              .text-center.p-4
+                h5.text-center
+                  span.color-acento-contenido Punto de nudo francés y pequinés 
+                p Este punto varía según el grosor del hilo y el número de vueltas que se dan para anudar; también hay puntos similares, como el rococó, colonial y coral.
+      .row.justify-content-center.mb-4
+        .col-lg-3.mb-lg-0.mb-3
+          .tarjeta-avatar
+            img(src='@/assets/curso/temas/tema4/24.svg' alt='AvatarTop' style="width:85px").m-auto
+            .tarjeta.hover-card.w-100
+              .text-center.p-4
+                h5.text-center
+                  span.color-acento-contenido Cadeneta 
+                p Realizado en tambor con aguja, se realiza fijando el primer punto en bucle fijándolo al tejido con el siguiente punto hasta formar una cadeneta.
+        .col-lg-3.mb-lg-0.mb-3
+          .tarjeta-avatar
+            img(src='@/assets/curso/temas/tema4/25.svg' alt='AvatarTop' style="width:85px").m-auto
+            .tarjeta.hover-card.w-100
+              .text-center.p-4
+                h5.text-center
+                  span.color-acento-contenido Festón 
+                p Usualmente elaborado para bordes de sábanas o prendas de vestir, utilizado también para rematar ojales de manera artesanal.
+        .col-lg-3.mb-lg-0.mb-3
+          .tarjeta-avatar
+            img(src='@/assets/curso/temas/tema4/26.svg' alt='AvatarTop' style="width:85px").m-auto
+            .tarjeta.hover-card.w-100
+              .text-center.p-4
+                h5.text-center
+                  span.color-acento-contenido Punto de cruz   
+                p Usualmente se realiza en un tejido cuyos hilos de la urdimbre y trama no estén tan juntos, para poder contarlos y realizar puntadas exactas en forma de cruz.
+    .mn(style="background-color: #FEE7DD").p-5
+      p A partir de estos puntos básicos, se desarrollan técnicas de bordado, que se basan en combinándolos para crear apariencias específicas; entre las más comunes están:
+      SlyderF.mb-5(columnas="col-lg-6 col-xl-4")
+        .tarjeta.p-4(style="background-color: #FFFFFF ")
+          .row.justify-content-center.mb-3
+            .col-6
+              img(src='@/assets/curso/temas/tema1/9.svg' alt='AvatarTop')
+          h5.text-center 
+            span.color-acento-contenido Esquema acromático 
+
+          p.text-center
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 </template>
 
@@ -26,4 +405,26 @@ export default {
 }
 </script>
 
-<style lang="sass"></style>
+<style lang="sass">
+.fondo-textil
+  background-image: url('../assets/curso/temas/tema4/1.png')
+  background-size: cover
+  background-position: center
+  background-repeat: no-repeat
+.slyder-e__actions
+  margin-top: 0px !important
+.fondo_1
+  background-image: url('../assets/curso/temas/tema4/fondo-1.svg')
+  background-size: cover
+  background-position: start
+  background-repeat: no-repeat
+.hover-card
+  background-color: $white
+  transition: all 0.3s ease-in-out
+  &:hover
+    background-color: #1448D3
+    transform: scale(1.1)
+    h4, p, span, h5
+      color: $white
+      transition: all 0.3s ease-in-out
+</style>

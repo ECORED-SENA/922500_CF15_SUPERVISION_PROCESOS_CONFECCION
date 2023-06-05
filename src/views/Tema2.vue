@@ -999,8 +999,4 @@ export default {
   background-size: cover
   background-position: center
   background-repeat: no-repeat
-.acordion__activo
-  background-color: #fad1d9 !important
-.tarjeta--red
-  background-color: #f5e6e9
 </style>
