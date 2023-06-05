@@ -360,17 +360,206 @@
                 h5.text-center
                   span.color-acento-contenido Punto de cruz   
                 p Usualmente se realiza en un tejido cuyos hilos de la urdimbre y trama no estén tan juntos, para poder contarlos y realizar puntadas exactas en forma de cruz.
-    .mn(style="background-color: #FEE7DD").p-5
+    .mn(style="background-color: #FEE7DD").p-5.mb-5
       p A partir de estos puntos básicos, se desarrollan técnicas de bordado, que se basan en combinándolos para crear apariencias específicas; entre las más comunes están:
       SlyderF.mb-5(columnas="col-lg-6 col-xl-4")
         .tarjeta.p-4(style="background-color: #FFFFFF ")
           .row.justify-content-center.mb-3
-            .col-6
-              img(src='@/assets/curso/temas/tema1/9.svg' alt='AvatarTop')
+            .col-4
+              img(src='@/assets/curso/temas/tema4/27.svg' alt='AvatarTop')
           h5.text-center 
-            span.color-acento-contenido Esquema acromático 
+            span.color-acento-contenido Bordado de Asís 
+          p.text-center De origen italiano, consiste en bordar el fondo y se deja el motivo o la forma sin trabajar, a modo de positivo y negativo. 
+        .tarjeta.p-4(style="background-color: #FFFFFF ")
+          .row.justify-content-center.mb-3
+            .col-4
+              img(src='@/assets/curso/temas/tema4/28.svg' alt='AvatarTop')
+          h5.text-center 
+            span.color-acento-contenido Bordado de tapicería  
+          p.text-center Nombrado así por la apariencia que se obtiene, es realizado sobre cañamazo, el cual es un tejido de malla abierta tejido con uno o varios hilos. Emplea gran variedad de puntos, muy juntos por urdimbre y trama. 
+        .tarjeta.p-4(style="background-color: #FFFFFF ")
+          .row.justify-content-center.mb-3
+            .col-4
+              img(src='@/assets/curso/temas/tema4/28.svg' alt='AvatarTop')
+          h5.text-center 
+            span.color-acento-contenido Bordado florentino 
+          p.text-center Al igual que el de tapicería, también se trabaja sobre cañamazo, con puntadas verticales, pero el motivo que forma es en zigzag, generando formas y dibujos. 
+        .tarjeta.p-4(style="background-color: #FFFFFF ")
+          .row.justify-content-center.mb-3
+            .col-4
+              img(src='@/assets/curso/temas/tema4/30.svg' alt='AvatarTop')
+          h5.text-center 
+            span.color-acento-contenido Bordado Crewel 
+          p.text-center Considerado ornamental, empleando varias hebras de lana peinada, por lo general de dos cabos.
+        .tarjeta.p-4(style="background-color: #FFFFFF ")
+          .row.justify-content-center.mb-3
+            .col-4
+              img(src='@/assets/curso/temas/tema4/31.svg' alt='AvatarTop')
+          h5.text-center 
+            span.color-acento-contenido Calados  
+          p.text-center Generan la apariencia de encaje en los tejidos o textiles, recortando agujeros con determinados puntos. 
+        .tarjeta.p-4(style="background-color: #FFFFFF ")
+          .row.justify-content-center.mb-3
+            .col-4
+              img(src='@/assets/curso/temas/tema4/32.svg' alt='AvatarTop')
+          h5.text-center 
+            span.color-acento-contenido Filtiré 
+          p.text-center Este método consiste en sacar los hilos en la urdimbre o en la trama de un textil, bordando con medios puntos en los que quedan fijos en el textil.
+        .tarjeta.p-4(style="background-color: #FFFFFF ")
+          .row.justify-content-center.mb-3
+            .col-4
+              img(src='@/assets/curso/temas/tema4/33.svg' alt='AvatarTop')
+          h5.text-center 
+            span.color-acento-contenido Bordado Dresde 
+          p.text-center Consiste en entresacar los hilos, haciendo más débil el tejido. Aquí las puntadas tiran de los hilos de la urdimbre o la trama sobresaliendo de la estructura del tejido. Es empleado en telas finas, como la muselina. 
+        .tarjeta.p-4(style="background-color: #FFFFFF ")
+          .row.justify-content-center.mb-3
+            .col-4
+              img(src='@/assets/curso/temas/tema4/34.svg' alt='AvatarTop')
+          h5.text-center 
+            span.color-acento-contenido Deshilado  
+          p.text-center Es una variación del Filtiré, consiste en sacar hilos del tejido, y los que quedan en urdimbre o trama se agrupan para bordarlos juntos. 
+        .tarjeta.p-4(style="background-color: #FFFFFF ")
+          .row.justify-content-center.mb-3
+            .col-4
+              img(src='@/assets/curso/temas/tema4/35.svg' alt='AvatarTop')
+          h5.text-center 
+            span.color-acento-contenido Bordado Richelieu 
+          p.text-center De origen francés, procedente de encajes venecianos con motivos florales u orgánicos, en los que los bordes son calados festoneados. 
+        .tarjeta.p-4(style="background-color: #FFFFFF ")
+          .row.justify-content-center.mb-3
+            .col-4
+              img(src='@/assets/curso/temas/tema4/36.svg' alt='AvatarTop')
+          h5.text-center 
+            span.color-acento-contenido Bordado de Mountmellick 
+          p.text-center Consiste en seleccionar tejidos blancos con tramas tupidas y se bordan motivos orgánicos con hilos mate. N/A
+        .tarjeta.p-4(style="background-color: #FFFFFF ")
+          .row.justify-content-center.mb-3
+            .col-4
+              img(src='@/assets/curso/temas/tema4/37.svg' alt='AvatarTop')
+          h5.text-center 
+            span.color-acento-contenido Bordado de sombra
+          p.text-center Trabajado con punto de escapulario tupido y la bastilla por el reverso del tejido, este deberá ser translúcido, para que al voltearse dé la apariencia de un dibujo sombra.
+    .titulo-icono.mb-4
+      .titulo-icono__texto: h4.text-white.mb-0 Técnicas industriales
+    .row.justify-content-center.mb-5
+      .col-lg-5.mb-lg-0.mb-3
+        p El bordado industrial, al igual que el manual, se vale de insumos como hilos, lentejuelas, entre otros adornos aplicados sobre la superficie de un textil, con la diferencia de que se valen de maquinaria que permite industrializar el proceso del bordado a nivel productivo.
+      .col-lg-7 
+        .d-flex(style="background-color:#EFFEFE")
+          img(src='@/assets/curso/temas/tema4/38.svg', alt='' style="width:316px")
+          .textos.p-3.m-auto
+            p Los hilos empleados, a diferencia de los manuales, que suelen ser madejas con grosores de diferentes tamaños, son hilos de seda, lana, poliéster, nylon, entre otros, categorizados dentro de las fibras sintéticas o artificiales, dado que, para poder bordar a mayor velocidad en las diferentes máquinas, se necesita que estos no se deshilachen o se rompan con facilidad, como un hilo de fibra natural como el algodón.
+    .row.justify-content-center.mb-5
+      .col-lg-5.col-8.mb-lg-0.mb-3: img(src='@/assets/curso/temas/tema4/39.png', alt='')
+      .col-lg-7
+        p Se trabajan tres tipos de bordado a nivel industrial:
+        ul.lista-ul--color
+          li.d-flex.mb-1.ms-4
+            i.fas.fa-tshirt(style='color: #FF6E33')
+            p.mb-1 #[span.color-acento-contenido.fw-bold Lisos:] son aquellos que sobresalen, pero al tacto es suave la textura.
 
-          p.text-center
+          li.d-flex.mb-1.ms-4
+            i.fas.fa-tshirt(style='color: #FF6E33')
+            p.mb-1 #[span.color-acento-contenido.fw-bold Realce:] Con una textura abultada con relieve.
+
+          li.d-flex.mb-1.ms-4
+            i.fas.fa-tshirt(style='color: #FF6E33')
+            p.mb-1 #[span.color-acento-contenido.fw-bold Sobrepuesto:] utiliza bases como parches, interlones o telas gruesas.
+        p Dentro de las técnicas industriales, se tienen las que son elaboradas a través de máquinas que propician agilidad en la producción, especialmente, cuando se requieren grandes cantidades de prendas en las que el bordado está presente. Inicialmente, las máquinas para bordar solían ser mecánicas, dado que se necesitaba de una participación de tiempo completo por la mano del hombre, son las que comúnmente se llegaron a conocer como máquinas de coser familiares, estas necesitaban ser operadas con los pies y las manos y tenían puntadas básicas para el ornamento del bordado.
+    .p-4(style="background-color: #CDFAFB ").mb-5
+      p.mb-0 Posteriormente, y buscando mejorar, las máquinas pasaron a tener un motor que permitía solo operarse presionando el pie, pero necesitaba que manualmente se dirigiera el bordado con la aguja de la máquina. Se muestran a continuación las dos máquinas.
+    .row.justify-content-center.mb-5
+      .col-lg-7.mb-lg-0.mb-3
+        p Dado que se buscaba perfeccionar el oficio del bordado, se fueron creando máquinas exclusivamente para este oficio, pues las que existían, como las mencionadas anteriormente, también eran para costuras rectas, lo cual implicaba reconfigurar constantemente los ajustes y esto generaba que se descompensaran o las puntadas no fueran exactas, además de las limitantes que implicaba no medir exactamente el hilo a gastar.
+          br
+          br
+          |Por ello, se empezaron a desarrollar máquinas que sí lo permitieran y, además de esto, que los diseños pasaran de ser ilustrados a digitalizados y que la misma máquina pudiera leerlos según la programación y ejecutarlos, como es el caso de máquinas individuales para bordado con sistema CAD para usos individuales, que no requerían una producción a gran escala, y también las que pueden tener una producción media contemplada como semiindustrial.
+        .p-4(style="background-color: #FEE7DD ").mb-5
+          p.mb-0 A la par, para producciones en masa, se han desarrollado máquinas que pueden ser de un solo cabezote o múltiples cabezotes y difieren según su uso. Estas máquinas son digitales y sus bordados son programados en software especializado.
+      .col-lg-5: img(src='@/assets/curso/temas/tema4/40.png', alt='')
+    p.text-center Entre las variaciones de esta maquinaria industrial, se encuentra
+    .row.justify-content-center.mb-5
+      .col-lg-10
+        .titulo-sexto.color-acento-contenido(data-aos='fade-right')
+          h5 Tabla 9 
+          br
+          span.fst-italic  Maquinaria industrial para bordado textil
+        .tabla-a.color-acento-botones
+          table
+            tbody.bg-white
+              tr
+                td(style="border: 2px solid #FF6E33 ") 
+                  h4.text-center Máquina bordadora tubular
+                  p Máquinas empleadas en el bordado de cortes de prendas, en prendas ya hechas, y también en bordado de gorras. La particularidad y característica principal es que necesitan de tambores para su funcionamiento y las dimensiones suelen ser un poco restringidas. Para bordados amplios se requiere de máquinas planas. Es ideal en producción de prendas con áreas específicas de bordado.
+                td(style="border: 2px solid #FF6E33 ") 
+                  p Máquina bordadora multi cabezal tubular
+                  img(src='@/assets/curso/temas/tema4/41.png', alt='' style="width: 100%").mb-3
+                  figcaption Nota. Tomado de MAD Ingenieros (s. f.).
+              tr
+                td(style="border: 2px solid #FF6E33 ") 
+                  h4.text-center Máquina bordadora plana
+
+                  p Su característica principal es que permiten una amplitud del bordado, pueden emplearse para telas completas, con anchos específicos. Hay máquinas con cabezales hasta de 5 metros en ancho de tela, siempre dependerá de lo requerido según la empresa.
+                td(style="border: 2px solid #FF6E33 ") 
+                  p Máquina plana bordadora industrial
+                  img(src='@/assets/curso/temas/tema4/42.png', alt='' style="width: 100%").mb-3
+                  figcaption Nota. Tomado de MAD Ingenieros (s. f.).
+              tr
+                td(style="border: 2px solid #FF6E33 ") 
+                  h4.text-center Máquina bordadora Chenille
+
+                  p Posee características frente al tipo de puntada, es similar a la plana, pero en esta hay variedad en cuanto a los adornos que pueden emplearse, como bordado con cordón Chenille, que consiste en hilos muy juntos con textura suave y bordados de lentejuelas, además del corte láser que esta misma realiza.
+                td(style="border: 2px solid #FF6E33 ") 
+                  p Máquina bordadora Chenille
+                  img(src='@/assets/curso/temas/tema4/43.png', alt='' style="width: 100%").mb-3
+                  figcaption Nota. Tomado de MAD Ingenieros (s. f.).
+    p Estas máquinas industriales permiten medir tiempo e insumos exactos en la producción, pueden imitar todos los puntos básicos en bordado y la combinación de estos para dar réplica a técnicas de bordado manual.
+    Separador 
+    #t_4_4.titulo-segundo.color-acento-contenido(data-aos='fade-right')
+      h2 4.4 Desarrollo y programación de bordados industriales
+    .row.justify-content-center.mb-5
+      .col-lg-7.mb-lg-0.mb-3
+        p Para el desarrollo y programación de bordados, se debe contar, al igual que en el punto mencionado para estampación, los roles asignados para quien desarrolle diseño y programe bordados.
+          br
+          br
+          | Para esta tarea en específico, son personas dedicadas en dos aspectos:
+        ul.lista-ul--color
+          li.d-flex.mb-1.ms-4
+            i.fas.fa-tshirt(style='color: #FF6E33')
+            p.mb-1 Quien diseña e ilustra el diseño del bordado, de manera digital, apoyándose en software como Corel o Adobe Illustrator, entre otros que tengan, en los que se pueda descargar como imagen.
+          li.d-flex.mb-1.ms-4
+            i.fas.fa-tshirt(style='color: #FF6E33')
+            p.mb-1 Quien programa el bordado en #[em software] especializado, teniendo como base la imagen sobre la cual programará las puntadas.
+        p Hay empresas en que estos roles los puede desempeñar el mismo diseñador textil, de modas o quien por experiencia lo sepa realizar. 
+      .col-lg-5.col-8: img(src='@/assets/curso/temas/tema4/44.png', alt='')
+    .row.justify-content-center.mb-5
+      .col-lg-5.col-8.mb-lg-0.mb-3: img(src='@/assets/curso/temas/tema4/45.png', alt='')
+      .col-lg-7 
+        p A continuación, se enuncian los softwares más empleados en la programación de bordados. 
+        p.ms-5 #[span.color-acento-contenido.fw-bold Monogram It:] programa de licencia independiente, que es compatible con la mayoría de las máquinas de bordado, se pueden programar puntadas, colores y pasos dentro del bordado. 
+          br
+          br
+          | #[span.color-acento-contenido.fw-bold Embrilliance Stichartist:] programa de licencia privada y exclusiva en operadores Windows y Mac, se pueden programar bordados con aplicaciones especiales. 
+          br
+          br
+          | #[span.color-acento-contenido.fw-bold Wilcom:] uno de los softwares más populares y usados en Latinoamérica, permite la edición de bibliotecas de bordados predeterminados, crear nuevos diseños en imagen y programación de puntadas con elementos especiales, realiza la simulación de la máquina industrial para medir productividad y tiempo. 
+        .tarjeta.color-secundario.p-3.mb-4
+          .row.justify-content-around.align-items-center
+            .col-auto
+              img(src="@/assets/curso/temas/adjunto.svg")
+            .col
+              .row.justify-content-between.align-items-center
+                .col.mb-3.mb-sm-0
+                  h4.mb-1 Materiales para Bordado. 
+                  p.mb-0.text-small Observe los diferentes materiales empleados para el proceso de bordado, consultando el Anexo_11_MaterialesParaBordado. 
+                .col-sm-auto
+                  a.boton.color-acento-botones(:href="obtenerLink('downloads/Anexo_11_MaterialesParaBordado.pdf')" target="_blank" type="application/pdf")
+                    span Descargar
+                    i.fas.fa-file-download
+
+        
+
 
 
 
