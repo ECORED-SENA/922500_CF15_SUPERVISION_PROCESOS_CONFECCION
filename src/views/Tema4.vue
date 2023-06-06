@@ -57,7 +57,39 @@
             p.mb-2 La transferencia de las imágenes puede darse ya sea por contacto o impresión, asimismo, a distancia, como con la luz sobre una superficie que sea fotoquímicamente sensible, por ejemplo, la impresión fotográfica o grabados con láser, entre otros.
       .col-lg-5.col-8: img(src='@/assets/curso/temas/tema4/4.png', alt='' style="width:100%")
     p.mb-5(data-aos='fade-right') La siguientes, son las diferentes técnicas de impresión por contacto:
-
+    .row.justify-content-center.mb-5
+      .col-xl-3.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
+        .crd_hover_txt(data-aos="flip-left")
+          .crd_hover_txt--img
+            figure
+              img(src="@/assets/curso/temas/tema4/c1.png", alt="alt")
+          .crd_hover_txt--body
+            h4.mb-3 En relieve
+            p.mb-0 Por encima (en relieve): tipografía, flexografía.
+      .col-xl-3.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
+        .crd_hover_txt(data-aos="flip-left")
+          .crd_hover_txt--img
+            figure
+              img(src="@/assets/curso/temas/tema4/c2.png", alt="alt")
+          .crd_hover_txt--body
+            h4.mb-3 Grabada
+            p.mb-0 Por debajo (grabada): huecograbado.
+      .col-xl-3.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
+        .crd_hover_txt(data-aos="flip-left")
+          .crd_hover_txt--img
+            figure
+              img(src="@/assets/curso/temas/tema4/c3.png", alt="alt")
+          .crd_hover_txt--body
+            h4.mb-3 Coplanar
+            p.mb-0 Coplanar (con áreas con diferente afinidad por la tinta). Litografía y termotransferencia.
+      .col-xl-3.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
+        .crd_hover_txt(data-aos="flip-left")
+          .crd_hover_txt--img
+            figure
+              img(src="@/assets/curso/temas/tema4/c4.png", alt="alt")
+          .crd_hover_txt--body
+            h4.mb-3 Coplanar porosa
+            p.mb-0 Coplanar porosa (algunas áreas permiten el pasaje de la tinta y otras no). Serigrafía, mimeografía.
 
 
     //todo! PENDIENTES LAS TARJETAS 

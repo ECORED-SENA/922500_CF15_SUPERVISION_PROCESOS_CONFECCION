@@ -2,9 +2,19 @@
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 40%
-    right: 50%
+    top: 20%
+    right: 70%
   &-2
+    animation: float1 2.8s ease-in-out infinite alternate
+    position: absolute
+    top: 41%
+    right: 10%
+  &-3
+    animation: float1 2.8s ease-in-out infinite alternate
+    position: absolute
+    top: 51%
+    right: 50%
+  &-4
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
     top: 51%
@@ -109,3 +119,33 @@ span
   background-color: #fad1d9 !important
 .tarjeta--red
   background-color: #f5e6e9
+.crd_hover_txt
+  border-radius: 0.5rem
+  position: relative
+  padding: 0 !important
+  overflow: hidden !important
+  &:hover
+    .crd_hover_txt--body
+      transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1)
+      transform: translateY(0)
+
+  .crd_hover_txt--body
+    text-align: center
+    width: 100%
+    position: absolute
+    padding: 1.5rem
+    bottom: 0
+    transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1)
+    transform: translateY(calc( 100% - 3.85rem ))
+    background-color: #a7283f
+    h4, p
+      color: $white
+
+  @media (min-width:1200px) and (max-width:1400px)
+    .crd_hover_txt--body
+      p
+        font-size: 0.85em
+.titulo-segundo.color-acento-contenido:after
+  border-left-color: #a7283f
+.titulo-principal.color-acento-contenido .titulo-principal__numero
+  background-color: #a7283f
