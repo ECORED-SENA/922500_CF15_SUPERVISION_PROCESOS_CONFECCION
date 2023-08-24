@@ -9,7 +9,7 @@
     .row.justify-content-center.mb-5
       .col-lg-5.col-8.mb-lg-0.mb-3: img(src='@/assets/curso/temas/tema3/1.png', alt='')
       .col-lg-7
-        p La documentación dentro de las líneas de producción y dentro de las plantas de procesos productivos de las compañías son importantes y comunes, aunque cada empresa tiene formatos construidos de manera autónoma para tener datos numéricos y así mismo tener un control y dominio sobre las unidades producidas, paros mecánicos, personas que no asistieron a laborar, producción con defectos de calidad, clasificación de prendas que no cumplen los parámetros, etc. Lo que focaliza lo importante de tener formatos y documentación de métodos de trabajo como realizar operaciones y estructuras de trabajo para tomar decisiones correctivas y mejora continua.
+        p Los desgastes y procesos de acabados en prendas suelen ser muy usuales, especialmente, en bases como el dénim. En este apartado, se abordará, especialmente, la maquinaria, acabados en húmedo y en seco llevados a cabo en prendas con esta base textil.
           br
           br
           | Estos procesos son unos de los más importantes dentro de la industria de la moda, posicionándose como uno de los fuertes en la producción de prendas a nivel nacional e internacional, haciendo parte de la cadena productiva, la cual debe identificarse para una correcta supervisión.

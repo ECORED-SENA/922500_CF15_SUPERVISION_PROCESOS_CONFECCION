@@ -15,40 +15,33 @@
       p.mb-5(data-aos='fade-right') El siguiente video, expone aspectos y elementos que facilitan una comprensión más amplia de los procesos de tintorería y lavandería y su importancia en la vida de las sociedades. Obsérvelo con atención:
       figure
         .video
-          iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-        figcaption.mt-2 Video. Leyenda del video 
-    .row.justify-content-center.mb-5
+          iframe(width="560" height="315" src="https://www.youtube.com/embed/dF9-P2F36Do?si=wZI3Bxz2bPR_0yUv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        figcaption.mt-2 Video. Tintorería y lavandería, el color en las prendas y las culturas
+    .row.justify-content-center.align-items-center.mb-5
       .col-lg-8.mb-lg-0.mb-3
-        .bloque-texto-d.color-extra.p-4
-          .bloque-texto-d__texto.mb-2
-            i.fas.fa-quote-left(style='color: ')
-            p.text-regular Se define tintorería al “conjunto de procesos químicos que permiten al sustrato, adquirir un color, de acuerdo con el requerimiento final” (p. 3). Estas acciones encaminadas a darle color a una materia prima en crudo se generaron a través de diferentes técnicas rudimentarias, haciendo uso de tintes naturales que, a su vez, se convirtieron en colorantes sintéticos al desarrollarse la química. Asimismo, la lavandería es un proceso inherente a la tintorería, por el uso de diversas técnicas en la que se encuentra presente.  
-            i.fas.fa-quote-right(style='color: ')
-          .bloque-texto-d__autor 
-            .h5.mb-0 - Según Lockuán (2012),
+        p.mb-0 Se define tintorería al #[span.color-primario.fw-bold “conjunto de procesos químicos que permiten al sustrato, adquirir un color, de acuerdo con el requerimiento final”] (p. 3). Estas acciones encaminadas a darle color a una materia prima en crudo se generaron a través de diferentes técnicas rudimentarias, haciendo uso de tintes naturales que, a su vez, se convirtieron en colorantes sintéticos al desarrollarse la química. Asimismo, la lavandería es un proceso inherente a la tintorería, por el uso de diversas técnicas en la que se encuentra presente.  
       .col-lg-4.col-7: img(src='@/assets/curso/temas/tema2/2.png', alt='')
     p.mb-5(data-aos='fade-right') De esta manera, se han definido cuatro elementos fundamentales para llevar a cabo el proceso de tintorería:
     .row.justify-content-center.mb-5
       .col-lg-10
         .titulo-sexto.color-acento-contenido(data-aos='fade-right')
           h5 Tabla 1 
-          br
-          span.fst-italic Elementos clave para el proceso de tintorería
+          span Elementos clave para el proceso de tintorería
         .tabla-a.color-acento-botones.mb-5
           table
             tbody(style="border: 2px solid #FF6E33")
               tr
-                td.fw-bold.text-center(style="background-color: #FFAD8B ")  Sustrato
+                td.fw-bold.text-center(style="background-color: #FFAD8B; width: 30% ")  Sustrato
 
                 td(style="background-color: #FEE7DD ") Se define como la materia prima que será teñida, la cual se puede presentar como fibras, hilos, tejidos, entre otros. Dependiendo de sus particularidades, se puede evidenciar un teñido exitoso, es decir, su estructura química, grado de blancura, intensidad de torsión, factor de cobertura, etc.
               tr
-                td.fw-bold.text-center(style="background-color: #FFAD8B ") Insumos 
+                td.fw-bold.text-center(style="background-color: #FFAD8B; width: 30% ") Insumos 
                 td.bg-white Se refiere a los colorantes o blanqueadores ópticos. Estos elementos, ya sean químicos o naturales, son los que actúan directamente en el proceso de tintorería para realizar la impresión de color.
               tr
-                td.fw-bold.text-center(style="background-color: #FFAD8B ") Maquinaria 
+                td.fw-bold.text-center(style="background-color: #FFAD8B; width: 30% ") Maquinaria 
                 td(style="background-color: #FEE7DD ") La tecnología en maquinaria utilizada para llevar a cabo los procesos de tintorería es indispensable para lograr los resultados esperados. Según el tipo de sistema de trabajo, se determina si se desarrollará a través de un sistema continuo, discontinuo o semicontinuo. 
               tr
-                td.fw-bold.text-center(style="background-color: #FFAD8B ") Factor humano
+                td.fw-bold.text-center(style="background-color: #FFAD8B; width: 30% ") Factor humano
                 td.bg-white El control y desarrollo del proceso de tintorería define el factor humano como el elemento más importante, puesto que está en capacidad de realizar directamente acciones operativas, medias o directivas, en función del resultado esperado. 
     #t_2_1.titulo-segundo.color-extra(data-aos='fade-right')
       h2 2.1 Tratamientos previos
@@ -60,40 +53,40 @@
         ul.lista-ul--color.ms-4
           li.d-flex.mb-1
             i.fas.fa-tshirt(style='color: #FF6E33')
-            p.mb-0 Gaseado o chamuscado
+            | Gaseado o chamuscado
           li.d-flex.mb-1
             i.fas.fa-tshirt(style='color: #FF6E33')
-            p.mb-0 Termo fijado
+            | Termo fijado
           li.d-flex.mb-1
             i.fas.fa-tshirt(style='color: #FF6E33')
-            p.mb-0 Desengomado o desencolado
+            | Desengomado o desencolado
           li.d-flex.mb-1
             i.fas.fa-tshirt(style='color: #FF6E33')
-            p.mb-0 Descrudado
+            | Descrudado
           li.d-flex.mb-1
             i.fas.fa-tshirt(style='color: #FF6E33')
-            p.mb-0 Blanqueo
+            | Blanqueo
           li.d-flex.mb-1
             i.fas.fa-tshirt(style='color: #FF6E33')
-            p.mb-0 Mercerizado
+            | Mercerizado
           li.d-flex.mb-1
             i.fas.fa-tshirt(style='color: #FF6E33')
-            p.mb-0 Antipilling
+            | Antipilling
           li.d-flex.mb-1
             i.fas.fa-tshirt(style='color: #FF6E33')
-            p.mb-0 Carbonizado
+            | Carbonizado
           li.d-flex.mb-1
             i.fas.fa-tshirt(style='color: #FF6E33')
-            p.mb-0 Decorticado
+            | Decorticado
           li.d-flex.mb-1
             i.fas.fa-tshirt(style='color: #FF6E33')
-            p.mb-0 Lavado
+            | Lavado
           li.d-flex.mb-1
             i.fas.fa-tshirt(style='color: #FF6E33')
-            p.mb-0 Hidroextracción
+            | Hidroextracción
           li.d-flex.mb-1
             i.fas.fa-tshirt(style='color: #FF6E33')
-            p.mb-0 Apertura de géneros de punto tubulares
+            | Apertura de géneros de punto tubulares
         .tarjeta.color-secundario.p-3
           .row.justify-content-around.align-items-center
             .col-auto
@@ -109,13 +102,13 @@
                     i.fas.fa-file-download
     .bloque-texto-a.color-acento-contenido.p-4.p-md-5.mb-5
       .row.m-0.align-items-center.justify-content-between
-        .col-lg-3.col-6.mb-4.mb-lg-0.order-2
+        .col-lg-3.mb-4.mb-lg-0.order-2
           img(src='@/assets/curso/temas/tema2/4.png', alt='')
         .col-lg-9.order-1
           .bloque-texto-a__texto.p-4
             p Además de los distintos tratamientos previos mencionados, se resalta el secado, es un elemento muy importante en el proceso textil. Ya sea en la preparación o la aplicación del tinte en un material, es necesario realizar un secado posterior. Dependiendo de las características de las fibras, la tela absorberá grandes o pequeñas cantidades de agua, de esta forma, el líquido que se encuentra en la superficie se puede eliminar mecánicamente.
     .row.justify-content-center.mb-5
-      .col-lg-3.col-7.mb-lg-0.mb-3(data-aos="fade-right"): img(src='@/assets/curso/temas/tema2/5.png', alt='')
+      .col-lg-3.col-7.mb-lg-0.mb-3(data-aos="fade-right"): img.d-lg-block.d-none(src='@/assets/curso/temas/tema2/5.png', alt='')
       .col-lg-9(data-aos="fade-left")
         p Por otro lado, para el agua que se encuentra en las fibras hinchadas, se debe llevar a cabo un proceso de secado, #[span.color-acento-contenido que por lo general se realiza utilizando aire caliente, con el fin de evaporar el agua alojada en el material.]
         .tarjeta-clip.p-4(style="background-color: #fee7dd ").mb-4
@@ -125,19 +118,19 @@
         ul.lista-ul--color.ms-4
           li.d-flex.mb-1
             i.fas.fa-tshirt(style='color: #FF6E33')
-            p.mb-0 Secado por convección de calor.
+            | Secado por convección de calor.
           li.d-flex.mb-1
             i.fas.fa-tshirt(style='color: #FF6E33')
-            p.mb-0 Secado por contacto con superficies metálicas calientes.
+            | Secado por contacto con superficies metálicas calientes.
           li.d-flex.mb-1
             i.fas.fa-tshirt(style='color: #FF6E33')
-            p.mb-0 Secado por radiación infrarroja.
+            | Secado por radiación infrarroja.
           li.d-flex.mb-1
             i.fas.fa-tshirt(style='color: #FF6E33')
-            p.mb-0 Secado por microondas u ondas de alta frecuencia.
+            | Secado por microondas u ondas de alta frecuencia.
           li.d-flex.mb-1
             i.fas.fa-tshirt(style='color: #FF6E33')
-            p.mb-0 Secado por combustión.
+            | Secado por combustión.
         .tarjeta.color-secundario.p-3
           .row.justify-content-around.align-items-center
             .col-auto
@@ -160,7 +153,7 @@
           br
           br
           | Este se realiza de tres maneras:
-      .col-lg-5.col-8: img(src='@/assets/curso/temas/tema2/7.png', alt='')
+      .col-lg-5.col-8: img.d-lg-block.d-none(src='@/assets/curso/temas/tema2/7.png', alt='')
     .bg-middle.p-5.pb-0.mb-5
       .contenido
         .row.justify-content-center
@@ -188,19 +181,18 @@
     .row.justify-content-center.mb-5
       .col-lg-10 
         .titulo-sexto.color-acento-contenido(data-aos='fade-right')
-          h5 Tabla 1
-          br
-          span.fst-italic  Elementos clave para el proceso de tintorería
+          h5 Tabla 2
+          span  Métodos estándar del proceso de teñido
         .tabla-a.color-acento-botones.mb-5
           table
             thead(style="border-top: 0px")
               tr(style='background-color: #FF6E33')
-                th Método
+                th(style='width: 20%') Método
                 th Definición
                 th Ilustración
             tbody
               tr
-                td.text-center Tintura por agotamiento / Sistema discontinuo
+                td.text-center(style='width: 20%') Tintura por agotamiento / Sistema discontinuo
                 td Se disuelve el colorante en un baño de agua, se sumerge el material y se retira una vez se evidencia la impregnación homogénea del tinte en la fibra. Después, se procede a lavar para eliminar los residuos. Al finalizar, se continúa con el secado.
                   br
                   br
@@ -208,7 +200,7 @@
                 td 
                   img(src='@/assets/curso/temas/tema2/10.svg', alt='')
               tr
-                td.text-center Foulardado / Sistema continuo o semicontinuo
+                td.text-center(style='width: 20%') #[em Fourlard]ado / Sistema continuo o semicontinuo
                 td En este proceso, se utilizan medios mecánicos que permiten agregar el tinte sobre la tela homogéneamente, lo cual hace que todo el textil se impregne. Una vez que ha penetrado el color en todo el material, se puede determinar que ya quedó fijado. Para concluir, se procede a lavar.
                 td
                   img(src='@/assets/curso/temas/tema2/11.svg', alt='')
@@ -219,27 +211,27 @@
         ul.lista-ul--color.ms-4
           li.d-flex.mb-1
             i.fas.fa-tshirt(style='color: #FF6E33')
-            p.mb-0 Agregar el colorante en el agua.
+            | Agregar el colorante en el agua.
           li.d-flex.mb-1
             i.fas.fa-tshirt(style='color: #FF6E33')
-            p.mb-0 Lograr homogeneidad del tinte al penetrar en la fibra.
+            | Lograr homogeneidad del tinte al penetrar en la fibra.
           li.d-flex.mb-1
             i.fas.fa-tshirt(style='color: #FF6E33')
-            p.mb-0 Fijar el colorante.
+            | Fijar el colorante.
           li.d-flex.mb-1
             i.fas.fa-tshirt(style='color: #FF6E33')
-            p.mb-0 Concluir con el lavado del textil.
+            | Concluir con el lavado del textil.
     .titulo-icono.mb-4
       .titulo-icono__texto: h4.text-white.mb-0 Teñido por sistema discontinuo y semicontinuo
     .row.justify-content-center.mb-5
-      .col-lg-4.col-8.mb-lg-0.mb-3: img(src='@/assets/curso/temas/tema2/13.png', alt='')
-      .col-lg-8
+      .col-lg-8.mb-lg-0.mb-3
         p Este sistema se explica desde la teoría del por agotamiento, la cual se enfoca en la reacción química que se genera entre el material textil y el colorante que se agrega, donde se tiene en cuenta la velocidad del proceso y el balance de este.  
           br
           br
           | Para ello, se ha determinado la siguiente fórmula:
         .row.justify-content-center.mb-5
           .col-5: img(src='@/assets/curso/temas/tema2/15.svg', alt='')
+      .col-lg-4.col-8.mb-lg-0.mb-3: img(src='@/assets/curso/temas/tema2/13.png', alt='')
     p.mb-5(data-aos='fade-right') Como es entendible, la química juega un papel fundamental en el proceso de teñido; para conocer el proceso en que una fibra es impregnada por el colorante, se han establecido cuatro etapas que explican este sistema:
     .tarjeta.bg-card.p-5.mb-4
       LineaTiempoC.color-acento-botones(text-small)
@@ -259,13 +251,13 @@
         .row(titulo="Tercera fase")
           .col-md-9.mb-4.mb-md-0
             h5
-              span.color-acento-contenido Tercera fase Difusión 
+              span.color-acento-contenido Difusión 
             p Esta es la etapa más lenta del proceso, donde el colorante es adsorbido por la superficie del material textil, al impregnarse a través de sus fibras para distribuirse de forma homogénea y, posteriormente, fijarse. De esta manera, se determina la calidad del teñido; para ello, se debe tener en cuenta la cristalinidad de la fibra, el tamaño molecular del colorante, la fuerza de la afinidad entre el colorante y la fibra, además de la temperatura de teñido.
           .col-md-2.col-6: img(src='@/assets/curso/temas/tema2/18.svg', alt='')
         .row(titulo="Cuarta fase")
           .col-md-9.mb-4.mb-md-0
             h5
-              span.color-acento-contenido Cuarta fase Migración 
+              span.color-acento-contenido Migración 
             p En esta última fase, se invierte el proceso, al fundirse el colorante en las capas externas de la fibra y luego migrar hacia las áreas donde hay una menor concentración, lo que permite igualar el color en el material.
           .col-md-2.col-6: img(src='@/assets/curso/temas/tema2/19.svg', alt='')
     p.mb-5(data-aos='fade-right') Al observar las diferencias entre los dos sistemas de teñido, se evidencia que comparten similitudes en varias operaciones.  Asimismo, existen diversos elementos que se deben tener en cuenta, ya sea en el sistema discontinuo o semicontinuo.
@@ -308,7 +300,7 @@
       .col-lg-4.col-8.mb-lg-0.mb-3: img(src='@/assets/curso/temas/tema2/22.png', alt='')
       .col-lg-6
         .tarjeta.p-3(style="background-color: #F5E6E9").h-100
-          p.mb-0 Ejemplo: 
+          p.mb-0 #[b Ejemplo:] 
             br
             br
             |Si se carga la máquina con tela seca y se tienen los siguientes datos: 300 kg es el peso de tela y el R/B: 1:10. 
@@ -355,7 +347,7 @@
       .contenido
         .row.justify-content-center
           .col-lg-3.mb-lg-0.mb-4.col-6
-            img(src='@/assets/curso/temas/tema2/26.png', alt='' )
+            img.d-lg-block.d-none(src='@/assets/curso/temas/tema2/26.png', alt='' )
           .col-lg-9
             .row.justify-content-center.mb-5
               .col-lg-4.mb-lg-0.mb-3
@@ -365,48 +357,46 @@
                   ul.lista-ul--color
                     li.d-flex.mb-1
                       i.fas.fa-tshirt(style='color: #FF6E33')
-                      p.mb-0 El sustrato con agua a 40 ºC
-                        br
-                        |Añadir productos auxiliares, circular el baño durante 10 minutos
+                      | El sustrato con agua a 40 ºC #[br] Añadir productos auxiliares, circular el baño durante 10 minutos
                     li.d-flex.mb-1
                       i.fas.fa-tshirt(style='color: #FF6E33')
-                      p.mb-0 Añadir los colorantes, circular por 10 minutos
+                      | Añadir los colorantes, circular por 10 minutos
                     li.d-flex.mb-1
                       i.fas.fa-tshirt(style='color: #FF6E33')
-                      p.mb-0 Subir a 80 ºC a 1,3 ºC/min
+                      | Subir a 80 ºC a 1,3 ºC/min
                     li.d-flex.mb-1
                       i.fas.fa-tshirt(style='color: #FF6E33')
-                      p.mb-0 Mantener por 10 minutos
+                      | Mantener por 10 minutos
                     li.d-flex.mb-1
                       i.fas.fa-tshirt(style='color: #FF6E33')
-                      p.mb-0 Añadir 1/3 de la sal
+                      | Añadir 1/3 de la sal
                     li.d-flex.mb-1
                       i.fas.fa-tshirt(style='color: #FF6E33')
-                      p.mb-0 Mantener por 10 minutos
+                      | Mantener por 10 minutos
                     li.d-flex.mb-1
                       i.fas.fa-tshirt(style='color: #FF6E33')
-                      p.mb-0  Añadir 1/3 de la sal
+                      |  Añadir 1/3 de la sal
                     li.d-flex.mb-1
                       i.fas.fa-tshirt(style='color: #FF6E33')
-                      p.mb-0 Mantener por 10 minutos
+                      | Mantener por 10 minutos
                     li.d-flex.mb-1
                       i.fas.fa-tshirt(style='color: #FF6E33')
-                      p.mb-0 Añadir 1/3 de la sal
+                      | Añadir 1/3 de la sal
                     li.d-flex.mb-1
                       i.fas.fa-tshirt(style='color: #FF6E33')
-                      p.mb-0 Mantener por 30 minutos
+                      | Mantener por 30 minutos
                     li.d-flex.mb-1
                       i.fas.fa-tshirt(style='color: #FF6E33')
-                      p.mb-0 Añadir el álcali
+                      | Añadir el álcali
                     li.d-flex.mb-1
                       i.fas.fa-tshirt(style='color: #FF6E33')
-                      p.mb-0  Mantener por 60 minutos
+                      |  Mantener por 60 minutos
                     li.d-flex.mb-1
                       i.fas.fa-tshirt(style='color: #FF6E33')
-                      p.mb-0 Bajar a 60 ºC a 2 ºC/min
+                      | Bajar a 60 ºC a 2 ºC/min
                     li.d-flex.mb-1
                       i.fas.fa-tshirt(style='color: #FF6E33')
-                      p.mb-0  Botar baño
+                      |  Botar baño
               .col-lg-4.mb-lg-0.mb-3
                 .bg-white.p-4.h-100
                   h4
@@ -414,28 +404,28 @@
                   ul.lista-ul--color
                     li.d-flex.mb-1
                       i.fas.fa-tshirt(style='color: #FF6E33')
-                      p.mb-0  Enjuagar en frío por 10 minutos a rebose
+                      |  Enjuagar en frío por 10 minutos a rebose
                     li.d-flex.mb-1
                       i.fas.fa-tshirt(style='color: #FF6E33')
-                      p.mb-0 Botar baño
+                      | Botar baño
                     li.d-flex.mb-1
                       i.fas.fa-tshirt(style='color: #FF6E33')
-                      p.mb-0 Cargar agua
+                      | Cargar agua
                     li.d-flex.mb-1
                       i.fas.fa-tshirt(style='color: #FF6E33')
-                      p.mb-0 Añadir ácido débil
+                      | Añadir ácido débil
                     li.d-flex.mb-1
                       i.fas.fa-tshirt(style='color: #FF6E33')
-                      p.mb-0 Circular por 20 minutos
+                      | Circular por 20 minutos
                     li.d-flex.mb-1
                       i.fas.fa-tshirt(style='color: #FF6E33')
-                      p.mb-0  Botar baño
+                      |  Botar baño
                     li.d-flex.mb-1
                       i.fas.fa-tshirt(style='color: #FF6E33')
-                      p.mb-0 Enjuagar
+                      | Enjuagar
                     li.d-flex.mb-1
                       i.fas.fa-tshirt(style='color: #FF6E33')
-                      p.mb-0 Botar baño
+                      | Botar baño
               .col-lg-4.mb-lg-0.mb-3
                 .bg-white.p-4.h-100
                   h4
@@ -443,30 +433,30 @@
                   ul.lista-ul--color
                     li.d-flex.mb-1
                       i.fas.fa-tshirt(style='color: #FF6E33')
-                      p.mb-0 Cargar agua
+                      | Cargar agua
                     li.d-flex.mb-1
                       i.fas.fa-tshirt(style='color: #FF6E33')
-                      p.mb-0 Añadir jabón
+                      | Añadir jabón
                     li.d-flex.mb-1
                       i.fas.fa-tshirt(style='color: #FF6E33')
-                      p.mb-0 Llevar a ebullición a 8 ºC/min
+                      | Llevar a ebullición a 8 ºC/min
                     li.d-flex.mb-1
                       i.fas.fa-tshirt(style='color: #FF6E33')
-                      p.mb-0 Mantener por 10 minutos
+                      | Mantener por 10 minutos
                     li.d-flex.mb-1
                       i.fas.fa-tshirt(style='color: #FF6E33')
-                      p.mb-0 Botar baño
+                      | Botar baño
                     li.d-flex.mb-1
                       i.fas.fa-tshirt(style='color: #FF6E33')
-                      p.mb-0 Enjuagar en frío por 10 minutos
+                      | Enjuagar en frío por 10 minutos
     .titulo-icono.mb-4
       .titulo-icono__texto: h4.text-white.mb-0 Teñido por sistema continuo
     .row.justify-content-center.mb-5
       .col-lg-8.mb-lg-0.mb-3
-        p Por otro lado, en el teñido por sistema continuo, además del volumen de baño establecido anteriormente en el sistema discontinuo, se tiene en cuenta el porcentaje de retención (Pick up) de un tejido. Esto hace referencia al peso que es capaz de retener el textil al ser impregnado por el tinte y pasado por el Foulard.
+        p Por otro lado, en el teñido por sistema continuo, además del volumen de baño establecido anteriormente en el sistema discontinuo, se tiene en cuenta el porcentaje de retención (#[em Pick up]) de un tejido. Esto hace referencia al peso que es capaz de retener el textil al ser impregnado por el tinte y pasado por el #[em Fourlard].
           br
           br
-          | Además, el pick up está inversamente relacionado con la presión de exprimido en los rollos del Foulard, es decir, el pick up disminuye a mayor presión de exprimido y aumenta a menor presión de exprimido. 
+          | Además, el #[em pick up] está inversamente relacionado con la presión de exprimido en los rollos del #[em Fourlard], es decir, el #[em pick up] disminuye a mayor presión de exprimido y aumenta a menor presión de exprimido. 
           br               
           br
           | La siguiente tabla detalla algunas fórmulas aplicables al teñido por sistema continuo:
@@ -475,8 +465,7 @@
       .col-lg-10
         .titulo-sexto.color-acento-contenido(data-aos='fade-right')
           h5 Tabla 3 
-          br
-          span.fst-italic Fórmulas aplicables al teñido por sistema continuo
+          span Fórmulas aplicables al teñido por sistema continuo
         .tabla-a.color-acento-botones.mb-5
           table
             thead(style="border-top: 0px")
@@ -489,13 +478,13 @@
                 td.text-center.fw-bold Para determinar el volumen de baño en litros requerido en el teñido de un tejido.
                 td: img(src='@/assets/curso/temas/tema2/28.svg', alt='')      
                 td 
-                  p Hay un material textil que pesa 717,5 y tiene un pick up del 72 %. De esta manera, se debe calcular el volumen del baño. 
+                  p Hay un material textil que pesa 717,5 y tiene un #[em pick up] del 72 %. De esta manera, se debe calcular el volumen del baño. 
                     br
                     br
                     |Aplicando la fórmula se obtiene que:    
                   img(src='@/assets/curso/temas/tema2/30.svg', alt='')         
               tr    
-                td.text-center.fw-bold Para determinar el pick up de un tejido.
+                td.text-center.fw-bold Para determinar el #[em pick up] de un tejido.
                 td: img(src='@/assets/curso/temas/tema2/29.svg', alt='')      
                 td 
                   p Por otro lado, se espera determinar el porcentaje de retención de un tejido con peso seco de 180 g y un peso húmedo de 297 g.          
@@ -524,32 +513,31 @@
         .col-lg-9
           .titulo-sexto.color-acento-contenido(data-aos='fade-right')
             h5 Tabla 4
-            br
-            span.fst-italic Conceptos generales del agua
+            span Conceptos generales del agua
           .tabla-a.color-acento-botones
             table
               caption Nota: tomado de Lockuán (2012). 
               thead(style="border-top: 0px")
                 tr(style='background-color: #FF6E33')
-                  th Concepto
+                  th(style='width: 20%') Concepto
                   th Descripción
               tbody.bg-white
                 tr
-                  td.text-center Dureza del agua
+                  td.text-center(style='width: 20%') Dureza del agua
                   td Es la concentración de compuestos minerales de cationes alcalinotérreos (grupo 2) en una muestra específica de agua (particularmente, magnesio y calcio). Su fórmula es:
                     br
                     br
 
                     |(mg/l de CaCO3) = 2,50 [Ca++] + 4,16 [Mg++]
                 tr
-                  td.text-center Tipos de dureza
+                  td.text-center(style='width: 20%') Tipos de dureza
                   td
                     p #[b Dureza temporal:] también conocida como dureza de carbonatos, ya que se produce a partir de hidrógeno carbonatos, más conocidos como bicarbonatos.
                       br
                       br
                       |#[b Dureza permanente:] está se da por la presencia de sulfatos y/o cloruros de calcio y de magnesio en el agua. Se debe tener presente que son mucho más solubles estas sales.
                 tr
-                  td.text-center Medidas de la dureza del agua
+                  td.text-center(style='width: 20%') Medidas de la dureza del agua
                   td -	mg CaCO3/l o ppm de CaCO3
 
                     br
@@ -562,7 +550,7 @@
                     br
                     |Equivale a 17,9 mg CaCO3/l de agua.
                 tr
-                  td.text-center Eliminación de la dureza
+                  td.text-center(style='width: 20%') Eliminación de la dureza
                   td Son procesos donde se realiza un ablandamiento de aguas. Existen diferentes maneras:
                     br
                     br
@@ -571,7 +559,7 @@
                     br
                     |-	La descalcificación mediante resinas (zeolitas) de intercambio iónico. 
                 tr
-                  td.text-center Agua dura
+                  td.text-center(style='width: 20%') Agua dura
                   td Es utilizada en procesos que no requieren mucha sutileza en procesos de tintorería. Cabe resaltar que algunos casos de teñido también son usados. 
       .row.justify-content-center.mb-4
         .col-lg-9
@@ -583,11 +571,10 @@
               |En cada industria, la dureza del agua se considera óptima dependiendo de su rubro. En la industria textil, específicamente, cuando se refiera a tintorería, se considera una dureza máxima en 6 grados alemanes, pero es preferible una leve dureza con un valor límite de 3 grados alemanes.
       p A continuación, se muestra un cuadro general con la clasificación de dureza del agua:
       .row.justify-content-center.mb-5
-        .col-lg-6.mb-lg-0.mb-3
+        .col-lg-10.mb-3
           .titulo-sexto.color-acento-contenido(data-aos='fade-right')
             h5 Tabla 5 
-            br
-            span.fst-italic  Clasificación de dureza
+            span  Clasificación de dureza
           .tabla-a.color-acento-botones
               table
                 caption Nota: tomado de Lockuán (2012). 
@@ -617,35 +604,35 @@
                     td Muy dura
                     td >180
                     td >10,05
-        .col-lg-6
+        .col-lg-10
           .tarjeta.fondo-card.p-5(style="background-color: #effefe ") 
             h4
               span.color-acento-contenido ¿Qué sucede cuando el agua es dura?
-              ul.lista-ul--color
-                li.d-flex.mb-1
-                  i.fas.fa-tshirt(style='color: #FF6E33')
-                  p.mb-0 Precipita los colorantes ácidos y básicos.
-                li.d-flex.mb-1
-                  i.fas.fa-tshirt(style='color: #FF6E33')
-                  p.mb-0 Les resta las propiedades de detergente a los jabones. 
-                li.d-flex.mb-1
-                  i.fas.fa-tshirt(style='color: #FF6E33')
-                  p.mb-0 En calderas, calentadores y lavadoras, en sus tuberías, puede generar incrustaciones de carbonatos. 
-                li.d-flex.mb-1
-                  i.fas.fa-tshirt(style='color: #FF6E33')
-                  p.mb-0 En las tuberías, puede provocar obstrucciones, que se pueden retirar con ácidos débiles, tales como el acético, cítrico, entre otros.
+            ul.lista-ul--color
+              li.d-flex.mb-1
+                i.fas.fa-tshirt(style='color: #FF6E33')
+                | Precipita los colorantes ácidos y básicos.
+              li.d-flex.mb-1
+                i.fas.fa-tshirt(style='color: #FF6E33')
+                | Les resta las propiedades de detergente a los jabones. 
+              li.d-flex.mb-1
+                i.fas.fa-tshirt(style='color: #FF6E33')
+                | En calderas, calentadores y lavadoras, en sus tuberías, puede generar incrustaciones de carbonatos. 
+              li.d-flex.mb-1
+                i.fas.fa-tshirt(style='color: #FF6E33')
+                | En las tuberías, puede provocar obstrucciones, que se pueden retirar con ácidos débiles, tales como el acético, cítrico, entre otros.
     .titulo-icono.mb-4
         .titulo-icono__texto: h4.text-white.mb-0 Productos químicos
     p.fw-bold Los productos químicos se dividen en cuatro grupos. Según el tipo de compuesto, estos grupos son: 
     .row.justify-content-center.mb-5
-      .col-lg-5.col-8.mb-lg-0.mb-3: img(src='@/assets/curso/temas/tema2/35.png', alt='' style="width: 100%")
+      .col-lg-5.col-8.mb-lg-0.mb-3: img.d-lg-block.d-none(src='@/assets/curso/temas/tema2/35.png', alt='' style="width: 100%")
       .col-lg-7
         AcordionA.mb-5(tipo="b" clase-tarjeta="tarjeta tarjeta--red")
           div(titulo="Los ácidos")
             p Los ácidos, en el momento que se disuelven en agua, la solución obtenida alcanza un pH menor que 7, debido a que se ha producido una actividad de catión hidronio más alta que el agua pura. Entre los ácidos más fuertes, se tiene el sulfúrico, el clorhídrico y el nítrico, y como los ácidos más débiles, el acético, fórmico y oxálico.
           div(titulo="Los álcalis")
             p Los álcalis son óxidos, hidróxidos y carbonatos de metales alcalinos. Se debe tener presente que jamás se pueden mezclar con los ácidos, ya que son opuestos. Entre los más fuertes, se encuentra el hidróxido de sodio (soda cáustica) y entre los débiles, el carbonato de sodio y el amoníaco. Este grupo de álcalis se aplican en muestras, según recetas ya determinadas, para realizar descrude, blanqueo y teñido.
-          div(titulo="Las sale")
+          div(titulo="Las sales")
             p Las sales están constituidas por cationes (iones con carga positiva) enlazados a aniones (iones con carga negativa), y son usadas generalmente en tareas de tintura. Las más utilizadas son: sulfato de sodio, cloruro de sodio, sulfato de amonio, bicromato de potasio y sulfato de cobre.
           div(titulo="Oxidantes y reductores")
             p Los agentes oxidantes y reductores son oxidantes que, mediante una reacción química, oxidan otras sustancias. El más utilizado es el ditionito de sodio. Se pueden resaltar en este grupo los siguientes agentes: peróxido de hidrógeno (agua oxigenada), hipoclorito de sodio y clorito de sodio.
@@ -658,48 +645,44 @@
         .d-flex(style="background-color:#D9FBFC")
             img(src='@/assets/curso/temas/tema2/36.svg', alt='' style="width:314px")
             .textos.p-4.m-auto
-              p.fw-bold pH= -α  H_(3    ) O^+
+              p.fw-bold 𝒑𝑯= −𝜶 𝑯𝟑 𝑶+
                 br
                 br
                 |Analice la siguiente concentración:
                 br
-                |[H_(3    ) O^+ ]=1*〖10〗^(-7)  M (0.0000001)
+                |[𝑯𝟑 𝑶+]=𝟏∗𝟏𝟎−𝟕 𝑴 (𝟎.𝟎𝟎𝟎𝟎𝟎𝟎𝟏)
                 br
-                |Aplicando la fórmula anterior, el resultado sería un pH de 7, ya que: pH= -7 
+                |Aplicando la fórmula anterior, el resultado sería un pH de 7, ya que: 𝒑𝑯= −𝟕
     .row.justify-content-center.mb-5
-      .col-lg-4.col-8.mb-lg-0.mb-3: img(src='@/assets/curso/temas/tema2/37.png', alt='' style="width: 100%")
+      .col-lg-4.col-8.mb-lg-0.mb-3: img.d-lg-block.d-none(src='@/assets/curso/temas/tema2/37.png', alt='' style="width: 100%")
       .col-lg-8
         p Aparecen tres términos importantes en lo relacionado con el potencial de hidrógeno (pH) y son los siguientes:
         ul.lista-ul--color
           li.d-flex.mb-1
             i.fas.fa-tshirt(style='color: #FF6E33')
-            p.mb-0.ms-4 Ácido (menor a 7)
+            |Ácido (menor a 7)
           li.d-flex.mb-1
             i.fas.fa-tshirt(style='color: #FF6E33')
-            p.mb-0.ms-4 Neutro (valor 7)
+            |Neutro (valor 7)
           li.d-flex.mb-1
             i.fas.fa-tshirt(style='color: #FF6E33')
-            p.mb-0.ms-4 Alcalino (mayor a 7)
+            |Alcalino (mayor a 7)
         p Los números entre paréntesis hacen referencia al rango en la escala de valores de pH según la sustancia. 
           br
           br
           | Estos se pueden medir por tiras indicadoras y peachímetros, así:
         .titulo-sexto.color-acento-contenido(data-aos='fade-right')
-          h5 Tabla 6
-          br
-          span.fst-italic Rango en la escala de valores de pH
-        .tabla-a.color-acento-botones
-            table
-              tbody.bg-white.text-center
-                tr
-                  td(style="border: 2px solid #FF6E33 ") 
-                    h4.text-center  Escala de valores de pH
-                    img(src='@/assets/curso/temas/tema2/38.svg', alt='' style="width: 100%").mb-3
-                    h5.text-center Nota. Tomada de Ciências e Saúde (2018).
-                  td(style="border: 2px solid #FF6E33 ")
-                    h4.text-center Escala de valores de pH en tiras reactivas 
-                    img(src='@/assets/curso/temas/tema2/39.png', alt='' style="width: 100%").mb-3
-                    h5.text-center Nota. Tomada de Liter (2020). 
+          h5 Figura 1
+          span Rango en la escala de valores de pH
+        .row.justify-content-center.align-items-center.mb-5
+          .col-lg-6.mb-lg-0.mb-3
+            h4.text-center  Escala de valores de pH
+            img(src='@/assets/curso/temas/tema2/38.svg', alt='' style="width: 100%").mb-3
+            h5.text-center Nota. Tomada de Ciências e Saúde (2018).
+          .col-lg-6.mb-lg-0.mb-3
+            h4.text-center Escala de valores de pH en tiras reactivas 
+            img(src='@/assets/curso/temas/tema2/39.png', alt='' style="width: 100%").mb-3
+            h5.text-center Nota. Tomada de Liter (2020). 
     .titulo-icono.mb-4
         .titulo-icono__texto: h4.text-white.mb-0 Productos auxiliares
     p.mb-5(data-aos='fade-right') Los productos auxiliares son creados como complemento para mejorar los procesos de tintorería, como la limpieza, uniformidad del color, arrugas, pH, impregnación del color, entre otras funciones más. Estos pueden poseer, o no, cargas eléctricas en su composición, igual que los colorantes. 
@@ -707,11 +690,10 @@
       br
       |Observe la siguiente tabla, donde se relaciona si poseen o no:
     .row.justify-content-center.mb-5
-      .col-lg-4.mb-lg-0.mb-3
+      .col-lg-10.mb-3
         .titulo-sexto.color-acento-contenido(data-aos='fade-right')
-          h5 Tabla 7 
-          br
-          span.fst-italic Cargas eléctricas en productos auxiliares
+          h5 Tabla 6
+          span Cargas eléctricas en productos auxiliares
         .tabla-a.color-acento-botones
             table
               caption Nota: tomada de Lockuán (2012). 
@@ -732,7 +714,7 @@
                 tr
                   td Anfóteros
                   td Depende del pH
-      .col-lg-6 
+      .col-lg-10 
         .tarjeta.p-5(style="background-color: #dee9f0 ")
             p  #[span.color-acento-contenido.fw-bold ¿Alguna vez ha escuchado hablar de un producto insoluble o precipitado?]
               br
@@ -742,49 +724,48 @@
     .row.justify-content-center.mb-5
       .col-lg-10 
         .titulo-sexto.color-acento-contenido(data-aos='fade-right')
-          h5 Tabla 8 
-          br
-          span.fst-italic Cargas eléctricas en productos auxiliares
+          h5 Tabla 7
+          span Cargas eléctricas en productos auxiliares
         .tabla-a.color-acento-botones
             table
               caption Nota: tomada de Lockuán (2012). 
               thead(style="border-top: 0px")
                 tr(style='background-color: #FF6E33')
-                  th PRODUCTO AUXILIAR
+                  th(style='width: 30%') PRODUCTO AUXILIAR
                   th DESCRIPCIÓN
               tbody.bg-white
                 tr
-                  td.text-center Humectantes
+                  td.text-center(style='width: 30%') Humectantes
                   td Facilitan el proceso de saponificación, donde agentes grasos se unen con bases de pH alto y permiten que el color penetre en la fibra.
                 tr
-                  td.text-center Igualadores
+                  td.text-center(style='width: 30%') Igualadores
                   td Ayudan a conservar la uniformidad del tono de color desde el baño de la tintura.
                 tr
-                  td.text-center Detergentes
+                  td.text-center(style='width: 30%') Detergentes
                   td Se encargan de la limpieza superficial de suciedades.
                 tr
-                  td.text-center Antiinmigrantes
+                  td.text-center(style='width: 30%') Antiinmigrantes
                   td En el teñido continuo, se utilizan especialmente durante el secado, para evitar que el color migre y, con ello, no se generen veteados y diferencias en la intensidad del color.
                 tr
-                  td.text-center Emulsionantes
+                  td.text-center(style='width: 30%') Emulsionantes
                   td Eliminan grasas y aceites.
                 tr
-                  td.text-center Secuestrantes
+                  td.text-center(style='width: 30%') Secuestrantes
                   td Mediante procesos para eliminar residuos de metales pesados, en especial con fibras vegetales y sintéticas, se utilizan estos productos.
                 tr
-                  td.text-center Antiquiebres
+                  td.text-center(style='width: 30%') Antiquiebres
                   td Previenen arrugas y daños mecánicos. 
                 tr
-                  td.text-center Mejoradores de solidez
+                  td.text-center(style='width: 30%') Mejoradores de solidez
                   td Es utilizado después de la tintura; tiene dos fines diferentes, el primero, donde retira residuo de colorantes, o fijación iónica con moléculas directamente en la fibra.
                 tr
-                  td.text-center Dispersantes
+                  td.text-center(style='width: 30%') Dispersantes
                   td Permite impregnar y mantener desde el baño de color.
                 tr
-                  td.text-center Buffers (tampones)
+                  td.text-center(style='width: 30%') Buffers (tampones)
                   td Controlan el valor óptimo necesario de pH en el material y en el baño de tintura.
                 tr
-                  td.text-center Antiespumantes
+                  td.text-center(style='width: 30%') Antiespumantes
                   td Provoca humectación en el material sin generar espuma.
     .titulo-icono.mb-4
         .titulo-icono__texto: h4.text-white.mb-0 Los colorantes
@@ -804,9 +785,9 @@
                   a.boton.color-acento-botones(:href="obtenerLink('downloads/Anexo_3_ColorantesDeTintoreria.pdf')" target="_blank" type="application/pdf")
                     span Descargar
                     i.fas.fa-file-download
-      .col-lg-4.col-8: img(src="@/assets/curso/temas/tema2/40.png" alt="")
+      .col-lg-4.col-8: img.d-lg-block.d-none(src="@/assets/curso/temas/tema2/40.png" alt="")
     .row.justify-content-center.mb-5
-      .col-lg-4.col-8: img(src="@/assets/curso/temas/tema2/41.png" alt="")
+      .col-lg-4.col-8.d-lg-block.d-none: img(src="@/assets/curso/temas/tema2/41.png" alt="")
       .col-lg-8
         p Por otra parte, los #[span.color-acento-contenido.fw-bold blanqueadores óptimos] son productos que absorben la radiación en el espectro ultravioleta (no visible para los humanos) y la devuelven a un color visible en el rango azul-violeta. Se utilizan para conseguir un mayor grado de blancura, y su contenido en el sustrato oscila entre 0,01 y 0,5 % spm. La sensibilidad al pH plantea la mayoría de los problemas, porque tienden a amarillear en medios alcalinos, por lo que deben neutralizarse cuando el pH es superior a 5, generalmente con ácido acético. 
           br
@@ -824,7 +805,7 @@
               .textos.p-4.m-auto
                 p  Para algodones, se presentan 3 tipos diferentes de recetas para realizar el teñido, estos son: descrudado, blanqueo con peróxido de hidrógeno y descrude, y blanqueos simultáneos. 
     .row.justify-content-center.mb-5
-      .col-lg-4.col-8: img(src="@/assets/curso/temas/tema2/43.png" alt="")
+      .col-lg-4.col-8: img.d-lg-block.d-none(src="@/assets/curso/temas/tema2/43.png" alt="")
       .col-lg-8
         p Además de la reacción química que suele generarse con la fibra celulósica, también por el colorante hidrolizado que reacciona con el agua, se debe tener siempre presente retirarlo en su totalidad a través del lavado.
         .tarjeta.color-secundario.p-3.mb-4
@@ -834,7 +815,7 @@
             .col
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
-                  h4.mb-1 Recetas quimicas para tintura de algodon y lana. 
+                  h4.mb-1 Recetas quimicas para tintura de algodon y lana
                   p.mb-0.text-small Aprenda las recetas químicas y el procedimiento para el proceso de tinturado del algodón y la lana, explorando el Anexo_4_RecetasQuimicasParaTinturaDeAlgodonYLana. 
                 .col-sm-auto
                   a.boton.color-acento-botones(:href="obtenerLink('downloads/Anexo_4_RecetasQuimicasParaTinturaDeAlgodonYLana.pdf')" target="_blank" type="application/pdf")
@@ -863,9 +844,9 @@
             img(src="@/assets/template/icono-pdf.svg")
           .anexo__texto
             p #[b Anexo.] Anexo_6_RecetasQuimicasParaLavadoReductivo.  
-      .col-lg-5.col-8: img(src="@/assets/curso/temas/tema2/44.png" alt="")
+      .col-lg-5.col-8: img.d-lg-block.d-none(src="@/assets/curso/temas/tema2/44.png" alt="")
     .row.justify-content-center.mb-5
-      .col-lg-4.col-8: img(src="@/assets/curso/temas/tema2/45.png" alt="")
+      .col-lg-4.col-8: img.d-lg-block.d-none(src="@/assets/curso/temas/tema2/45.png" alt="")
       .col-lg-8 
         p En el proceso de teñido de fibras acrílicas, se presenta una atracción entre opuestos llamada polar, donde los colorantes son atraídos por las cargas negativas de este tipo de fibra. Por ello, en el proceso de tinturado, es necesario el uso de retardantes, ya que sin ellos se pueden causar irregularidades en el tejido final.
           br
@@ -874,10 +855,10 @@
         ul.lista-ul--color
           li.d-flex.mb-1
             i.fas.fa-tshirt(style='color: #FF6E33')
-            p.mb-0.ms-4 #[span.color-acento-contenido.fw-bold HB:] debido al encogimiento de un 30%, aproximadamente, del hilo, ocasionado por el proceso de vaporización o inmersión (del hilo) en agua hirviendo, se genera un aspecto de volumen similar a la lana.
+            | #[span.color-acento-contenido.fw-bold HB:] debido al encogimiento de un 30%, aproximadamente, del hilo, ocasionado por el proceso de vaporización o inmersión (del hilo) en agua hirviendo, se genera un aspecto de volumen similar a la lana.
           li.d-flex.mb-1
             i.fas.fa-tshirt(style='color: #FF6E33')
-            p.mb-0.ms-4 #[span.color-acento-contenido.fw-bold Regular:] estas tienen un aspecto muy sedoso en los hilos y no requieren un proceso de pre-encogimiento con las fibras HB, ya que ha sido ejecutado con anterioridad en el hilado.
+            | #[span.color-acento-contenido.fw-bold Regular:] estas tienen un aspecto muy sedoso en los hilos y no requieren un proceso de pre-encogimiento con las fibras HB, ya que ha sido ejecutado con anterioridad en el hilado.
         .tarjeta.color-secundario.p-3.mb-4
           .row.justify-content-around.align-items-center
             .col-auto
@@ -891,7 +872,7 @@
                   a.boton.color-acento-botones(:href="obtenerLink('downloads/Anexo_7_RecetasQuimicasParaTinturadoDeFibrasAcrilicas.pdf')" target="_blank" type="application/pdf")
                     span Descargar
                     i.fas.fa-file-download
-        p Este blanqueamiento óptico se realiza sobre fibras naturales para eliminar los pigmentos que las vuelven amarillas; oxidantes como NaClO o H2O2 cambiarán de color y eliminarán la mayoría de los colorantes sintéticos y naturales. Sin embargo, el grado de blancura obtenido por blanqueamiento químico incluye un tinte amarillento pálido, no se puede obtener verdaderamente blanco. 
+        p Este #[span.color-acento-contenido.fw-bold blanqueamiento óptico] se realiza sobre fibras naturales para eliminar los pigmentos que las vuelven amarillas; oxidantes como NaClO o H2O2 cambiarán de color y eliminarán la mayoría de los colorantes sintéticos y naturales. Sin embargo, el grado de blancura obtenido por blanqueamiento químico incluye un tinte amarillento pálido, no se puede obtener verdaderamente blanco. 
     p En algunos casos, es necesario aplicar un segundo proceso de blanqueo químico para reducir el amarilleo residual del sustrato. La colorimetría nos dice que debemos utilizar el azul porque es el contrario. La solución es desarrollar sustancias fluorescentes que absorban el espectro ultravioleta y emitan luz visible en el espectro azul. El uso de estos agentes blanqueadores puede mejorar el tono azul, sin pérdida de brillo, porque el ojo humano no puede percibir la región ultravioleta absorbida.
     .row.justify-content-center.mb-5
       .col-lg-8.mb-lg-0.mb-3
@@ -899,24 +880,24 @@
         ul.lista-ul--color
           li.d-flex.mb-4.ms-4
             i.fas.fa-tshirt(style='color: #FF6E33')
-            p.mb-0 Los blanqueadores óptimos suelen ser objetos incoloros o ligeramente coloreados, que tienen la característica de absorber rayos ultravioleta invisibles y emitirlos como luz visible de una determinada longitud de onda (correspondiente a las bandas espectrales violetas, azules, o incluso verdes, en muchos casos). 
+            | Los blanqueadores óptimos suelen ser objetos incoloros o ligeramente coloreados, que tienen la característica de absorber rayos ultravioleta invisibles y emitirlos como luz visible de una determinada longitud de onda (correspondiente a las bandas espectrales violetas, azules, o incluso verdes, en muchos casos). 
 
           li.d-flex.mb-4.ms-4
             i.fas.fa-tshirt(style='color: #FF6E33')
-            p.mb-0 A medida que aumenta la cantidad de luz emitida por el cuerpo, aumenta la sensación de blancura, es decir, sus acciones se basan en el principio de fluorescencia. 
+            | A medida que aumenta la cantidad de luz emitida por el cuerpo, aumenta la sensación de blancura, es decir, sus acciones se basan en el principio de fluorescencia. 
           li.d-flex.mb-4.ms-4
             i.fas.fa-tshirt(style='color: #FF6E33')
-            p.mb-0 El efecto blanqueador del agente fluorescente es un efecto aditivo, es decir, el amarilleo se corrige añadiendo la luz proporcionada por el agente blanqueador y la luz proporcionada por la luz ultravioleta invisible.
+            | El efecto blanqueador del agente fluorescente es un efecto aditivo, es decir, el amarilleo se corrige añadiendo la luz proporcionada por el agente blanqueador y la luz proporcionada por la luz ultravioleta invisible.
           li.d-flex.mb-4.ms-4
             i.fas.fa-tshirt(style='color: #FF6E33')
-            p.mb-0 Se resalta que, realmente, no es un teñido. El blanqueo óptimo es un proceso que también pasa por procesos previos, como son el descrude y el blanqueo; en este caso, con la finalidad de obtener un blanco puro como color.
+            | Se resalta que, realmente, no es un teñido. El blanqueo óptimo es un proceso que también pasa por procesos previos, como son el descrude y el blanqueo; en este caso, con la finalidad de obtener un blanco puro como color.
           li.d-flex.mb-4.ms-4
             i.fas.fa-tshirt(style='color: #FF6E33')
-            p.mb-0 En otros casos, para proporcionar una apariencia de limpieza en colores claros, se utilizan pequeñas cantidades de blanqueador óptimo en el proceso de tinturado.
+            | En otros casos, para proporcionar una apariencia de limpieza en colores claros, se utilizan pequeñas cantidades de blanqueador óptimo en el proceso de tinturado.
           li.d-flex.mb-4.ms-4
             i.fas.fa-tshirt(style='color: #FF6E33')
-            p.mb-0 Una segunda opción es aplicar el tono claro en sustratos anteriormente blanqueados.
-      .col-lg-4: img(src="@/assets/curso/temas/tema2/46.png")
+            | Una segunda opción es aplicar el tono claro en sustratos anteriormente blanqueados.
+      .col-lg-4: img.d-lg-block.d-none(src="@/assets/curso/temas/tema2/46.png")
     Separador
     #t_2_5.titulo-segundo.color-acento-contenido(data-aos='fade-right')
       h2 2.5  Control de calidad del color
@@ -951,14 +932,14 @@
         ul.lista-ul--color
           li.d-flex.mb-2
             i.fas.fa-tshirt(style='color: #FF6E33')
-            p.mb-0 Solo utilice una fuente de luz, no permita ni siquiera la luz natural de una ventana. 
+            | Solo utilice una fuente de luz, no permita ni siquiera la luz natural de una ventana. 
 
           li.d-flex.mb-2
             i.fas.fa-tshirt(style='color: #FF6E33')
-            p.mb-0 Siempre inicie la revisión por los tonos claros, seguidos por los medios y, por últimos, los más oscuros. 
+            | Siempre inicie la revisión por los tonos claros, seguidos por los medios y, por últimos, los más oscuros. 
           li.d-flex.mb-2
             i.fas.fa-tshirt(style='color: #FF6E33')
-            p.mb-0 Los tonos rojos permanecen más tiempo en nuestra retina, por este motivo, es mejor que se tome un descanso antes de revisar otro color, muy probablemente alteraría el matiz.
+            | Los tonos rojos permanecen más tiempo en nuestra retina, por este motivo, es mejor que se tome un descanso antes de revisar otro color, muy probablemente alteraría el matiz.
 
     
 

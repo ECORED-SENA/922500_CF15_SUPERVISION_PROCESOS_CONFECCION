@@ -8,7 +8,7 @@
       h1 Procesos textiles
     .bloque-texto-a.color-acento-contenido.p-4.p-md-5.mb-5
       .row.m-0.align-items-center.justify-content-between
-        .col-lg-3.col-6.mb-4.mb-lg-0.order-2
+        .col-lg-3.col-12.mb-4.mb-lg-0.order-2
           img(src='@/assets/curso/temas/tema1/1.png', alt='')
         .col-lg-9.order-1
           .bloque-texto-a__texto.p-4
@@ -26,7 +26,7 @@
       .contenido
         .row.justify-content-center
           .col-lg-3.mb-lg-0.mb-4.col-6
-            img(src='@/assets/curso/temas/tema1/3.png', alt='' )
+            img.d-lg-block.d-none(src='@/assets/curso/temas/tema1/3.png', alt='' )
           .col-lg-9
             .bg-white.mx-2.p-5
               SlyderE(indicadores="derecha")
@@ -49,19 +49,19 @@
                 .row
                   .col-md-8.mb-4.mb-md-0
                     h4
-                      span.color-acento-contenido Esquemas básicos del color 
-                    p Los esquemas básicos son vistos dentro de la clasificación de color de acuerdo con su luz y la perspectiva de la persona que mira el color.
-                  .col-md-4
-                    figure
-                      img(src='@/assets/curso/temas/tema1/6.png', alt='Texto que describa la imagen')
-                .row
-                  .col-md-8.mb-4.mb-md-0
-                    h4
                       span.color-acento-contenido Aplicabilidad del color 
                     p Cuando se habla de color, en términos generales, es aplicable a cualquier área, dado que es universal, dependerá del operario su uso y aplicabilidad de acuerdo con la propuesta y producto esperado.
                   .col-md-4
                     figure
                       img(src='@/assets/curso/temas/tema1/7.png', alt='Texto que describa la imagen')
+                .row
+                  .col-md-8.mb-4.mb-md-0
+                    h4
+                      span.color-acento-contenido Esquemas básicos del color 
+                    p Los esquemas básicos son vistos dentro de la clasificación de color de acuerdo con su luz y la perspectiva de la persona que mira el color.
+                  .col-md-4
+                    figure
+                      img(src='@/assets/curso/temas/tema1/6.png', alt='Texto que describa la imagen')
                 .row
                   .col-md-8.mb-4.mb-md-0
                     h4
@@ -147,7 +147,8 @@
         h5.text-center 
           span.color-acento-contenido Esquema de triada terciario 
         p.text-center Surge de una de dos combinaciones: naranja rojizo, verde amarillento y violeta azulado, o verde azulado, naranja amarillento y violeta rojizo; todos los equidistantes uno del otro en el círculo cromático.
-    .bg-card.p-5.tarjeta
+    p.mb-5(data-aos='fade-right').fw-bold.text-center También se encuentran otros esquemas de mayor complejidad, como los siguientes: 
+    .bg-card.p-lg-5.p-2.tarjeta
         LineaTiempoC.color-acento-botones(text-small)
           .row.justify-content-center(titulo="Tétradas")
             .col-md-7.mb-4.mb-md-0
