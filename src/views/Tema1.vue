@@ -6,7 +6,7 @@
       .titulo-principal__numero
         span 1
       h1 Procesos textiles
-    .bloque-texto-a.color-acento-contenido.p-4.p-md-5.mb-5
+    .bloque-texto-a.color-acento-contenido.p-4.p-md-5.mb-5(data-aos="zoom-in")
       .row.m-0.align-items-center.justify-content-between
         .col-lg-3.col-12.mb-4.mb-lg-0.order-2
           img(src='@/assets/curso/temas/tema1/1.png', alt='')
@@ -14,15 +14,15 @@
           .bloque-texto-a__texto.p-4
             p Los procesos textiles tienen como fundamento el tratamiento de las fibras, cuya finalidad es generar apariencias en los tejidos planos y de punto, con colores específicos como los trabajados desde tintura, estampados completos y sectorizados en partes de piezas, procesos de suavizado en lavandería, desgastes localizados en base dénim, y bordados.
     .row.justify-content-center.mb-5
-      .col-lg-4.mb-lg-0.mb-3
+      .col-lg-4.mb-lg-0.mb-3(data-aos="fade-right")
         p Estos diseños parten del proceso creativo en la creación de colecciones y prendas de vestir, teniendo como base la aplicación de conceptos que, dirigidos a un público objetivo, se establecen las ilustraciones o diseños en una tela en su totalidad o en partes de una prenda, #[span.color-acento-contenido lo que permite contemplarse en unidad visual a partir de la forma y el color.]
-      .col-lg-8
+      .col-lg-8(data-aos="fade-left")
         .d-flex(style="background-color:#D9FBFC")
           img(src='@/assets/curso/temas/tema1/2.png', alt='' style="width:314px")
           .textos.p-4.m-auto
             h5 ¡Importante!
             p Los esquemas básicos de color utilizados en el manejo de círculo cromático, en temas como tinturado, son la base de las combinaciones que permiten obtener diversos tonos.
-    .bg-middle.p-5.pb-0.mb-5.mn
+    .bg-middle.p-5.pb-0.mb-5.mn(data-aos="zoom-in")
       .contenido
         .row.justify-content-center
           .col-lg-3.mb-lg-0.mb-4.col-6
@@ -71,7 +71,7 @@
                     figure
                       img(src='@/assets/curso/temas/tema1/8.png', alt='Texto que describa la imagen')
     p.text-center.fw-bold.mb-5 Observe, a continuación, una breve descripción de los esquemas básicos:
-    SlyderF.mb-5(columnas="col-lg-6 col-xl-4")
+    SlyderF.mb-5(columnas="col-lg-6 col-xl-4")(data-aos="zoom-in")
       .tarjeta.p-4(style="background-color: #F5E6E9")
         .row.justify-content-center.mb-3
           .col-6
@@ -148,7 +148,7 @@
           span.color-acento-contenido Esquema de triada terciario 
         p.text-center Surge de una de dos combinaciones: naranja rojizo, verde amarillento y violeta azulado, o verde azulado, naranja amarillento y violeta rojizo; todos los equidistantes uno del otro en el círculo cromático.
     p.mb-5(data-aos='fade-right').fw-bold.text-center También se encuentran otros esquemas de mayor complejidad, como los siguientes: 
-    .bg-card.p-lg-5.p-2.tarjeta
+    .bg-card.p-lg-5.p-2.tarjeta(data-aos="zoom-in")
         LineaTiempoC.color-acento-botones(text-small)
           .row.justify-content-center(titulo="Tétradas")
             .col-md-7.mb-4.mb-md-0

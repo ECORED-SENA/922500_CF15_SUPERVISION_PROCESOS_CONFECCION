@@ -6,7 +6,7 @@
       .titulo-principal__numero
         span 4
       h1 Estampación y bordados
-    .fondo-textil.p-4.mb-5
+    .fondo-textil.p-4.mb-5(data-aos="zoom-in")
       .row.justify-content-center
         .col-lg-10
           .tarjeta.bg-white.p-4.m-5
@@ -15,16 +15,16 @@
     #t_4_1.titulo-segundo.color-acento-contenido(data-aos='fade-right')
       h2 4.1 Estampación textil
     .row.justify-content-center.mb-4
-      .col-lg-4.mb-lg-0.mb-3
+      .col-lg-4.mb-lg-0.mb-3(data-aos="fade-right")
         p La estampación textil se remonta, aproximadamente, a hace más de 4.000 años, vista en tumbas egipcias que permitían apreciar dibujos realizados en las túnicas de las momias o en las figuras de piedra, que reflejaban formas y dibujos de su cultura. Esta decoración en sus trajes era vista en esferas de clase alta, quienes permitían el uso de diferentes colores a los de esferas bajas, marcando aún más sus diferencias y estratificación.
-      .col-lg-8
+      .col-lg-8(data-aos="fade-left")
         .d-flex(style="background-color:#D9FBFC")
           img(src='@/assets/curso/temas/tema4/2.svg', alt='' style="width:316px")
           .textos.p-3.m-auto
             p Muy probablemente, estas ilustraciones en sus vestidos fueron realizadas a mano. En la India, se encuentran imágenes de hace más de 2.000 años, con el uso de sellos de madera, grabados con diferentes figuras propias de su cultura; para ellos, se estimaba que la decoración en sus telas era sumamente importante y también era apreciada por diferentes culturas, quienes compraban material textil con estas características; de ahí que la comercialización textil más grande conocida sea de esta parte del mundo.
     .row.justify-content-center.mb-5
-      .col-lg-5.col-8.mb-lg-0.mb-3: img(src='@/assets/curso/temas/tema4/3.png', alt='' style="width:100%")
-      .col-lg-7
+      .col-lg-5.col-8.mb-lg-0.mb-3(data-aos="fade-right"): img(src='@/assets/curso/temas/tema4/3.png', alt='' style="width:100%")
+      .col-lg-7(data-aos="fade-left")
         p #[span.color-acento-contenido Para esa misma época, se encontró que en China solían implementar una técnica similar a la de los sellos en textiles u otros materiales; este aspecto aún es muy conocido y se sigue implementando estampado con esta técnica.]
           br
           br
@@ -32,12 +32,12 @@
           br
           br
           | Aunque no se puede decir con exactitud cómo fue que se empezó a implementar el estampado como diseño para los textiles, si se puede determinar que las figuras y los diseños empleados dentro de los estampados textiles provienen de simbología cultural, generando que, con el paso de los años, se pudiese estudiar a través de diferentes hallazgos su importancia y la necesidad de crear técnicas que permitieran su producción y uso dentro de la sociedad.
-    p Estos diseños, a su vez, han sido recreados, reinterpretados y han servido como punto de inspiración para lo que hoy actualmente se determina dentro de los múltiples estilos en diseño textil.
+    p(data-aos="fade-right") Estos diseños, a su vez, han sido recreados, reinterpretados y han servido como punto de inspiración para lo que hoy actualmente se determina dentro de los múltiples estilos en diseño textil.
       br
       br
       |Sobre la estampación textil se puede decir que:
     .row.justify-content-center.mb-5
-      .col-lg-7.mb-lg-0.mb-3 
+      .col-lg-7.mb-lg-0.mb-3(data-aos="fade-right")
         ul.lista-ul--color
           li.d-flex.mb-1.ms-4
             i.fas.fa-tshirt(style='color: #FF6E33')
@@ -55,7 +55,7 @@
           li.d-flex.mb-1.ms-4
             i.fas.fa-tshirt(style='color: #FF6E33')
             p.mb-2 La transferencia de las imágenes puede darse ya sea por contacto o impresión, asimismo, a distancia, como con la luz sobre una superficie que sea fotoquímicamente sensible, por ejemplo, la impresión fotográfica o grabados con láser, entre otros.
-      .col-lg-5.col-8: img(src='@/assets/curso/temas/tema4/4.png', alt='' style="width:100%")
+      .col-lg-5.col-8(data-aos="fade-left"): img(src='@/assets/curso/temas/tema4/4.png', alt='' style="width:100%")
     p.mb-5(data-aos='fade-right') La siguientes, son las diferentes técnicas de impresión por contacto:
     .row.justify-content-center.mb-5
       .col-xl-3.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
@@ -92,13 +92,12 @@
             p.mb-0 Coplanar porosa (algunas áreas permiten el pasaje de la tinta y otras no). Serigrafía, mimeografía.
 
 
-    //todo! PENDIENTES LAS TARJETAS 
 
 
     p.mb-5(data-aos='fade-right') A partir de lo anterior, se puede determinar que la estampación implica una serie de procesos y métodos que han sido determinados para lograr el acabado deseado en las prendas, constituyéndose así uno de los principales procesos textiles en la industria de la moda. 
     .row.justify-content-center.mb-5
-      .col-lg-4.mb-lg-0.mb-3.col-8: img(src='@/assets/curso/temas/tema4/5.png', alt='' style="width:100%")
-      .col-lg-8
+      .col-lg-4.mb-lg-0.mb-3.col-8(data-aos="fade-right"): img(src='@/assets/curso/temas/tema4/5.png', alt='' style="width:100%")
+      .col-lg-8(data-aos="fade-left")
         p La estampación textil es un proceso contenido dentro de los acabados de un tejido o hilado, a través del cual se tintura de forma localizada, en un sector o varios sectores de un textil, es decir, es aplicada una sustancia natural o artificial colorante, soluble bajo ciertas condiciones, en áreas específicas de un textil o una prenda.
         .tarjeta.color-secundario.p-3.mb-4
           .row.justify-content-around.align-items-center
@@ -107,19 +106,19 @@
             .col
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
-                  h4.mb-1 Metodos de estampado.
+                  h4.mb-1 Métodos de estampado.
                   p.mb-0.text-small Conozca lo diferentes métodos de estampado, explorando el Anexo_9_MetodosDeEstampado.
                 .col-sm-auto
                   a.boton.color-acento-botones(:href="obtenerLink('downloads/Anexo_9_MetodosDeEstampado.pdf')" target="_blank" type="application/pdf")
                     span Descargar
                     i.fas.fa-file-download
-    .titulo-icono.mb-4
+    .titulo-icono.mb-48(data-aos="fade-right")
       .titulo-icono__texto: h4.text-white.mb-0 Selección de métodos según composición texti
-    p La selección de los métodos en la estampación textil implica una revisión de las características bajo las cuales está construido un tejido, esto para que se puedan seleccionar la técnica y los materiales.
+    p(data-aos="fade-right") La selección de los métodos en la estampación textil implica una revisión de las características bajo las cuales está construido un tejido, esto para que se puedan seleccionar la técnica y los materiales.
       br
       br
       |Por ello, para una correcta selección del método, se analizan:
-    .bg-middle.p-5.pb-0.mb-5.mn
+    .bg-middle.p-5.pb-0.mb-5.mn(data-aos="zoom-in")
       .contenido
         .row.justify-content-center
           .col-lg-3.mb-lg-0.mb-4.col-6
@@ -167,27 +166,27 @@
                   .col-md-4
                     figure
                       img(src='@/assets/curso/temas/tema4/11.png', alt='Texto que describa la imagen')
-    .titulo-icono.mb-4
+    .titulo-icono.mb-4(data-aos="zoom-in")
       .titulo-icono__texto: h4.text-white.mb-0 Técnicas especiales
-    p Dentro de las técnicas especiales, se contemplan aquellas que tienen un proceso manual o muy específico, que requieren de precisión para que los acabados puedan ser los esperados.
+    p(data-aos="fade-right") Dentro de las técnicas especiales, se contemplan aquellas que tienen un proceso manual o muy específico, que requieren de precisión para que los acabados puedan ser los esperados.
       br
       br
       |Entre estas técnicas se encuentran:
-    .row.justify-content-center.mb-5
-      .col-lg-5.col-7.mb-lg-0.mb-3: img(src='@/assets/curso/temas/tema4/12.png', alt='Texto que describa la imagen')
-      .col-lg-7
-        AcordionA.mb-5(tipo="b" clase-tarjeta="tarjeta tarjeta--red")
+    .row.justify-content-center.mb-lg-5.mb-2
+      .col-lg-5.col-7.mb-lg-0.mb-3(data-aos="fade-right"): img(src='@/assets/curso/temas/tema4/12.png', alt='Texto que describa la imagen')
+      .col-lg-7(data-aos="fade-left")
+        AcordionA(tipo="b" clase-tarjeta="tarjeta tarjeta--red")
           div(titulo="Estampado por resistencia o reserva")
             p Este método ofrece acabados únicos en los textiles, generando casi que exclusividad en el producto. Para este proceso, en primera medida, se estampa el tejido con el diseño escogido a través de un químico que resiste al tiñe, es decir, tiñe el tejido; dicha resistencia genera que el textil tome el color blanco o crudo. También puede ser de otro color en las áreas en las que se vaya a imprimir. 
               br
               br
-              |Las ventajas contenidas en este método es que pueden ser implementados tintes con muy alta pérdida del color. En los textiles de algodón, puede realizarse un estampado de resistencia con colorantes reactivos, como el naftol, proceso que es parecido al batik.
-          div(titulo="Batik")
+              |Las ventajas contenidas en este método es que pueden ser implementados tintes con muy alta pérdida del color. En los textiles de algodón, puede realizarse un estampado de resistencia con colorantes reactivos, como el naftol, proceso que es parecido al #[em batik].
+          div(titulo="<em>Batik</em>")
             p Técnica de teñido para reserva. Se contempla dentro de los métodos de estampado, dado que se construyen diseños específicos con formas, volumen y textura. Este es aplicado con capas de cera sobre las regiones que no se desean teñir, logrando fijar el color en aquellas zonas no reservadas. La cera, al quebrarse una vez se pasa por post lavado, produce un efecto posterior, lo que permite obtener textura dentro del mismo diseño. Esto hace que se vea diferente diseño tras diseño, es decir, independientemente de que en dos textiles se pinte el mismo diseño, al pasar por el post lavado y secado, las texturas variarán por el resquebrajamiento de la cera.
           div(titulo="Estampado por descarga")
             p Este método implica teñir la tela con el color base que se requiera o según sea el diseño. Posteriormente, la tela es estampada con químicos que van destruyendo el tinte acorde con sectores en los que se tiñó, generando que la descarga tenga fondos blancos en su color base. Para este método, se deben seleccionar cuidadosamente los tintes, dado que pueden llegar a destruir el textil o dañarlo, dada la combinación que se dé dentro del proceso. Usualmente se emplean bases textiles de algodón en este método.
     .row.justify-content-center.mb-5
-      .col-lg-7.mb-lg-0.mb-3l
+      .col-lg-7.mb-lg-0.mb-3(data-aos="fade-right")
         AcordionA.mb-5(tipo="b" clase-tarjeta="tarjeta tarjeta--red")
           div(titulo="<em>Flock</em>")
             p Técnica que es implementada en procesos serigráficos, dada la personalización que necesita cada textil o prenda para desarrollar el diseño propuesto. Por lo general, se emplea: 
@@ -209,21 +208,21 @@
             .col
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
-                  h4.mb-1 Materiales para estampacion.
+                  h4.mb-1 Materiales para estampacion
                   p.mb-0.text-small Puede observar los diferentes materiales empleados para el proceso de estampación consultando el Anexo_10_MaterialesParaEstampacion.
                 .col-sm-auto
                   a.boton.color-acento-botones(:href="obtenerLink('downloads/Anexo_10_MaterialesParaEstampacion.pdf')" target="_blank" type="application/pdf")
                     span Descargar
                     i.fas.fa-file-download
-      .col-lg-5.col-7: img(src='@/assets/curso/temas/tema4/13.png', alt='Texto que describa la imagen')
+      .col-lg-5.col-7(data-aos="fade-left"): img.d-lg-block.d-none(src='@/assets/curso/temas/tema4/13.png', alt='Texto que describa la imagen')
     Separador
     #t_4_2.titulo-segundo.color-acento-contenido(data-aos='fade-right')
       h2 4.2 Desarrollo y programación de estampación
-    p Dentro de la programación para estampación, primero se debe partir de los roles que intervienen para que el diseño sea posible, estos son:
-    .bg-middle.p-5.pb-0.mb-5.mn
+    p(data-aos="fade-right") Dentro de la programación para estampación, primero se debe partir de los roles que intervienen para que el diseño sea posible, estos son:
+    .bg-middle.p-5.pb-0.mb-5.mn(data-aos="zoom-in")
       .contenido
         .row.justify-content-center
-          .col-lg-3.mb-lg-0.mb-4.col-6
+          .col-lg-3.mb-lg-0.mb-4.col-4
             img(src='@/assets/curso/temas/tema4/14.svg', alt='' )
           .col-lg-9
             .row.justify-content-center.mb-3
@@ -246,14 +245,14 @@
     #t_4_3.titulo-segundo.color-acento-contenido(data-aos='fade-right')
       h2 4.3  Bordado textil
     .row.justify-content-center.mb-4
-      .col-lg-4.mb-lg-0.mb-3
+      .col-lg-4.mb-lg-0.mb-3(data-aos="fade-right")
         p El bordado textil, considerado para muchos como un arte, consiste en adornar la superficie de un textil o material que permita dicha labor; está implícito el hilo como fibra y la aguja que posibilita el hecho de registrar una imagen o diseño en particular sobre una tela o superficie.
-      .col-lg-8
+      .col-lg-8(data-aos="fade-left")
         .d-flex(style="background-color:#DEE9F0")
           img(src='@/assets/curso/temas/tema4/15.svg', alt='' style="width:316px")
           .textos.p-3.m-auto
             p Inicia como una actividad manual, en la que se buscaba generar texturas y formas que, en muchas culturas, su simbología se veía resaltada por determinados colores o formas que permitieran diferenciarlos de otras comunidades y también diferenciar los roles que un individuo tenía en determinada sociedad.
-    .fondo_1.mn.p-5.mb-4   
+    .fondo_1.mn.p-5.mb-4(data-aos="zoom-in")  
       .row.justify-content-center.mb-5
         .col-lg-4.col-8.mb-lg-0.mb-3: img(src='@/assets/curso/temas/tema4/16.png', alt='' )
         .col-lg-8 
@@ -263,7 +262,7 @@
             | La historia del bordado tiene especial relevancia, sobre todo para quien ejercía la labor. Para comprenderla, se hará un breve recorrido según las edades históricas:   
       LineaTiempoE.color-acento-botones
         .row(titulo="Edad antigua" subtitulo="")
-          .col-lg-2
+          .col-lg-2.mb-lg-0.mb-3.col-8
             figure
               img(src='@/assets/curso/temas/tema4/17.png', alt='Texto que describa la imagen')
           .col-lg-10.mb-4.mb-lg-0
@@ -295,7 +294,7 @@
             li.d-flex.mb-1.ms-4
               i.fas.fa-tshirt(style='color: #FF6E33')
               p.mb-1 En el siglo XVI, el bordado era relevante y apreciado con hilos especiales, como el oro, y aparece la técnica de bordado de relieve con canutillos, conservándose hasta la actualidad; estos también solían ser en oro o plata para clases altas.
-        div(titulo="" subtitulo="")
+        div(titulo="Edad moderna / Inicios y mediados" subtitulo="")
           ul.lista-ul--color
             li.d-flex.mb-1.ms-4
               i.fas.fa-tshirt(style='color: #FF6E33')
@@ -310,8 +309,8 @@
             li.d-flex.mb-1.ms-4
               i.fas.fa-tshirt(style='color: #FF6E33')
               p.mb-1 En el siglo XVIII, tanto hombres como mujeres utilizaban bordados en sus trajes, vistos en mayor volumen para las clases altas. Eran bordados exclusivos, hechos a mano. Aquí, marcar la diferencia entre familias y rangos se hizo más visible. Al final de siglo, aparece el bordado a máquina.
-        .row(titulo="" subtitulo="")
-          .col-lg-2
+        .row(titulo="Edad moderna / Finales" subtitulo="")
+          .col-lg-2.mb-lg-0.mb-3.col-8
             figure
               img(src='@/assets/curso/temas/tema4/18.png', alt='Texto que describa la imagen')
           .col-lg-10.mb-4.mb-lg-0
@@ -322,7 +321,7 @@
               li.d-flex.mb-1.ms-4
                 i.fas.fa-tshirt(style='color: #FF6E33')
                 p.mb-1 La primera máquina de bordar aparece en el año 1880, manual. Para 1889, aparece la primera máquina para bordar con motor.
-    .titulo-icono.mb-4
+    .titulo-icono.mb-4(data-aos="fade-right")
       .titulo-icono__texto: h4.text-white.mb-0 Técnicas manuales
     .row.justify-content-center.mb-5
       .col-lg-7.mb-lg-0.mb-3
@@ -331,7 +330,7 @@
           br
           |Hay papeles especiales en los que solo se plancha por encima junto con el textil y el dibujo queda transferido. Este proceso es para bordados localizados, en los que usualmente se emplean técnicas manuales, entre las que se parte de puntos como los que se mencionan a continuación.
       .col-lg-5.col-8: img(src='@/assets/curso/temas/tema4/19.png', alt='Texto que describa la imagen')
-    .mn(style="background-color: #E8E8E8").p-5
+    .mn(style="background-color: #E8E8E8").p-5(data-aos="zoom-in")
       .titulo-icono.mb-4
         .titulo-icono__texto: h4.text-white.mb-0 Puntos básicos
       .row.justify-content-center.mb-5
@@ -392,7 +391,7 @@
                 h5.text-center
                   span.color-acento-contenido Punto de cruz   
                 p Usualmente se realiza en un tejido cuyos hilos de la urdimbre y trama no estén tan juntos, para poder contarlos y realizar puntadas exactas en forma de cruz.
-    .mn(style="background-color: #FEE7DD").p-5.mb-5
+    .mn(style="background-color: #FEE7DD").p-5.mb-5(data-aos="zoom-in")
       p A partir de estos puntos básicos, se desarrollan técnicas de bordado, que se basan en combinándolos para crear apariencias específicas; entre las más comunes están:
       SlyderF.mb-5(columnas="col-lg-6 col-xl-4")
         .tarjeta.p-4(style="background-color: #FFFFFF ")
@@ -412,7 +411,7 @@
         .tarjeta.p-4(style="background-color: #FFFFFF ")
           .row.justify-content-center.mb-3
             .col-4
-              img(src='@/assets/curso/temas/tema4/28.svg' alt='AvatarTop')
+              img(src='@/assets/curso/temas/tema4/29.svg' alt='AvatarTop')
           h5.text-center 
             span.color-acento-contenido Bordado florentino 
           p.text-center Al igual que el de tapicería, también se trabaja sobre cañamazo, con puntadas verticales, pero el motivo que forma es en zigzag, generando formas y dibujos. 
@@ -421,7 +420,7 @@
             .col-4
               img(src='@/assets/curso/temas/tema4/30.svg' alt='AvatarTop')
           h5.text-center 
-            span.color-acento-contenido Bordado Crewel 
+            span.color-acento-contenido Bordado #[em Crewel] 
           p.text-center Considerado ornamental, empleando varias hebras de lana peinada, por lo general de dos cabos.
         .tarjeta.p-4(style="background-color: #FFFFFF ")
           .row.justify-content-center.mb-3
@@ -435,14 +434,14 @@
             .col-4
               img(src='@/assets/curso/temas/tema4/32.svg' alt='AvatarTop')
           h5.text-center 
-            span.color-acento-contenido Filtiré 
+            span.color-acento-contenido #[em Filtiré] 
           p.text-center Este método consiste en sacar los hilos en la urdimbre o en la trama de un textil, bordando con medios puntos en los que quedan fijos en el textil.
         .tarjeta.p-4(style="background-color: #FFFFFF ")
           .row.justify-content-center.mb-3
             .col-4
               img(src='@/assets/curso/temas/tema4/33.svg' alt='AvatarTop')
           h5.text-center 
-            span.color-acento-contenido Bordado Dresde 
+            span.color-acento-contenido Bordado #[em Dresde] 
           p.text-center Consiste en entresacar los hilos, haciendo más débil el tejido. Aquí las puntadas tiran de los hilos de la urdimbre o la trama sobresaliendo de la estructura del tejido. Es empleado en telas finas, como la muselina. 
         .tarjeta.p-4(style="background-color: #FFFFFF ")
           .row.justify-content-center.mb-3
@@ -456,14 +455,14 @@
             .col-4
               img(src='@/assets/curso/temas/tema4/35.svg' alt='AvatarTop')
           h5.text-center 
-            span.color-acento-contenido Bordado Richelieu 
+            span.color-acento-contenido Bordado #[em Richelieu] 
           p.text-center De origen francés, procedente de encajes venecianos con motivos florales u orgánicos, en los que los bordes son calados festoneados. 
         .tarjeta.p-4(style="background-color: #FFFFFF ")
           .row.justify-content-center.mb-3
             .col-4
               img(src='@/assets/curso/temas/tema4/36.svg' alt='AvatarTop')
           h5.text-center 
-            span.color-acento-contenido Bordado de Mountmellick 
+            span.color-acento-contenido Bordado de #[em Mountmellick] 
           p.text-center Consiste en seleccionar tejidos blancos con tramas tupidas y se bordan motivos orgánicos con hilos mate. N/A
         .tarjeta.p-4(style="background-color: #FFFFFF ")
           .row.justify-content-center.mb-3
@@ -483,8 +482,8 @@
           .textos.p-3.m-auto
             p Los hilos empleados, a diferencia de los manuales, que suelen ser madejas con grosores de diferentes tamaños, son hilos de seda, lana, poliéster, nylon, entre otros, categorizados dentro de las fibras sintéticas o artificiales, dado que, para poder bordar a mayor velocidad en las diferentes máquinas, se necesita que estos no se deshilachen o se rompan con facilidad, como un hilo de fibra natural como el algodón.
     .row.justify-content-center.mb-5
-      .col-lg-5.col-8.mb-lg-0.mb-3: img(src='@/assets/curso/temas/tema4/39.png', alt='')
-      .col-lg-7
+      .col-lg-5.col-8.mb-lg-0.mb-3(data-aos="fade-right"): img(src='@/assets/curso/temas/tema4/39.png', alt='')
+      .col-lg-7(data-aos="fade-left")
         p Se trabajan tres tipos de bordado a nivel industrial:
         ul.lista-ul--color
           li.d-flex.mb-1.ms-4
@@ -499,10 +498,10 @@
             i.fas.fa-tshirt(style='color: #FF6E33')
             p.mb-1 #[span.color-acento-contenido.fw-bold Sobrepuesto:] utiliza bases como parches, interlones o telas gruesas.
         p Dentro de las técnicas industriales, se tienen las que son elaboradas a través de máquinas que propician agilidad en la producción, especialmente, cuando se requieren grandes cantidades de prendas en las que el bordado está presente. Inicialmente, las máquinas para bordar solían ser mecánicas, dado que se necesitaba de una participación de tiempo completo por la mano del hombre, son las que comúnmente se llegaron a conocer como máquinas de coser familiares, estas necesitaban ser operadas con los pies y las manos y tenían puntadas básicas para el ornamento del bordado.
-    .p-4(style="background-color: #CDFAFB ").mb-5
+    .p-4(style="background-color: #CDFAFB ").mb-5(data-aos="zoom-in")
       p.mb-0 Posteriormente, y buscando mejorar, las máquinas pasaron a tener un motor que permitía solo operarse presionando el pie, pero necesitaba que manualmente se dirigiera el bordado con la aguja de la máquina. Se muestran a continuación las dos máquinas.
     .row.justify-content-center.mb-5
-      .col-lg-7.mb-lg-0.mb-3
+      .col-lg-7.mb-lg-0.mb-3(data-aos="fade-right")
         p Dado que se buscaba perfeccionar el oficio del bordado, se fueron creando máquinas exclusivamente para este oficio, pues las que existían, como las mencionadas anteriormente, también eran para costuras rectas, lo cual implicaba reconfigurar constantemente los ajustes y esto generaba que se descompensaran o las puntadas no fueran exactas, además de las limitantes que implicaba no medir exactamente el hilo a gastar.
           br
           br
@@ -510,48 +509,42 @@
         .p-4(style="background-color: #FEE7DD ").mb-5
           p.mb-0 A la par, para producciones en masa, se han desarrollado máquinas que pueden ser de un solo cabezote o múltiples cabezotes y difieren según su uso. Estas máquinas son digitales y sus bordados son programados en software especializado.
       .col-lg-5: img(src='@/assets/curso/temas/tema4/40.png', alt='')
-    p.text-center Entre las variaciones de esta maquinaria industrial, se encuentra
+    p Entre las variaciones de esta maquinaria industrial, se encuentra
     .row.justify-content-center.mb-5
-      .col-lg-10
-        .titulo-sexto.color-acento-contenido(data-aos='fade-right')
-          h5 Tabla 9 
-          br
-          span.fst-italic  Maquinaria industrial para bordado textil
-        .tabla-a.color-acento-botones
-          table
-            tbody.bg-white
-              tr
-                td(style="border: 2px solid #FF6E33 ") 
-                  h4.text-center Máquina bordadora tubular
-                  p Máquinas empleadas en el bordado de cortes de prendas, en prendas ya hechas, y también en bordado de gorras. La particularidad y característica principal es que necesitan de tambores para su funcionamiento y las dimensiones suelen ser un poco restringidas. Para bordados amplios se requiere de máquinas planas. Es ideal en producción de prendas con áreas específicas de bordado.
-                td(style="border: 2px solid #FF6E33 ") 
+      .col-lg-10(data-aos="fade-right")
+        .tarjeta.p-5(style="background-color: #DEE9F0")
+          SlyderA(tipo='b')
+            .row.justify-content-center.mb-5
+              .col-lg-6.mb-lg-0.mb-3
+                h4 Máquina bordadora tubular
+                p Máquinas empleadas en el bordado de cortes de prendas, en prendas ya hechas, y también en bordado de gorras. La particularidad y característica principal es que necesitan de tambores para su funcionamiento y las dimensiones suelen ser un poco restringidas. Para bordados amplios se requiere de máquinas planas. Es ideal en producción de prendas con áreas específicas de bordado.
+              .col-lg-6
                   p Máquina bordadora multi cabezal tubular
                   img(src='@/assets/curso/temas/tema4/41.png', alt='' style="width: 100%").mb-3
                   figcaption Nota. Tomado de MAD Ingenieros (s. f.).
-              tr
-                td(style="border: 2px solid #FF6E33 ") 
-                  h4.text-center Máquina bordadora plana
-
-                  p Su característica principal es que permiten una amplitud del bordado, pueden emplearse para telas completas, con anchos específicos. Hay máquinas con cabezales hasta de 5 metros en ancho de tela, siempre dependerá de lo requerido según la empresa.
-                td(style="border: 2px solid #FF6E33 ") 
+            .row.justify-content-center.mb-5
+              .col-lg-6.mb-lg-0.mb-3
+                h4 Máquina bordadora plana
+                p Su característica principal es que permiten una amplitud del bordado, pueden emplearse para telas completas, con anchos específicos. Hay máquinas con cabezales hasta de 5 metros en ancho de tela, siempre dependerá de lo requerido según la empresa.
+              .col-lg-6.mb-lg-0.mb-3
                   p Máquina plana bordadora industrial
                   img(src='@/assets/curso/temas/tema4/42.png', alt='' style="width: 100%").mb-3
                   figcaption Nota. Tomado de MAD Ingenieros (s. f.).
-              tr
-                td(style="border: 2px solid #FF6E33 ") 
-                  h4.text-center Máquina bordadora Chenille
+            .row.justify-content-center.mb-5
+              .col-lg-6.mb-lg-0.mb-3
+                  h4 Máquina bordadora Chenille
 
                   p Posee características frente al tipo de puntada, es similar a la plana, pero en esta hay variedad en cuanto a los adornos que pueden emplearse, como bordado con cordón Chenille, que consiste en hilos muy juntos con textura suave y bordados de lentejuelas, además del corte láser que esta misma realiza.
-                td(style="border: 2px solid #FF6E33 ") 
+              .col-lg-6.mb-lg-0.mb-3
                   p Máquina bordadora Chenille
                   img(src='@/assets/curso/temas/tema4/43.png', alt='' style="width: 100%").mb-3
                   figcaption Nota. Tomado de MAD Ingenieros (s. f.).
-    p Estas máquinas industriales permiten medir tiempo e insumos exactos en la producción, pueden imitar todos los puntos básicos en bordado y la combinación de estos para dar réplica a técnicas de bordado manual.
+    p(data-aos="fade-right") Estas máquinas industriales permiten medir tiempo e insumos exactos en la producción, pueden imitar todos los puntos básicos en bordado y la combinación de estos para dar réplica a técnicas de bordado manual.
     Separador 
     #t_4_4.titulo-segundo.color-acento-contenido(data-aos='fade-right')
       h2 4.4 Desarrollo y programación de bordados industriales
     .row.justify-content-center.mb-5
-      .col-lg-7.mb-lg-0.mb-3
+      .col-lg-7.mb-lg-0.mb-3(data-aos="fade-right")
         p Para el desarrollo y programación de bordados, se debe contar, al igual que en el punto mencionado para estampación, los roles asignados para quien desarrolle diseño y programe bordados.
           br
           br
@@ -564,10 +557,10 @@
             i.fas.fa-tshirt(style='color: #FF6E33')
             p.mb-1 Quien programa el bordado en #[em software] especializado, teniendo como base la imagen sobre la cual programará las puntadas.
         p Hay empresas en que estos roles los puede desempeñar el mismo diseñador textil, de modas o quien por experiencia lo sepa realizar. 
-      .col-lg-5.col-8: img(src='@/assets/curso/temas/tema4/44.png', alt='')
+      .col-lg-5.col-8(data-aos="fade-left"): img.d-lg-block.d-none(src='@/assets/curso/temas/tema4/44.png', alt='')
     .row.justify-content-center.mb-5
-      .col-lg-5.col-8.mb-lg-0.mb-3: img(src='@/assets/curso/temas/tema4/45.png', alt='')
-      .col-lg-7 
+      .col-lg-5.col-8.mb-lg-0.mb-3(data-aos="fade-right"): img.d-lg-block.d-none(src='@/assets/curso/temas/tema4/45.png', alt='')
+      .col-lg-7(data-aos="fade-left")
         p A continuación, se enuncian los softwares más empleados en la programación de bordados. 
         p.ms-5 #[span.color-acento-contenido.fw-bold Monogram It:] programa de licencia independiente, que es compatible con la mayoría de las máquinas de bordado, se pueden programar puntadas, colores y pasos dentro del bordado. 
           br
@@ -583,7 +576,7 @@
             .col
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
-                  h4.mb-1 Materiales para Bordado. 
+                  h4.mb-1 Materiales para Bordado 
                   p.mb-0.text-small Observe los diferentes materiales empleados para el proceso de bordado, consultando el Anexo_11_MaterialesParaBordado. 
                 .col-sm-auto
                   a.boton.color-acento-botones(:href="obtenerLink('downloads/Anexo_11_MaterialesParaBordado.pdf')" target="_blank" type="application/pdf")
