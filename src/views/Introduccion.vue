@@ -12,7 +12,7 @@
     figure
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/gXFtI_nQ49o?si=6VxEpfAg_yMG0FDL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-      figcaption.mt-2 Video. Leyenda del video 
+      figcaption.mt-2 Video. Procesos de producción textil (laboratorios)
     
 </template>
 

@@ -476,19 +476,19 @@
             tbody
               tr
                 td.text-center.fw-bold Para determinar el volumen de baño en litros requerido en el teñido de un tejido.
-                td: img(src='@/assets/curso/temas/tema2/28.svg', alt='')      
+                td: img(src='@/assets/curso/temas/tema2/28.svg', alt='Fórmula que indica que el volumen del baño (en litros) es igual al peso del material (en kg) por el porcentaje del pick up, sobre 100')      
                 td 
                   p Hay un material textil que pesa 717,5 y tiene un #[em pick up] del 72 %. De esta manera, se debe calcular el volumen del baño. 
                     br
                     br
                     |Aplicando la fórmula se obtiene que:    
-                  img(src='@/assets/curso/temas/tema2/30.svg', alt='')         
+                  img(src='@/assets/curso/temas/tema2/30.svg', alt='Fórmula que indica que el volumen del baño (en litros) es igual al peso del material (en kg) por el porcentaje del pick up, sobre 100')         
               tr    
                 td.text-center.fw-bold Para determinar el #[em pick up] de un tejido.
-                td: img(src='@/assets/curso/temas/tema2/29.svg', alt='')      
+                td: img(src='@/assets/curso/temas/tema2/29.svg', alt='Fórmula que indica que el porcentaje del pick up es igual al peso húmedo menos el peso seco, sobre el peso seco, y todo esto por cien.')      
                 td 
                   p Por otro lado, se espera determinar el porcentaje de retención de un tejido con peso seco de 180 g y un peso húmedo de 297 g.          
-                  img(src='@/assets/curso/temas/tema2/31.svg', alt='' style="width: 250px").m-auto
+                  img(src='@/assets/curso/temas/tema2/31.svg', alt='Fórmula que indica que el porcentaje del pick up es igual al peso húmedo menos el peso seco, sobre el peso seco, y todo esto por cien.' style="width: 250px").m-auto
     Separador 
     #t_2_3.titulo-segundo.color-acento-contenido(data-aos='fade-right')
       h2 2.3  Insumos
@@ -800,10 +800,10 @@
       .col-lg-4.mb-lg-0.mb-3(data-aos="fade-right")
         p Existen diferentes procesos de tinturado para las fibras textiles. Como punto de partida, se aborda el procedimiento del algodón y la lana. Es importante saber que, antes de iniciar con el color, siempre se deben retirar impurezas, ya sean preexistentes, como sales, sucios, aceites, hierro, pigmentos, etc., o las que han sido agregadas mientras se ejecutó la hilación, como, por ejemplo, los sustratos.
       .col-lg-8(data-aos="fade-left")
-        .d-flex(style="background-color:#D9FBFC")
-              img(src='@/assets/curso/temas/tema2/42.jpg', alt='' style="width:314px")
+        .d-lg-flex(style="background-color:#D9FBFC").justify-content-center.p-lg-0.p-3
+              img(src='@/assets/curso/temas/tema2/42.jpg', alt='' style="width:314px").w-md-100.m-auto
               .textos.p-4.m-auto
-                p  Para algodones, se presentan 3 tipos diferentes de recetas para realizar el teñido, estos son: descrudado, blanqueo con peróxido de hidrógeno y descrude, y blanqueos simultáneos. 
+                p.mb-0  Para algodones, se presentan 3 tipos diferentes de recetas para realizar el teñido, estos son: descrudado, blanqueo con peróxido de hidrógeno y descrude, y blanqueos simultáneos. 
     .row.justify-content-center.mb-5
       .col-lg-4.col-8(data-aos="fade-right"): img.d-lg-block.d-none(src="@/assets/curso/temas/tema2/43.png" alt="")
       .col-lg-8(data-aos="fade-left")
@@ -853,12 +853,13 @@
           br
           | Existe una división entre las fibras acrílicas:
         ul.lista-ul--color
-          li.d-flex.mb-1
+          li.mb-1.d-flex
             i.fas.fa-tshirt(style='color: #FF6E33')
-            | #[span.color-acento-contenido.fw-bold HB:] debido al encogimiento de un 30%, aproximadamente, del hilo, ocasionado por el proceso de vaporización o inmersión (del hilo) en agua hirviendo, se genera un aspecto de volumen similar a la lana.
-          li.d-flex.mb-1
+            div
+              p #[span.color-acento-contenido.fw-bold HB:] debido al encogimiento de un 30%, aproximadamente, del hilo, ocasionado por el proceso de vaporización o inmersión (del hilo) en agua hirviendo, se genera un aspecto de volumen similar a la lana.
+          li.mb-1.d-flex
             i.fas.fa-tshirt(style='color: #FF6E33')
-            | #[span.color-acento-contenido.fw-bold Regular:] estas tienen un aspecto muy sedoso en los hilos y no requieren un proceso de pre-encogimiento con las fibras HB, ya que ha sido ejecutado con anterioridad en el hilado.
+            div: p #[span.color-acento-contenido.fw-bold Regular:] estas tienen un aspecto muy sedoso en los hilos y no requieren un proceso de pre-encogimiento con las fibras HB, ya que ha sido ejecutado con anterioridad en el hilado.
         .tarjeta.color-secundario.p-3.mb-4
           .row.justify-content-around.align-items-center
             .col-auto
@@ -912,20 +913,20 @@
       .tarjeta.p-4(titulo="Forma incorrecta" style="background-color: #cdfafb ")
         h4 Forma incorrecta
         p Ángulo de 0º/ 45º o 45º/0º entre la dirección de la iluminación y la observación.
-        img(src='@/assets/curso/temas/tema2/48.svg', alt=''  style="width: 276px").m-auto
+        img(src='@/assets/curso/temas/tema2/48.svg', alt='Ilustración de una persona mirando de frente una superficie vertical, evidenciando la reflexión de la fuente de iluminación sobre la misma.'  style="width: 276px").m-auto
       .tarjeta.p-4(titulo="Forma correcta 1" style="background-color: #cdfafb ")
         .row.justify-content-center
           .col-lg-7
             h4 Forma incorrecta
             p Ángulo de 0º/ 45º o 45º/0º entre la dirección de la iluminación y la observación.
             
-          .col-lg-4: img(src='@/assets/curso/temas/tema2/49.svg', alt='' style="width: 276px").m-auto
+          .col-lg-4: img(src='@/assets/curso/temas/tema2/49.svg', alt='Ilustración de una persona mirando paralelamente una superficie inclinada a 45 grados y cómo se comporta la luz en su rebote.' style="width: 276px").m-auto
       .tarjeta.p-4(titulo="Forma correcta 2" style="background-color: #cdfafb ")
         .row.justify-content-center
           .col-lg-7
             h4 Forma correcta 2
             p Ángulo de 90º, la luz y el observador deben ubicarse a una distancia y altura iguales, para permitir una visión en 45º.
-          .col-lg-4: img(src='@/assets/curso/temas/tema2/50.svg', alt='' style="width: 276px").m-auto
+          .col-lg-4: img(src='@/assets/curso/temas/tema2/50.svg', alt='Ilustración de una persona mirando una superficie que se encuentra a 90 grados. La luz y el observador están ubicados a la misma altura y distancia.' style="width: 276px").m-auto
       .tarjeta.p-4(titulo="Recomendaciones" style="background-color: #cdfafb ")
         h4 Recomendaciones
         p Para tener mejor precisión en cuanto al color y cuidar el descanso de la vista, tenga en cuenta: 

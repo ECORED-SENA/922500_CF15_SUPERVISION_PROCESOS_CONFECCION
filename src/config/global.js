@@ -167,7 +167,7 @@ export default {
     {
       tema: 'Procesos textiles',
       referencia:
-        'Ecosistema de recursos educativos digitales SENA. (2021). <em>Teoría del color</em> [Video]. YouTube',
+        'Ecosistema de recursos educativos digitales SENA. (2021). <em>Teoría del color</em>',
       tipo: 'Video',
       link: 'https://youtu.be/rlGfZoeO3Dg',
     },
@@ -486,7 +486,7 @@ export default {
           nombre: 'Rafael Neftalí Lizcano Reyes',
           cargo: 'Responsable de línea de producción',
           centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
       ],
     },

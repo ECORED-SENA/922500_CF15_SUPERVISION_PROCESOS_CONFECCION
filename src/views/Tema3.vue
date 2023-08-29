@@ -43,7 +43,7 @@
       .contenido
         .row.justify-content-center
           .col-lg-3.col-4.mb-lg-0.mb-4
-            img(src='@/assets/curso/temas/tema3/3.svg', alt='' )
+            img.d-lg-block.d-none(src='@/assets/curso/temas/tema3/3.svg', alt='' )
           .col-lg-9
             .row.justify-content-center.mb-3
               .col-lg-4.mb-lg-0.mb-3

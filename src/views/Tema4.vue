@@ -18,10 +18,10 @@
       .col-lg-4.mb-lg-0.mb-3(data-aos="fade-right")
         p La estampación textil se remonta, aproximadamente, a hace más de 4.000 años, vista en tumbas egipcias que permitían apreciar dibujos realizados en las túnicas de las momias o en las figuras de piedra, que reflejaban formas y dibujos de su cultura. Esta decoración en sus trajes era vista en esferas de clase alta, quienes permitían el uso de diferentes colores a los de esferas bajas, marcando aún más sus diferencias y estratificación.
       .col-lg-8(data-aos="fade-left")
-        .d-flex(style="background-color:#D9FBFC")
-          img(src='@/assets/curso/temas/tema4/2.svg', alt='' style="width:316px")
+        .d-lg-flex.p-lg-0.p-3(style="background-color:#D9FBFC")
+          img(src='@/assets/curso/temas/tema4/2.svg', alt='' style="width:316px").m-auto
           .textos.p-3.m-auto
-            p Muy probablemente, estas ilustraciones en sus vestidos fueron realizadas a mano. En la India, se encuentran imágenes de hace más de 2.000 años, con el uso de sellos de madera, grabados con diferentes figuras propias de su cultura; para ellos, se estimaba que la decoración en sus telas era sumamente importante y también era apreciada por diferentes culturas, quienes compraban material textil con estas características; de ahí que la comercialización textil más grande conocida sea de esta parte del mundo.
+            p.mb-0 Muy probablemente, estas ilustraciones en sus vestidos fueron realizadas a mano. En la India, se encuentran imágenes de hace más de 2.000 años, con el uso de sellos de madera, grabados con diferentes figuras propias de su cultura; para ellos, se estimaba que la decoración en sus telas era sumamente importante y también era apreciada por diferentes culturas, quienes compraban material textil con estas características; de ahí que la comercialización textil más grande conocida sea de esta parte del mundo.
     .row.justify-content-center.mb-5
       .col-lg-5.col-8.mb-lg-0.mb-3(data-aos="fade-right"): img(src='@/assets/curso/temas/tema4/3.png', alt='' style="width:100%")
       .col-lg-7(data-aos="fade-left")
@@ -106,7 +106,7 @@
             .col
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
-                  h4.mb-1 Métodos de estampado.
+                  h4.mb-1 Métodos de estampado
                   p.mb-0.text-small Conozca lo diferentes métodos de estampado, explorando el Anexo_9_MetodosDeEstampado.
                 .col-sm-auto
                   a.boton.color-acento-botones(:href="obtenerLink('downloads/Anexo_9_MetodosDeEstampado.pdf')" target="_blank" type="application/pdf")
@@ -223,7 +223,7 @@
       .contenido
         .row.justify-content-center
           .col-lg-3.mb-lg-0.mb-4.col-4
-            img(src='@/assets/curso/temas/tema4/14.svg', alt='' )
+            img.d-lg-block.d-none(src='@/assets/curso/temas/tema4/14.svg', alt='' )
           .col-lg-9
             .row.justify-content-center.mb-3
               .col-lg-4.mb-lg-0.mb-3
@@ -519,7 +519,6 @@
                 h4 Máquina bordadora tubular
                 p Máquinas empleadas en el bordado de cortes de prendas, en prendas ya hechas, y también en bordado de gorras. La particularidad y característica principal es que necesitan de tambores para su funcionamiento y las dimensiones suelen ser un poco restringidas. Para bordados amplios se requiere de máquinas planas. Es ideal en producción de prendas con áreas específicas de bordado.
               .col-lg-6
-                  p Máquina bordadora multi cabezal tubular
                   img(src='@/assets/curso/temas/tema4/41.png', alt='' style="width: 100%").mb-3
                   figcaption Nota. Tomado de MAD Ingenieros (s. f.).
             .row.justify-content-center.mb-5
@@ -527,7 +526,6 @@
                 h4 Máquina bordadora plana
                 p Su característica principal es que permiten una amplitud del bordado, pueden emplearse para telas completas, con anchos específicos. Hay máquinas con cabezales hasta de 5 metros en ancho de tela, siempre dependerá de lo requerido según la empresa.
               .col-lg-6.mb-lg-0.mb-3
-                  p Máquina plana bordadora industrial
                   img(src='@/assets/curso/temas/tema4/42.png', alt='' style="width: 100%").mb-3
                   figcaption Nota. Tomado de MAD Ingenieros (s. f.).
             .row.justify-content-center.mb-5
@@ -536,7 +534,6 @@
 
                   p Posee características frente al tipo de puntada, es similar a la plana, pero en esta hay variedad en cuanto a los adornos que pueden emplearse, como bordado con cordón Chenille, que consiste en hilos muy juntos con textura suave y bordados de lentejuelas, además del corte láser que esta misma realiza.
               .col-lg-6.mb-lg-0.mb-3
-                  p Máquina bordadora Chenille
                   img(src='@/assets/curso/temas/tema4/43.png', alt='' style="width: 100%").mb-3
                   figcaption Nota. Tomado de MAD Ingenieros (s. f.).
     p(data-aos="fade-right") Estas máquinas industriales permiten medir tiempo e insumos exactos en la producción, pueden imitar todos los puntos básicos en bordado y la combinación de estos para dar réplica a técnicas de bordado manual.
