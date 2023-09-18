@@ -167,7 +167,7 @@ export default {
     {
       tema: 'Procesos textiles',
       referencia:
-        'Ecosistema de recursos educativos digitales SENA. (2021). <em>Teoría del color</em> [Video]. YouTube',
+        'Ecosistema de recursos educativos digitales SENA. (2021). <em>Teoría del color</em>',
       tipo: 'Video',
       link: 'https://youtu.be/rlGfZoeO3Dg',
     },
@@ -236,7 +236,7 @@ export default {
     {
       tema: 'Estampación y bordados',
       referencia:
-        'Alfonso, D. (2014). <em>Procesos de estampados textiles</em> [Video]. YouTube.',
+        'Alfonso, D. (2014). <em>Procesos de estampados textiles</em>',
       tipo: 'Video',
       link:
         'https://www.youtube.com/watch?v=U6_eMFI1yS8&ab_channel=DanielaAlfonsoChi%C3%B1as',
@@ -244,8 +244,8 @@ export default {
     {
       tema: 'Estampación y bordados',
       referencia:
-        'Plan Diseño. (2020). <em>Procesos y ventajas de la sublimación. Estampado por transferencia. Sublimación e impresión textil</em> [Video]. YouTube',
-      tipo: 'Video YouTube',
+        'Plan Diseño. (2020). <em>Procesos y ventajas de la sublimación. Estampado por transferencia. Sublimación e impresión textil</em> ',
+      tipo: 'Video',
       link: 'https://youtu.be/NYnBua_2wUE',
     },
     {
@@ -257,7 +257,7 @@ export default {
     {
       tema: 'Bordado textil',
       referencia:
-        'HogarTV Channel. (2016). <em>Como Se Hace el Bordado Industrial - Hogar Tv por Juan Gonzalo Angel</em> [Video]. YouTube',
+        'HogarTV Channel. (2016). <em>Como Se Hace el Bordado Industrial - Hogar Tv por Juan Gonzalo Angel</em>',
       tipo: 'Video',
       link:
         'https://www.youtube.com/watch?v=sTtJvcRhdDc&ab_channel=HogarTVChannel',
@@ -486,7 +486,7 @@ export default {
           nombre: 'Rafael Neftalí Lizcano Reyes',
           cargo: 'Responsable de línea de producción',
           centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
       ],
     },
@@ -536,19 +536,25 @@ export default {
       autores: [
         {
           nombre: 'Blanco Flor Tinoco Torres',
-          cargo: 'Diseñador web',
+          cargo: 'Diseñador de Contenidos Digitales ',
           centro:
             'Regional Santander - Centro Industrial del Diseño y la Manufactura',
         },
         {
           nombre: 'Camilo Andres Bolaño Rey',
-          cargo: 'Desarrollador Fullstack',
+          cargo: 'Desarrollador Fullstack ',
           centro:
             'Regional Santander - Centro Industrial del Diseño y la Manufactura',
         },
         {
-          nombre: '',
-          cargo: 'Animador y Producción audiovisual',
+          nombre: 'Carmen Alicia Martinez Torres ',
+          cargo: 'Animador y Productor Multimedia',
+          centro:
+            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+        },
+        {
+          nombre: 'Camilo Andrés Bolaño Rey',
+          cargo: 'Locución',
           centro:
             'Regional Santander - Centro Industrial del Diseño y la Manufactura',
         },
@@ -559,19 +565,19 @@ export default {
       autores: [
         {
           nombre: 'Zuleidy María Ruiz Torres',
-          cargo: 'Validación y vinculación en plataforma LMS',
+          cargo: 'Validador de Recursos Educativos Digitales ',
           centro:
             'Regional Santander - Centro Industrial del Diseño y la Manufactura',
         },
         {
           nombre: 'Luis Gabriel Urueta Alvarez',
-          cargo: 'Validación y vinculación en plataforma LMS',
+          cargo: 'Validador de Recursos Educativos Digitales ',
           centro:
             'Regional Santander - Centro Industrial del Diseño y la Manufactura',
         },
         {
           nombre: 'Daniel Ricardo Mutis Gómez',
-          cargo: 'Validación de contenidos accesibles',
+          cargo: 'Evaluador para Contenidos Inclusivos y Accesibles ',
           centro:
             'Regional Santander - Centro Industrial del Diseño y la Manufactura',
         },
