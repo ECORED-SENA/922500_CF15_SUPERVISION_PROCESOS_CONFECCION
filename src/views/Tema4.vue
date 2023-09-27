@@ -18,7 +18,7 @@
       .col-lg-4.mb-lg-0.mb-3(data-aos="fade-right")
         p La estampación textil se remonta, aproximadamente, a hace más de 4.000 años, vista en tumbas egipcias que permitían apreciar dibujos realizados en las túnicas de las momias o en las figuras de piedra, que reflejaban formas y dibujos de su cultura. Esta decoración en sus trajes era vista en esferas de clase alta, quienes permitían el uso de diferentes colores a los de esferas bajas, marcando aún más sus diferencias y estratificación.
       .col-lg-8(data-aos="fade-left")
-        .d-lg-flex.p-lg-0.p-3(style="background-color:#D9FBFC")
+        .d-lg-flex.flexibilidad.p-lg-0.p-3(style="background-color:#D9FBFC")
           img(src='@/assets/curso/temas/tema4/2.svg', alt='' style="width:316px").m-auto
           .textos.p-3.m-auto
             p.mb-0 Muy probablemente, estas ilustraciones en sus vestidos fueron realizadas a mano. En la India, se encuentran imágenes de hace más de 2.000 años, con el uso de sellos de madera, grabados con diferentes figuras propias de su cultura; para ellos, se estimaba que la decoración en sus telas era sumamente importante y también era apreciada por diferentes culturas, quienes compraban material textil con estas características; de ahí que la comercialización textil más grande conocida sea de esta parte del mundo.
@@ -56,7 +56,7 @@
             i.fas.fa-tshirt(style='color: #FF6E33')
             p.mb-2 La transferencia de las imágenes puede darse ya sea por contacto o impresión, asimismo, a distancia, como con la luz sobre una superficie que sea fotoquímicamente sensible, por ejemplo, la impresión fotográfica o grabados con láser, entre otros.
       .col-lg-5.col-8(data-aos="fade-left"): img(src='@/assets/curso/temas/tema4/4.png', alt='' style="width:100%")
-    p.mb-5(data-aos='fade-right') La siguientes, son las diferentes técnicas de impresión por contacto:
+    p.mb-5(data-aos='fade-right') Las siguientes, son las diferentes técnicas de impresión por contacto:
     .row.justify-content-center.mb-5
       .col-xl-3.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
         .crd_hover_txt(data-aos="flip-left")
@@ -98,7 +98,7 @@
     .row.justify-content-center.mb-5
       .col-lg-4.mb-lg-0.mb-3.col-8(data-aos="fade-right"): img(src='@/assets/curso/temas/tema4/5.png', alt='' style="width:100%")
       .col-lg-8(data-aos="fade-left")
-        p La estampación textil es un proceso contenido dentro de los acabados de un tejido o hilado, a través del cual se tintura de forma localizada, en un sector o varios sectores de un textil, es decir, es aplicada una sustancia natural o artificial colorante, soluble bajo ciertas condiciones, en áreas específicas de un textil o una prenda.
+        p La estampación textil es un proceso contenido dentro de los acabados de un tejido o hilado, a través del cual se tintura de forma localizada, en un sector o varios sectores de un textil, es decir, es aplicada una sustancia natural o colorante artificial, soluble bajo ciertas condiciones, en áreas específicas de un textil o una prenda.
         .tarjeta.color-secundario.p-3.mb-4
           .row.justify-content-around.align-items-center
             .col-auto
@@ -107,13 +107,13 @@
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
                   h4.mb-1 Métodos de estampado
-                  p.mb-0.text-small Conozca lo diferentes métodos de estampado, explorando el Anexo_9_MetodosDeEstampado.
+                  p.mb-0.text-small Conozca los diferentes métodos de estampado, explorando el Anexo_9_MetodosDeEstampado.
                 .col-sm-auto
                   a.boton.color-acento-botones(:href="obtenerLink('downloads/Anexo_9_MetodosDeEstampado.pdf')" target="_blank" type="application/pdf")
                     span Descargar
                     i.fas.fa-file-download
     .titulo-icono.mb-48(data-aos="fade-right")
-      .titulo-icono__texto: h4.text-white.mb-0 Selección de métodos según composición texti
+      .titulo-icono__texto: h4.text-white.mb-0 Selección de métodos según composición textil
     p(data-aos="fade-right") La selección de los métodos en la estampación textil implica una revisión de las características bajo las cuales está construido un tejido, esto para que se puedan seleccionar la técnica y los materiales.
       br
       br
@@ -130,7 +130,7 @@
                   .col-md-8.mb-4.mb-md-0
                     h4
                       span.color-acento-contenido Las fibras
-                    p  Las fibras son las que determinan la composición de un textil, y a su vez, el proceso que se llevó a cabo para su extracción y el hilado, esto permite contemplar si es permeable a las tintura o pigmentos empleados en la estampación. También pueden usarse pigmentos que, a diferencia de los tintes, son distintos y son los llamados colorantes, que requieren de ligador para fijarlo a la superficie de las fibras. Para saber exactamente las cantidades de colorantes o pigmentos a implementar en la estampación, se debe tener en cuenta la proporción de los textiles; por ejemplo, un textil cuya mezcla es 60/40 algodón/poliéster, puede ser estampado con pigmentos sencillos.
+                    p  Las fibras son las que determinan la composición de un textil, y a su vez, el proceso que se llevó a cabo para su extracción y el hilado, esto permite contemplar si es permeable a las tinturas o pigmentos empleados en la estampación. También pueden usarse pigmentos que, a diferencia de los tintes, son distintos y son los llamados colorantes, que requieren de ligador para fijarlo a la superficie de las fibras. Para saber exactamente las cantidades de colorantes o pigmentos a implementar en la estampación, se debe tener en cuenta la proporción de los textiles; por ejemplo, un textil cuya mezcla es 60/40 algodón/poliéster, puede ser estampado con pigmentos sencillos.
                   .col-md-4
                     figure
                       img(src='@/assets/curso/temas/tema4/7.png', alt='Texto que describa la imagen')
@@ -240,7 +240,7 @@
                 .bg-white.p-4.h-100
                   h4
                     span.color-acento-contenido  Ingeniero textil
-                  p Es quien se basa en estudiar a profundidad el tejido y sus fibras; al conocer al detalle los tejidos, puede llegar a determinar qué materiales son los propicios para estampar, según la composición de una tela. Actualmente, la programación para estampación, en su gran mayoría, es digital, dada la rapidez y lo que implica en tiempos de producción. Para ello, se tiene en cuenta software que viabilice el desarrollo; entre los más relevantes, están, por ejemplo, Adobe Illustrator y Corel, que permiten la vectorización de imágenes en la programación de estampados.
+                  p Es quien se basa en estudiar a profundidad el tejido y sus fibras; al conocer al detalle los tejidos, puede llegar a determinar qué materiales son los propicios para estampar, según la composición de una tela. Actualmente, la programación para estampación, en su gran mayoría, es digital, dada la rapidez y lo que implica en tiempos de producción. Para ello, se tiene en cuenta #[em software] que viabilice el desarrollo; entre los más relevantes, están, por ejemplo, Adobe Illustrator y Corel, que permiten la vectorización de imágenes en la programación de estampados.
     Separador
     #t_4_3.titulo-segundo.color-acento-contenido(data-aos='fade-right')
       h2 4.3  Bordado textil
@@ -248,15 +248,15 @@
       .col-lg-4.mb-lg-0.mb-3(data-aos="fade-right")
         p El bordado textil, considerado para muchos como un arte, consiste en adornar la superficie de un textil o material que permita dicha labor; está implícito el hilo como fibra y la aguja que posibilita el hecho de registrar una imagen o diseño en particular sobre una tela o superficie.
       .col-lg-8(data-aos="fade-left")
-        .d-flex(style="background-color:#DEE9F0")
+        .d-flex.flexibilidad(style="background-color:#DEE9F0").justify-content-center
           img(src='@/assets/curso/temas/tema4/15.svg', alt='' style="width:316px")
-          .textos.p-3.m-auto
+          .textos.p-3.m-auto.flex-wrap
             p Inicia como una actividad manual, en la que se buscaba generar texturas y formas que, en muchas culturas, su simbología se veía resaltada por determinados colores o formas que permitieran diferenciarlos de otras comunidades y también diferenciar los roles que un individuo tenía en determinada sociedad.
     .fondo_1.mn.p-5.mb-4(data-aos="zoom-in")  
       .row.justify-content-center.mb-5
         .col-lg-4.col-8.mb-lg-0.mb-3: img(src='@/assets/curso/temas/tema4/16.png', alt='' )
         .col-lg-8 
-          p #[span.color-acento-contenido Se estima que los inicios de esta labor están aproximadamente en el 30.000 a.C., en el periodo de los cromañones, dado que se han hecho hallazgos de sedimentos arqueológicos que demostraban vestimentas con bordados realizados a mano.]
+          p #[span.color-acento-contenido Se estima que los inicios de esta labor están aproximadamente en el 30000 a.C., en el periodo de los cromañones, dado que se han hecho hallazgos de sedimentos arqueológicos que demostraban vestimentas con bordados realizados a mano.]
             br    
             br
             | La historia del bordado tiene especial relevancia, sobre todo para quien ejercía la labor. Para comprenderla, se hará un breve recorrido según las edades históricas:   
@@ -477,10 +477,10 @@
       .col-lg-5.mb-lg-0.mb-3
         p El bordado industrial, al igual que el manual, se vale de insumos como hilos, lentejuelas, entre otros adornos aplicados sobre la superficie de un textil, con la diferencia de que se valen de maquinaria que permite industrializar el proceso del bordado a nivel productivo.
       .col-lg-7 
-        .d-flex(style="background-color:#EFFEFE")
+        .d-flex.flexibilidad(style="background-color:#EFFEFE")
           img(src='@/assets/curso/temas/tema4/38.svg', alt='' style="width:316px")
           .textos.p-3.m-auto
-            p Los hilos empleados, a diferencia de los manuales, que suelen ser madejas con grosores de diferentes tamaños, son hilos de seda, lana, poliéster, nylon, entre otros, categorizados dentro de las fibras sintéticas o artificiales, dado que, para poder bordar a mayor velocidad en las diferentes máquinas, se necesita que estos no se deshilachen o se rompan con facilidad, como un hilo de fibra natural como el algodón.
+            p Los hilos empleados, a diferencia de los manuales, que suelen ser madejas con grosores de diferentes tamaños, son hilos de seda, lana, poliéster, nailon, entre otros, categorizados dentro de las fibras sintéticas o artificiales, dado que, para poder bordar a mayor velocidad en las diferentes máquinas, se necesita que estos no se deshilachen o se rompan con facilidad, como un hilo de fibra natural como el algodón.
     .row.justify-content-center.mb-5
       .col-lg-5.col-8.mb-lg-0.mb-3(data-aos="fade-right"): img(src='@/assets/curso/temas/tema4/39.png', alt='')
       .col-lg-7(data-aos="fade-left")
@@ -507,7 +507,7 @@
           br
           |Por ello, se empezaron a desarrollar máquinas que sí lo permitieran y, además de esto, que los diseños pasaran de ser ilustrados a digitalizados y que la misma máquina pudiera leerlos según la programación y ejecutarlos, como es el caso de máquinas individuales para bordado con sistema CAD para usos individuales, que no requerían una producción a gran escala, y también las que pueden tener una producción media contemplada como semiindustrial.
         .p-4(style="background-color: #FEE7DD ").mb-5
-          p.mb-0 A la par, para producciones en masa, se han desarrollado máquinas que pueden ser de un solo cabezote o múltiples cabezotes y difieren según su uso. Estas máquinas son digitales y sus bordados son programados en software especializado.
+          p.mb-0 A la par, para producciones en masa, se han desarrollado máquinas que pueden ser de un solo cabezote o múltiples cabezotes y difieren según su uso. Estas máquinas son digitales y sus bordados son programados en #[em software] especializado.
       .col-lg-5: img(src='@/assets/curso/temas/tema4/40.png', alt='')
     p Entre las variaciones de esta maquinaria industrial, se encuentra
     .row.justify-content-center.mb-5
@@ -549,7 +549,7 @@
         ul.lista-ul--color
           li.d-flex.mb-1.ms-4
             i.fas.fa-tshirt(style='color: #FF6E33')
-            p.mb-1 Quien diseña e ilustra el diseño del bordado, de manera digital, apoyándose en software como Corel o Adobe Illustrator, entre otros que tengan, en los que se pueda descargar como imagen.
+            p.mb-1 Quien diseña e ilustra el diseño del bordado, de manera digital, apoyándose en #[em software] como Corel o Adobe Illustrator, entre otros que tengan, en los que se pueda descargar como imagen.
           li.d-flex.mb-1.ms-4
             i.fas.fa-tshirt(style='color: #FF6E33')
             p.mb-1 Quien programa el bordado en #[em software] especializado, teniendo como base la imagen sobre la cual programará las puntadas.
@@ -558,14 +558,14 @@
     .row.justify-content-center.mb-5
       .col-lg-5.col-8.mb-lg-0.mb-3(data-aos="fade-right"): img.d-lg-block.d-none(src='@/assets/curso/temas/tema4/45.png', alt='')
       .col-lg-7(data-aos="fade-left")
-        p A continuación, se enuncian los softwares más empleados en la programación de bordados. 
+        p A continuación, se enuncian los #[em softwares] más empleados en la programación de bordados. 
         p.ms-5 #[span.color-acento-contenido.fw-bold Monogram It:] programa de licencia independiente, que es compatible con la mayoría de las máquinas de bordado, se pueden programar puntadas, colores y pasos dentro del bordado. 
           br
           br
           | #[span.color-acento-contenido.fw-bold Embrilliance Stichartist:] programa de licencia privada y exclusiva en operadores Windows y Mac, se pueden programar bordados con aplicaciones especiales. 
           br
           br
-          | #[span.color-acento-contenido.fw-bold Wilcom:] uno de los softwares más populares y usados en Latinoamérica, permite la edición de bibliotecas de bordados predeterminados, crear nuevos diseños en imagen y programación de puntadas con elementos especiales, realiza la simulación de la máquina industrial para medir productividad y tiempo. 
+          | #[span.color-acento-contenido.fw-bold Wilcom:] uno de los #[em softwares] más populares y usados en Latinoamérica, permite la edición de bibliotecas de bordados predeterminados, crear nuevos diseños en imagen y programación de puntadas con elementos especiales, realiza la simulación de la máquina industrial para medir productividad y tiempo. 
         .tarjeta.color-secundario.p-3.mb-4
           .row.justify-content-around.align-items-center
             .col-auto

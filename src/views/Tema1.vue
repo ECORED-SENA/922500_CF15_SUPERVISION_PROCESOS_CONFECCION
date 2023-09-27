@@ -17,7 +17,7 @@
       .col-lg-4.mb-lg-0.mb-3(data-aos="fade-right")
         p Estos diseños parten del proceso creativo en la creación de colecciones y prendas de vestir, teniendo como base la aplicación de conceptos que, dirigidos a un público objetivo, se establecen las ilustraciones o diseños en una tela en su totalidad o en partes de una prenda, #[span.color-acento-contenido lo que permite contemplarse en unidad visual a partir de la forma y el color.]
       .col-lg-8(data-aos="fade-left")
-        .d-flex(style="background-color:#D9FBFC")
+        .d-flex.flexibilidad(style="background-color:#D9FBFC")
           img(src='@/assets/curso/temas/tema1/2.png', alt='' style="width:314px")
           .textos.p-4.m-auto
             h5 ¡Importante!
@@ -145,7 +145,7 @@
           .col-6
             img(src='@/assets/curso/temas/tema1/18.svg' alt='AvatarTop')
         h5.text-center 
-          span.color-acento-contenido Esquema de triada terciario 
+          span.color-acento-contenido Esquema de tríada terciario 
         p.text-center Surge de una de dos combinaciones: naranja rojizo, verde amarillento y violeta azulado, o verde azulado, naranja amarillento y violeta rojizo; todos los equidistantes uno del otro en el círculo cromático.
     p.mb-5(data-aos='fade-right').fw-bold.text-center También se encuentran otros esquemas de mayor complejidad, como los siguientes: 
     .bg-card.p-lg-5.p-2.tarjeta(data-aos="zoom-in")

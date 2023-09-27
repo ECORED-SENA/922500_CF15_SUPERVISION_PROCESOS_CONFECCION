@@ -71,7 +71,7 @@
             | Mercerizado
           li.d-flex.mb-1
             i.fas.fa-tshirt(style='color: #FF6E33')
-            | Antipilling
+            | <em>Antipilling</em>
           li.d-flex.mb-1
             i.fas.fa-tshirt(style='color: #FF6E33')
             | Carbonizado
@@ -95,7 +95,7 @@
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
                   h4.mb-1 Tratamientos Previos
-                  p.mb-0.text-small Amplie información sobre cada tratamiento previo del textil, en el proceso de teñido, leyendo con suma atención el Anexo_1_TratamientosPrevios.
+                  p.mb-0.text-small Amplíe información sobre cada tratamiento previo del textil, en el proceso de teñido, leyendo con suma atención el Anexo_1_TratamientosPrevios.
                 .col-sm-auto
                   a.boton.color-acento-botones(:href="obtenerLink('downloads/Anexo_1_TratamientosPrevios.pdf')" target="_blank" type="application/pdf")
                     span Descargar
@@ -198,14 +198,14 @@
                   br
                   |En este sistema, se establece que las moléculas del colorante pasan por etapas de difusión, adsorción y fijación.
                 td 
-                  img(src='@/assets/curso/temas/tema2/10.svg', alt='')
+                  img(src='@/assets/curso/temas/tema2/10.svg', alt='Ilustración de moléculas de tinte diluidas y luego penetradas en la fibra de un tejido.')
               tr
-                td.text-center(style='width: 20%') #[em Fourlard]ado / Sistema continuo o semicontinuo
+                td.text-center(style='width: 20%') #[em Foulard]ado / Sistema continuo o semicontinuo
                 td En este proceso, se utilizan medios mecánicos que permiten agregar el tinte sobre la tela homogéneamente, lo cual hace que todo el textil se impregne. Una vez que ha penetrado el color en todo el material, se puede determinar que ya quedó fijado. Para concluir, se procede a lavar.
                 td
                   img(src='@/assets/curso/temas/tema2/11.svg', alt='')
     .row.justify-content-center.mb-5
-      .col-lg-5.col-8.mb-lg-0.mb-3(data-aos="fade-right"): img(src='@/assets/curso/temas/tema2/12.png', alt='')
+      .col-lg-5.col-8.mb-lg-0.mb-3(data-aos="fade-right"): img(src='@/assets/curso/temas/tema2/12.png', alt='Ilustración del proceso de un tejido impregnado y cómo se comprime la fibra homogéneamente en la zona de contacto.')
       .col-lg-7(data-aos="fade-left")
         p Las operaciones que se llevan a cabo en los dos sistemas son: 
         ul.lista-ul--color.ms-4
@@ -286,7 +286,7 @@
       .col-lg-4.mb-lg-0.mb-3(data-aos="zoom-in")
         .tarjeta.p-4(style="background-color: #F5E6E9").h-100
           p #[b b. Peso del material:] determina cuántas unidades de peso del producto se necesitan por 100 unidades de peso del sustrato. La fórmula es: 
-          img(src='@/assets/curso/temas/tema2/20.svg', alt='')
+          img(src='@/assets/curso/temas/tema2/20.svg', alt='Fórmula que indica que el peso del producto en es igual al valor porcentual por el peso del sustrato sobre cien.')
           p #[b Donde:]
             br
             |% spm: valor porcentual sobre el peso del material
@@ -317,7 +317,7 @@
       br
       |La velocidad del torniquete y la velocidad de la cuerda deben ser muy similares, para asegurar que no se generen tensiones sobre el sustrato.
     .row.justify-content-center.mb-5
-      .col-6: img(src='@/assets/curso/temas/tema2/23.svg', alt='')
+      .col-6: img(src='@/assets/curso/temas/tema2/23.svg', alt='Fórmula que indica que la velocidad de la cuerda es igual a la longitud de cuerda (en metros) sobre el tiempo por vuelta, medido en minutos.')
     p Como dato adicional, es bueno indicar que la longitud de la cuerda puede calcularse fácilmente si conocemos el rendimiento del tejido y el peso de la tela. 
         br
         br
@@ -337,7 +337,7 @@
                 br
                 br
                 |Siguiendo con el ejemplo, se sabe que la longitud de la cuerda es de 345 metros y esta se tarda en dar una vuelta 1,267 minutos; con estos datos, se debe determinar la velocidad de la cuerda.
-              img(src='@/assets/curso/temas/tema2/25.svg', alt='' style="width: 382px").m-auto
+              img(src='@/assets/curso/temas/tema2/25.svg', alt='Aplicación de la fórmula en la que se divide 345 metros sobre 1.267 minutos dando resultado de la velocidad el valor de: 272,4' style="width: 382px").m-auto
             .col-lg-4.col-6: img(src='@/assets/curso/temas/tema2/24.png', alt='')
     h3(data-aos="fade-right")
       span.color-acento-contenido Curva temperatura tiempo
@@ -453,10 +453,10 @@
       .titulo-icono__texto: h4.text-white.mb-0 Teñido por sistema continuo
     .row.justify-content-center.mb-5
       .col-lg-8.mb-lg-0.mb-3
-        p Por otro lado, en el teñido por sistema continuo, además del volumen de baño establecido anteriormente en el sistema discontinuo, se tiene en cuenta el porcentaje de retención (#[em Pick up]) de un tejido. Esto hace referencia al peso que es capaz de retener el textil al ser impregnado por el tinte y pasado por el #[em Fourlard].
+        p Por otro lado, en el teñido por sistema continuo, además del volumen de baño establecido anteriormente en el sistema discontinuo, se tiene en cuenta el porcentaje de retención (#[em Pick up]) de un tejido. Esto hace referencia al peso que es capaz de retener el textil al ser impregnado por el tinte y pasado por el #[em foulard].
           br
           br
-          | Además, el #[em pick up] está inversamente relacionado con la presión de exprimido en los rollos del #[em Fourlard], es decir, el #[em pick up] disminuye a mayor presión de exprimido y aumenta a menor presión de exprimido. 
+          | Además, el #[em pick up] está inversamente relacionado con la presión de exprimido en los rollos del #[em foulard], es decir, el #[em pick up] disminuye a mayor presión de exprimido y aumenta a menor presión de exprimido. 
           br               
           br
           | La siguiente tabla detalla algunas fórmulas aplicables al teñido por sistema continuo:
@@ -470,9 +470,9 @@
           table
             thead(style="border-top: 0px")
               tr(style='background-color: #FF6E33')
-                th Método
-                th Definición
-                th Ilustración
+                th Propósito
+                th Fórmula
+                th Ejemplo
             tbody
               tr
                 td.text-center.fw-bold Para determinar el volumen de baño en litros requerido en el teñido de un tejido.
@@ -677,11 +677,11 @@
         .row.justify-content-center.align-items-center.mb-5
           .col-lg-6.mb-lg-0.mb-3
             h4.text-center  Escala de valores de pH
-            img(src='@/assets/curso/temas/tema2/38.svg', alt='' style="width: 100%").mb-3
+            img(src='@/assets/curso/temas/tema2/38.svg', alt='Escala de 14 colores en la que el rojo representa un estado alcalino, el azul un estado ácido y el blanco un estado neutro.' style="width: 100%").mb-3
             h5.text-center Nota. Tomada de Ciências e Saúde (2018).
           .col-lg-6.mb-lg-0.mb-3
             h4.text-center Escala de valores de pH en tiras reactivas 
-            img(src='@/assets/curso/temas/tema2/39.png', alt='' style="width: 100%").mb-3
+            img(src='@/assets/curso/temas/tema2/39.png', alt='Escala de 14 colores en la que el rojo representa un estado alcalino, el azul un estado ácido y el blanco un estado neutro.' style="width: 100%").mb-3
             h5.text-center Nota. Tomada de Liter (2020). 
     .titulo-icono.mb-4(data-aos="fade-right")
         .titulo-icono__texto: h4.text-white.mb-0 Productos auxiliares
@@ -779,7 +779,7 @@
             .col
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
-                  h4.mb-1 Colorantes de tintoreria
+                  h4.mb-1 Colorantes de tintorería
                   p.mb-0.text-small Profundice en los aspectos clave del uso de colorantes en diversos tipos de fibras y su clasificación, estudiando el Anexo_3_ColorantesDeTintoreria. 
                 .col-sm-auto
                   a.boton.color-acento-botones(:href="obtenerLink('downloads/Anexo_3_ColorantesDeTintoreria.pdf')" target="_blank" type="application/pdf")
@@ -815,7 +815,7 @@
             .col
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
-                  h4.mb-1 Recetas quimicas para tintura de algodon y lana
+                  h4.mb-1 Recetas químicas para tintura de algodón y lana
                   p.mb-0.text-small Aprenda las recetas químicas y el procedimiento para el proceso de tinturado del algodón y la lana, explorando el Anexo_4_RecetasQuimicasParaTinturaDeAlgodonYLana. 
                 .col-sm-auto
                   a.boton.color-acento-botones(:href="obtenerLink('downloads/Anexo_4_RecetasQuimicasParaTinturaDeAlgodonYLana.pdf')" target="_blank" type="application/pdf")
@@ -867,7 +867,7 @@
             .col
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
-                  h4.mb-1 Recetas quimicas para tinturado de fibras acrilicas
+                  h4.mb-1 Recetas químicas para tinturado de fibras acrílicas
                   p.mb-0.text-small Aprenda las recetas químicas y el procedimiento para el proceso de tinturado de las fibras acrílicas, en el Anexo_7_RecetasQuimicasParaTinturadoDeFibrasAcrilicas
                 .col-sm-auto
                   a.boton.color-acento-botones(:href="obtenerLink('downloads/Anexo_7_RecetasQuimicasParaTinturadoDeFibrasAcrilicas.pdf')" target="_blank" type="application/pdf")

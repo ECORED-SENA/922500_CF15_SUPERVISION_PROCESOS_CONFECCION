@@ -173,27 +173,26 @@ export default {
     },
     {
       tema: 'Tratamientos previos',
-      referencia:
-        'SENA. (2021a). <em>Características tratamientos previos</em>',
+      referencia: 'SENA. (2021). <em>Características tratamientos previos</em>',
       tipo: 'PDF',
       descarga: '/downloads/Anexo_1_TratamientosPrevios.pdf',
     },
     {
       tema: 'Tratamientos previos',
-      referencia: 'SENA. (2021b). <em>Sistemas de secado.</em>',
+      referencia: 'SENA. (2021). <em>Sistemas de secado.</em>',
       tipo: 'PDF',
       descarga: '/downloads/Anexo_2_SistemasDeSecado.pdf',
     },
     {
       tema: 'Tintorería y lavandería',
-      referencia: 'SENA. (2021c). <em>Colorantes de tintorería.</em>',
+      referencia: 'SENA. (2021). <em>Colorantes de tintorería.</em>',
       tipo: 'PDF',
       descarga: '/downloads/Anexo_3_ColorantesDeTintoreria.pdf',
     },
     {
       tema: 'Procesos',
       referencia:
-        'SENA. (2021d). <em>Recetas químicas para tintura de algodón y lana.</em>',
+        'SENA. (2021). <em>Recetas químicas para tintura de algodón y lana.</em>',
       tipo: 'PDF',
       descarga:
         '/downloads/Anexo_4_RecetasQuimicasParaTinturaDeAlgodonYLana.pdf',
@@ -201,28 +200,28 @@ export default {
     {
       tema: 'Procesos',
       referencia:
-        'SENA. (2021e). <em>Recetas químicas para tintura del poliéster.</em>',
+        'SENA. (2021). <em>Recetas químicas para tintura del poliéster.</em>',
       tipo: 'PDF',
       descarga: '/downloads/Anexo_5_RecetasQuimicasParaTinturaDePoliester.pdf',
     },
     {
       tema: 'Procesos',
       referencia:
-        'SENA. (2021f). <em>Recetas químicas para el lavado reductivo.</em>',
+        'SENA. (2021). <em>Recetas químicas para el lavado reductivo.</em>',
       tipo: 'PDF',
       descarga: '/downloads/Anexo_6_RecetasQuimicasParaLavadoReductivo.pdf',
     },
     {
       tema: 'Procesos',
       referencia:
-        'SENA. (2021g). <em>Recetas químicas para el tinturado de fibras acrílicas.</em>',
+        'SENA. (2021). <em>Recetas químicas para el tinturado de fibras acrílicas.</em>',
       tipo: 'PDF',
       descarga:
         '/downloads/Anexo_7_RecetasQuimicasParaTinturadoDeFibrasAcrilicas.pdf',
     },
     {
       tema: 'Acabados y terminados en los procesos textiles',
-      referencia: 'SENA. (2021h). <em>Técnicas de acabado en seco.</em>',
+      referencia: 'SENA. (2021). <em>Técnicas de acabado en seco.</em>',
       tipo: 'PDF',
       descarga: '/downloads/Anexo_8_TecnicasDeAcabadoEnSeco.pdf',
     },
@@ -230,7 +229,7 @@ export default {
       tema: 'Acabados y terminados en los procesos textiles',
       referencia:
         'Musicprogram. (2017). <em>Procesos de terminación en plantas de producción de jeans SENA</em> [Video]. YouTube',
-      tipo: 'Video YouTube',
+      tipo: 'Video',
       link: 'https://youtu.be/e9oMRob1wVE',
     },
     {
@@ -250,7 +249,7 @@ export default {
     },
     {
       tema: 'Estampación y bordados',
-      referencia: 'SENA. (2021i). <em>Materiales para estampación.</em>',
+      referencia: 'SENA. (2021). <em>Materiales para estampación.</em>',
       tipo: 'PDF',
       descarga: '/downloads/Anexo_10_MaterialesParaEstampacion.pdf',
     },
@@ -264,7 +263,7 @@ export default {
     },
     {
       tema: 'Bordado textil',
-      referencia: 'SENA. (2021j). <em>Materiales para bordados.</em>',
+      referencia: 'SENA. (2021). <em>Materiales para bordados.</em>',
       tipo: 'PDF',
       descarga: '/downloads/Anexo_11_MaterialesParaBordado.pdf',
     },
@@ -353,11 +352,7 @@ export default {
         'Ciências e Saúde. (2018). Potencial Hidrogeniônico (pH). Blog de Química.',
       link: 'http://blogdequimica2014.blogspot.com/2018/04/',
     },
-    {
-      referencia: 'Cotton Incorporated. (2003). Estampado textil.',
-      link:
-        'https://www.cottoninc.com/wp-content/uploads/2017/12/ISP-1004-Estampado-Textil.pdf',
-    },
+
     {
       referencia:
         'Cotton Incorporated. (2018). El arte del acabado de prendas de dénim. CottonWorks.',
@@ -379,12 +374,7 @@ export default {
       link:
         'https://www.domestika.org/es/blog/2853-que-son-las-tintas-textiles',
     },
-    {
-      referencia:
-        'Historia del vestido. (2018). Evolución de la máquina de coser.',
-      link:
-        'http://historiadelvestidogeoferr.blogspot.com/2018/10/la-máquina -de-coser-tardo-en-aparecer-y.html',
-    },
+
     {
       referencia:
         'Lafayette Digitex. (s. f.). Estampación textil con sellos, una técnica legendaria y actual.',
@@ -421,11 +411,7 @@ export default {
       link:
         'https://programadetextilizacion.blogspot.com/2014/12/capitulo-6-maria-de-perinat-1997-2000.html',
     },
-    {
-      referencia:
-        'Ortega, T. (2017). Estampado. Instituto de estudios superiores de moda Casa de Francia.',
-      link: 'http://intranet.iesmoda.edu.mx/docs/ESTAMPADO%20TEXTIL2017.pdf',
-    },
+
     {
       referencia:
         'Ortiz, A. (s. f.). Procesos Textiles. El profe Abdón. Moda y Confección.',
@@ -463,8 +449,7 @@ export default {
     {
       referencia:
         'Todo Costura. (s. f.). MAQ. ZIG-ZAG (ELECTRÓNICA) WILLPEX WP20U-A1.',
-      link:
-        'https://www.todocostura.com.py/maq-zig-zag-electronica-willpex-wp20u-a1-p7287',
+      link: 'https://www.todocostura.com.py/catalogo/producto/6565 ',
     },
     {
       referencia:

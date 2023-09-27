@@ -56,7 +56,7 @@
           div(titulo="Según el diseño y color")
             p El uso de tintes que penetran y dan color a las fibras, se usa para dar color y crear grafías, como en fibras - Hilos - Teñir en Solución - Materia prima – piezas, entre las técnicas de estampación, contempladas como Rotativa, serigrafía, sublimación. Transfer digital.
           div(titulo="Según textura")
-            p Se utiliza para mejorar la textura de su superficie y el tacto, como el Calandrar Satinado, Glaseado, Afelpado o Napping, Mercerizado y Sanforizado, Reducción de brillo, grabado, gofrado, Aumento de cuerpo- sizing, Encerado ciré, Moiré, etc.
+            p Se utiliza para mejorar la textura de su superficie y el tacto, como el Calandrar Satinado, Glaseado, Afelpado o #[em Napping], Mercerizado y Sanforizado, Reducción de brillo, grabado, gofrado, Aumento de cuerpo- #[em sizing], Encerado ciré, Moiré, etc.
           div(titulo="Según desempeño")
             p Se utiliza para mejorar el desempeño y utilidad de la tela. Resistencia a pliegues y arrugas, Planchado durable, Repelente al agua / Impermeabilización, Control de encogimiento, Resistencia a la suciedad, Antiestática, Antibacterial, Resistente a polillas, Ignición retardada, Resistencia al moho.
             

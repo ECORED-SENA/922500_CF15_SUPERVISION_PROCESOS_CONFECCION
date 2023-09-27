@@ -60,7 +60,7 @@
                 .bg-white.p-4.h-100
                   h4
                     span.color-acento-contenido Planchado 
-                  p Dependiendo del proceso, una prenda puede pasar por varias fases de planchado. Un ejemplo son los pantalones en dénim, con whiskers o bigotes, los cuales son planchados varias veces para que se fije el desgaste; también realizar pliegues o plisados necesita de planchado en varias ocasiones para lograr el efecto. Por último, el planchado que se le da a una prenda para empaque dependerá de la apariencia que se desea obtener para mostrar el producto.
+                  p Dependiendo del proceso, una prenda puede pasar por varias fases de planchado. Un ejemplo son los pantalones en dénim, con #[em whiskers] o bigotes, los cuales son planchados varias veces para que se fije el desgaste; también realizar pliegues o plisados necesita de planchado en varias ocasiones para lograr el efecto. Por último, el planchado que se le da a una prenda para empaque dependerá de la apariencia que se desea obtener para mostrar el producto.
             p #[span.color-acento-contenido.fw-bold ¡Para tener en cuenta!] Lavado en prenda: se refiere a técnicas de acabado en húmedo. Aquí la misma máquina rotativa puede ser empleada para varios procesos, como el desengomado, el teñido, tratamientos con enzimas, lavado con piedras, acabados con suavizantes, tratamiento de ozono, aplicación de resinas, entre otros. Acabado en prenda: Incluye técnicas de acabado en húmedo y en seco.
     .titulo-icono.mb-4(data-aos="fade-right")
         .titulo-icono__texto: h4.text-white.mb-0 Acabados en húmedo
@@ -106,7 +106,7 @@
             .col
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
-                  h4.mb-1 Tecnicas de acabado en seco
+                  h4.mb-1 Técnicas de acabado en seco
                   p.mb-0.text-small Puede observar las diferentes técnicas de este tipo de acabado consultando el Anexo_8_TecnicasDeAcabadoEnSeco.
                 .col-sm-auto
                   a.boton.color-acento-botones(:href="obtenerLink('downloads/Anexo_8_TecnicasDeAcabadoEnSeco.pdf')" target="_blank" type="application/pdf")
