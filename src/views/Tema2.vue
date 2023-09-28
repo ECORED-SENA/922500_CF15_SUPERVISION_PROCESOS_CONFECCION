@@ -203,7 +203,7 @@
                 td.text-center(style='width: 20%') #[em Foulard]ado / Sistema continuo o semicontinuo
                 td En este proceso, se utilizan medios mecánicos que permiten agregar el tinte sobre la tela homogéneamente, lo cual hace que todo el textil se impregne. Una vez que ha penetrado el color en todo el material, se puede determinar que ya quedó fijado. Para concluir, se procede a lavar.
                 td
-                  img(src='@/assets/curso/temas/tema2/11.svg', alt='')
+                  img(src='@/assets/curso/temas/tema2/11.svg', alt='Ilustración gráfica que ejemplifica el foulardado de material textil: tejido seco, tejido impregnado, compresión.')
     .row.justify-content-center.mb-5
       .col-lg-5.col-8.mb-lg-0.mb-3(data-aos="fade-right"): img(src='@/assets/curso/temas/tema2/12.png', alt='Ilustración del proceso de un tejido impregnado y cómo se comprime la fibra homogéneamente en la zona de contacto.')
       .col-lg-7(data-aos="fade-left")
@@ -230,31 +230,31 @@
           br
           | Para ello, se ha determinado la siguiente fórmula:
         .row.justify-content-center.mb-5
-          .col-5: img(src='@/assets/curso/temas/tema2/15.svg', alt='')
+          .col-5: img(src='@/assets/curso/temas/tema2/15.svg', alt='Imagen de fórmula que sugiere que, al impregnar la fibra de colorante y tener determinado resultado, se confirma o invierte el proceso.')
       .col-lg-4.col-8.mb-lg-0.mb-3(data-aos="fade-left"): img(src='@/assets/curso/temas/tema2/13.png', alt='')
     p.mb-5(data-aos='fade-right') Como es entendible, la química juega un papel fundamental en el proceso de teñido; para conocer el proceso en que una fibra es impregnada por el colorante, se han establecido cuatro etapas que explican este sistema:
-    .tarjeta.bg-card.p-5.mb-4(data-aos="zoom-in")
+    .tarjeta.bg-card.mb-4.p-4(data-aos="zoom-in")
       LineaTiempoC.color-acento-botones(text-small)
-        .row(titulo="Primera fase")
+        .row(titulo="Primera fase").p-4
           .col-md-9.mb-4.mb-md-0
             h5
               span.color-acento-contenido Disolución y dispersión del colorante 
             p En esta etapa, se define si los colorantes son solubles o dispersables en agua y se pueden presentar de forma micelar o en estructura de micropolvo.
           .col-md-2.col-6: img(src='@/assets/curso/temas/tema2/16.svg', alt='')
-        .row(titulo="Segunda fase")
+        .row(titulo="Segunda fase").p-4
           .col-md-9.mb-4.mb-md-0
             h5
               span.color-acento-contenido Adsorción 
 
             p En esta etapa, el colorante se integra en la fibra por el proceso de adsorción, además, factores como la temperatura, el pH y la afinidad determinan el equilibrio de las reacciones.
           .col-md-2.col-6: img(src='@/assets/curso/temas/tema2/17.svg', alt='')
-        .row(titulo="Tercera fase")
+        .row(titulo="Tercera fase").p-4
           .col-md-9.mb-4.mb-md-0
             h5
               span.color-acento-contenido Difusión 
             p Esta es la etapa más lenta del proceso, donde el colorante es adsorbido por la superficie del material textil, al impregnarse a través de sus fibras para distribuirse de forma homogénea y, posteriormente, fijarse. De esta manera, se determina la calidad del teñido; para ello, se debe tener en cuenta la cristalinidad de la fibra, el tamaño molecular del colorante, la fuerza de la afinidad entre el colorante y la fibra, además de la temperatura de teñido.
           .col-md-2.col-6: img(src='@/assets/curso/temas/tema2/18.svg', alt='')
-        .row(titulo="Cuarta fase")
+        .row(titulo="Cuarta fase").p-4
           .col-md-9.mb-4.mb-md-0
             h5
               span.color-acento-contenido Migración 
@@ -642,7 +642,7 @@
       .col-lg-4.col-8.mb-lg-0.mb-3(data-aos="fade-right")
         p Constantemente, se escucha hablar en la cotidianidad del pH. Abordándose desde una perspectiva más simple, se puede decir que es un medidor que busca analizar la concentración de iones de hidrógeno. El pH es una medida de acidez o alcalinidad de una disolución. 
       .col-lg-8(data-aos="fade-left")
-        .d-flex(style="background-color:#D9FBFC")
+        .d-flex.flexibilidad.justify-content-center(style="background-color:#D9FBFC")
             img(src='@/assets/curso/temas/tema2/36.svg', alt='' style="width:314px")
             .textos.p-4.m-auto
               p.fw-bold 𝒑𝑯= −𝜶 𝑯𝟑 𝑶+

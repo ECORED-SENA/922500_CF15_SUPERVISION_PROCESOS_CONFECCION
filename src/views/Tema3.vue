@@ -68,27 +68,27 @@
       br
       br
       |Dentro de los procesos en húmedo, están:
-      .tarjeta.bg-card.p-5.mb-5
+      .tarjeta.bg-card.p-3.mb-5
         LineaTiempoC.color-acento-botones(text-small)
-          .row(titulo="Desengomado / lavado")
+          .row(titulo="Desengomado / lavado").p-5
             .col-md-8.mb-4.mb-md-0
               h5
                 span.color-acento-contenido  Desengomado / lavado
               p Las prendas en dénim, una vez son armadas y tinturadas, pasan por un proceso de desengomado, que consiste en remover componentes de engomados aplicados en los hilos de la urdimbre durante el tejido del textil, para ello, se utilizan enjuagues y químicos que permiten el suavizado de la prenda y fijar el color deseado
             .col-md-4.col-6: img(src='@/assets/curso/temas/tema3/4.png', alt='')
-          .row(titulo="Pérdida de color por abrasión")
+          .row(titulo="Pérdida de color por abrasión").p-5
             .col-md-8.mb-4.mb-md-0
               h5
                 span.color-acento-contenido  Pérdida de color por abrasión
               p También llamado #[em stonewashing] o lavado con piedras, esto acelera la decoloración y el suavizado en las prendas con base dénim. Las piedras empleadas para este proceso pueden ser sintéticas o naturales; el tamaño y la forma dependen del diseño del acabado; aunque una prenda nunca quedará igual a otra, estas quedarán muy similares. Esta técnica se puede combinar con otros procesos de acabado, como el desengomado y lavado con enzimas.
             .col-md-4.col-6: img(src='@/assets/curso/temas/tema3/5.png', alt='')
-          .row(titulo="Acabado por corrosión")
+          .row(titulo="Acabado por corrosión").p-5
             .col-md-8.mb-4.mb-md-0
               h5
                 span.color-acento-contenido  Acabado por corrosión
               p Es una técnica química que consiste en remover el color de áreas seleccionadas en una tela que ya fue teñida. Los químicos suelen ser oxidantes, como el permanganato de potasio, o agentes reductores, como el hipoclorito de sodio. Hay actualmente técnicas que logran acabados muy similares a esta técnica, como los procesos de ozono, que ofrecen un método suave y limpio en la pérdida de color; también está aquella que involucra el uso de una enzima lacasa, con la que se obtienen resultados similares.
             .col-md-4.col-6: img(src='@/assets/curso/temas/tema3/6.png', alt='')
-          .row(titulo="Acabados químicos")
+          .row(titulo="Acabados químicos").p-5
             .col-md-8.mb-4.mb-md-0
               h5
                 span.color-acento-contenido  Acabados químicos

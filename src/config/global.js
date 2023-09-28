@@ -357,7 +357,7 @@ export default {
       referencia:
         'Cotton Incorporated. (2018). El arte del acabado de prendas de dénim. CottonWorks.',
       link:
-        'https://www.cottonworks.com/topics/en-espanol/procesos-de-algodon/el-arte-del-acabado-de-prendas-de-denim/',
+        'https://cottonworks.com/es/temas/fuente-fabricacion/denim/acabado-humedo/',
     },
     {
       referencia: 'Delgado, J. (2013). Desengomado Enzimático. Prezi.',

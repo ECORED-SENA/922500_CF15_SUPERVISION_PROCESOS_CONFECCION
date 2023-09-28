@@ -18,7 +18,7 @@
       .col-lg-4.mb-lg-0.mb-3(data-aos="fade-right")
         p La estampación textil se remonta, aproximadamente, a hace más de 4.000 años, vista en tumbas egipcias que permitían apreciar dibujos realizados en las túnicas de las momias o en las figuras de piedra, que reflejaban formas y dibujos de su cultura. Esta decoración en sus trajes era vista en esferas de clase alta, quienes permitían el uso de diferentes colores a los de esferas bajas, marcando aún más sus diferencias y estratificación.
       .col-lg-8(data-aos="fade-left")
-        .d-lg-flex.flexibilidad.p-lg-0.p-3(style="background-color:#D9FBFC")
+        .d-lg-flex.flexibilidad.justify-content-center.p-lg-0.p-3(style="background-color:#D9FBFC")
           img(src='@/assets/curso/temas/tema4/2.svg', alt='' style="width:316px").m-auto
           .textos.p-3.m-auto
             p.mb-0 Muy probablemente, estas ilustraciones en sus vestidos fueron realizadas a mano. En la India, se encuentran imágenes de hace más de 2.000 años, con el uso de sellos de madera, grabados con diferentes figuras propias de su cultura; para ellos, se estimaba que la decoración en sus telas era sumamente importante y también era apreciada por diferentes culturas, quienes compraban material textil con estas características; de ahí que la comercialización textil más grande conocida sea de esta parte del mundo.
@@ -125,45 +125,45 @@
             img(src='@/assets/curso/temas/tema4/6.png', alt='' )
           .col-lg-9
             .bg-white.mx-2.p-4.mb-5
-              SlyderE(indicadores="derecha")
+              SlyderA(tipo="b")
                 .row.align-items-center
-                  .col-md-8.mb-4.mb-md-0
+                  .col-lg-8.mb-4.mb-md-0
                     h4
                       span.color-acento-contenido Las fibras
                     p  Las fibras son las que determinan la composición de un textil, y a su vez, el proceso que se llevó a cabo para su extracción y el hilado, esto permite contemplar si es permeable a las tinturas o pigmentos empleados en la estampación. También pueden usarse pigmentos que, a diferencia de los tintes, son distintos y son los llamados colorantes, que requieren de ligador para fijarlo a la superficie de las fibras. Para saber exactamente las cantidades de colorantes o pigmentos a implementar en la estampación, se debe tener en cuenta la proporción de los textiles; por ejemplo, un textil cuya mezcla es 60/40 algodón/poliéster, puede ser estampado con pigmentos sencillos.
-                  .col-md-4
+                  .col-lg-4
                     figure
                       img(src='@/assets/curso/temas/tema4/7.png', alt='Texto que describa la imagen')
                 .row.align-items-center
-                  .col-md-8.mb-4.mb-md-0
+                  .col-lg-8.mb-4.mb-md-0
                     h4
                       span.color-acento-contenido  Los hilos  
                     p El tipo de construcción de un hilo posee gran influencia en el estampado de una tela, porque el color estampado se aplica a un lado de la tela, favoreciendo aprovechar el textil, uniformidad, brillantez y profundidad de los colores aplicados, vellosidad, torsión y lustre de los hilos. Asimismo, es necesario contemplar el grosor de un hilo, pues los que son más finos o medianos son mucho más fáciles de estampar que los hilos gruesos.
-                  .col-md-4
+                  .col-lg-4
                     figure
                       img(src='@/assets/curso/temas/tema4/8.png', alt='Texto que describa la imagen')
                 .row.align-items-center
-                  .col-md-8.mb-4.mb-md-0
+                  .col-lg-8.mb-4.mb-md-0
                     h4
                       span.color-acento-contenido El tejido
                     p  El tejido, que es la tela ya construida, impacta en la estampación textil, tanto en el acabado como en el proceso. Las telas de tejido plano suelen ser mucho más fáciles de estampar que las de tejido de punto. El método aquí difiere y suelen establecerse casi que métodos exclusivos según el tejido de un textil.
-                  .col-md-4
+                  .col-lg-4
                     figure
                       img(src='@/assets/curso/temas/tema4/9.png', alt='Texto que describa la imagen')
                 .row.align-items-center
-                  .col-md-8.mb-4.mb-md-0
+                  .col-lg-8.mb-4.mb-md-0
                     h4
                       span.color-acento-contenido Cuando el tejido es plano
                     p  Los textiles cuyo tejido es plano son mucho más estables, dada la construcción, por lo que estampar en ellos hace que su proceso sea mucho más sencillo, pues sus hilos son entretejidos. Los de punto son entrelazados y hay muchas variedades y composiciones que, en su mayoría, están apoyados por fibras sintéticas y artificiales; estos, a diferencia de los planos, su acabado en una prenda hace que varíe su forma. Siendo así, la técnica empleada para estampar debe mirar muy bien este tipo de características. En prendas deportivas y telas que tienden a contener elastómero y que en su mayoría la composición es sintética o artificial, uno de los métodos empleados es la sublimación, que es con calor, y los colores suelen quedar fijados muy bien; a diferencia de un tejido plano de fibras naturales, en el cual, al utilizar la sublimación, no quedan los colores y suele bajar la calidad del producto esperado.
-                  .col-md-4
+                  .col-lg-4
                     figure
                       img(src='@/assets/curso/temas/tema4/10.png', alt='Texto que describa la imagen')
                 .row.align-items-center
-                  .col-md-8.mb-4.mb-md-0
+                  .col-lg-8.mb-4.mb-md-0
                     h4
                       span.color-acento-contenido El peso de los textiles 
                     p Telas cuyas construcciones son delgadas o transparentes suelen presentar problemas de estampado en comparación con telas de construcción gruesa. Para este tipo de característica también es empleado el material que permita tener el acabado esperado. En las empresas textileras, se realizan las respectivas pruebas de laboratorio textil, que permiten tener todas las características de un textil al momento de la estampación; esto genera determinar cantidades, proporciones y método.
-                  .col-md-4
+                  .col-lg-4
                     figure
                       img(src='@/assets/curso/temas/tema4/11.png', alt='Texto que describa la imagen')
     .titulo-icono.mb-4(data-aos="zoom-in")
@@ -248,7 +248,7 @@
       .col-lg-4.mb-lg-0.mb-3(data-aos="fade-right")
         p El bordado textil, considerado para muchos como un arte, consiste en adornar la superficie de un textil o material que permita dicha labor; está implícito el hilo como fibra y la aguja que posibilita el hecho de registrar una imagen o diseño en particular sobre una tela o superficie.
       .col-lg-8(data-aos="fade-left")
-        .d-flex.flexibilidad(style="background-color:#DEE9F0").justify-content-center
+        .d-flex.flexibilidad.justify-content-center(style="background-color:#DEE9F0").justify-content-center
           img(src='@/assets/curso/temas/tema4/15.svg', alt='' style="width:316px")
           .textos.p-3.m-auto.flex-wrap
             p Inicia como una actividad manual, en la que se buscaba generar texturas y formas que, en muchas culturas, su simbología se veía resaltada por determinados colores o formas que permitieran diferenciarlos de otras comunidades y también diferenciar los roles que un individuo tenía en determinada sociedad.
@@ -477,7 +477,7 @@
       .col-lg-5.mb-lg-0.mb-3
         p El bordado industrial, al igual que el manual, se vale de insumos como hilos, lentejuelas, entre otros adornos aplicados sobre la superficie de un textil, con la diferencia de que se valen de maquinaria que permite industrializar el proceso del bordado a nivel productivo.
       .col-lg-7 
-        .d-flex.flexibilidad(style="background-color:#EFFEFE")
+        .d-flex.flexibilidad.justify-content-center(style="background-color:#EFFEFE")
           img(src='@/assets/curso/temas/tema4/38.svg', alt='' style="width:316px")
           .textos.p-3.m-auto
             p Los hilos empleados, a diferencia de los manuales, que suelen ser madejas con grosores de diferentes tamaños, son hilos de seda, lana, poliéster, nailon, entre otros, categorizados dentro de las fibras sintéticas o artificiales, dado que, para poder bordar a mayor velocidad en las diferentes máquinas, se necesita que estos no se deshilachen o se rompan con facilidad, como un hilo de fibra natural como el algodón.
