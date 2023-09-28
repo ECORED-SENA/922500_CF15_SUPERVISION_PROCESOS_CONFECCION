@@ -354,6 +354,11 @@ export default {
     },
 
     {
+      referencia: 'Cotton Incorporated. (2003). Estampado textil. ',
+      link:
+        'https://www.cottoninc.com/wp-content/uploads/2017/12/ISP-1004-Estampado-Textil.pdf',
+    },
+    {
       referencia:
         'Cotton Incorporated. (2018). El arte del acabado de prendas de dénim. CottonWorks.',
       link:
